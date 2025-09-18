@@ -1,0 +1,37 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Ensure C# and related source files use LF line endings
+*.cs   text eol=lf
+*.csx  text eol=lf
+*.vb   text eol=lf
+*.fs   text eol=lf
+*.xaml text eol=lf
+
+# Treat common binary files as binary
+*.dll  binary
+*.exe  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+
+# NuGet packages
+*.nupkg binary
+
+# Visual Studio solution and project files
+*.sln  text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.fsproj text eol=crlf
+
+# Prevent merge conflicts for lock files
+project.lock.json merge=union
+packages.lock.json merge=union
+
+# Treat generated files as binary
+*.designer.cs text eol=lf
+*.g.cs        text eol=lf
+*.g.i.cs      text eol=lf
