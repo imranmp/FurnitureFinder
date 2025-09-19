@@ -1,16 +1,16 @@
-﻿using Azure;
+using Azure;
 using Azure.AI.Vision.ImageAnalysis;
 
 namespace FurnitureFinder.API.Services;
 
-public class ComputerVisionService(IOptions<AzureConfiguration> configOptions)
-    : IComputerVisionService
+public class AzureVisionService(IOptions<VisionConfig> visionConfig)
+    : IAzureVisionService
 {
     private readonly ImageAnalysisClient _client = new(
-            new Uri(configOptions.Value.ComputerVision.Endpoint),
-            new AzureKeyCredential(configOptions.Value.ComputerVision.Key));
+            new Uri(visionConfig.Value.Endpoint),
+            new AzureKeyCredential(visionConfig.Value.Key));
 
-    public async Task<FurnitureAnalysisResult> AnalyzeFurnitureAsync(byte[] imageData, CancellationToken cancellationToken)
+    public async Task<AzureVisionResult> AnalyzeFurnitureAsync(byte[] imageData, CancellationToken cancellationToken)
     {
         var imageSource = BinaryData.FromBytes(imageData);
 
@@ -18,7 +18,7 @@ public class ComputerVisionService(IOptions<AzureConfiguration> configOptions)
             VisualFeatures.Caption | VisualFeatures.Objects | VisualFeatures.Tags | VisualFeatures.DenseCaptions,
             cancellationToken: cancellationToken);
 
-        return new FurnitureAnalysisResult
+        return new AzureVisionResult
         {
             Description = result.Value.Caption.Text,
             Tags = result.Value.Tags.Values.Select(t => t.Name),

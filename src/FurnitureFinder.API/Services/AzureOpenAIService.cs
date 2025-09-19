@@ -1,20 +1,20 @@
-﻿using Azure;
+using Azure;
 using Azure.AI.OpenAI;
 using OpenAI.Chat;
 using System.ClientModel;
 
 namespace FurnitureFinder.API.Services;
 
-public class OpenAIService(IOptions<AzureConfiguration> configOptions)
-    : IOpenAIService
+public class AzureOpenAIService(IOptions<OpenAIConfig> openAIConfig)
+    : IAzureOpenAIService
 {
     private readonly AzureOpenAIClient _client = new(
-            new Uri(configOptions.Value.OpenAI.Endpoint),
-            new AzureKeyCredential(configOptions.Value.OpenAI.Key));
+            new Uri(openAIConfig.Value.Endpoint),
+            new AzureKeyCredential(openAIConfig.Value.Key));
 
-    private readonly string _deploymentName = configOptions.Value.OpenAI.DeploymentName;
+    private readonly string _deploymentName = openAIConfig.Value.DeploymentName;
 
-    public async Task<string> GetImageDescription(FurnitureAnalysisResult analysis, Uri imageUrl, CancellationToken cancellationToken = default)
+    public async Task<string> GetImageDescription(AzureVisionResult analysis, Uri imageUrl, CancellationToken cancellationToken = default)
     {
         var prompt = $"""
             Based on the Image URL of the furniture and analysis from Azure Vision AI:
@@ -84,7 +84,7 @@ public class OpenAIService(IOptions<AzureConfiguration> configOptions)
         return "No description generated.";
     }
 
-    public async Task<string> GetConciseDescription(FurnitureAnalysisResult analysis, Uri imageUrl, CancellationToken cancellationToken = default)
+    public async Task<string> GetConciseDescription(AzureVisionResult analysis, Uri imageUrl, CancellationToken cancellationToken = default)
     {
         var prompt = $"""
             Based on the Image URL of the furniture and analysis from Azure Vision AI:
@@ -159,9 +159,9 @@ public class OpenAIService(IOptions<AzureConfiguration> configOptions)
     {
         var prompt = $"""
             Based on the Image URL of the furniture and analysis from Azure Vision AI:
-            - Caption: {analysis.Description}
-            - DenseCaptions: {string.Join(", ", analysis.OtherDescriptions)}
-            - Tag: {string.Join(", ", analysis.Tags)}
+            - Caption: {analysis.AzureVisionResult.Description}
+            - DenseCaptions: {string.Join(", ", analysis.AzureVisionResult.OtherDescriptions)}
+            - Tag: {string.Join(", ", analysis.AzureVisionResult.Tags)}
             - Image URL: {imageUrl}
             - Concise Description: {conciseDescription}
 

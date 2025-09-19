@@ -1,4 +1,4 @@
-﻿namespace FurnitureFinder.API.Configurations;
+namespace FurnitureFinder.API.Configurations;
 
 public class AzureConfigurationValidator : IValidateOptions<AzureConfiguration>
 {
@@ -12,18 +12,18 @@ public class AzureConfigurationValidator : IValidateOptions<AzureConfiguration>
             return ValidateOptionsResult.Fail(errors.ToString());
         }
 
-        if (settings.ComputerVision is null)
+        if (settings.Vision is null)
         {
             errors.AppendLine("Computer Vision configuration is required.");
         }
         else
         {
-            if (string.IsNullOrWhiteSpace(settings.ComputerVision.Endpoint))
+            if (string.IsNullOrWhiteSpace(settings.Vision.Endpoint))
             {
                 errors.AppendLine("Computer Vision endpoint is required.");
             }
 
-            if (string.IsNullOrWhiteSpace(settings.ComputerVision.Key))
+            if (string.IsNullOrWhiteSpace(settings.Vision.Key))
             {
                 errors.AppendLine("Computer Vision key is required.");
             }

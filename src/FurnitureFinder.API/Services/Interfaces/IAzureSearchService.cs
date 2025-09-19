@@ -1,6 +1,6 @@
-﻿namespace FurnitureFinder.API.Services.Interfaces;
+namespace FurnitureFinder.API.Services.Interfaces;
 
-public interface ISearchService
+public interface IAzureSearchService
 {
     Task<(string, List<ProductSearchResult>)> FindComplementaryFurnitureAsync(
         FurnitureAnalysisResult analysis,

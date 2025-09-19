@@ -1,18 +1,18 @@
-﻿using Azure.Search.Documents;
+using Azure.Search.Documents;
 using Azure.Search.Documents.Models;
 using System.Text.RegularExpressions;
 
 namespace FurnitureFinder.API.Services;
 
-public class SearchService(IOptions<AzureConfiguration> configOptions)
-    : ISearchService
+public class AzureSearchService(IOptions<SearchConfig> searchConfig)
+    : IAzureSearchService
 {
     private readonly SearchClient _searchClient = new(
-            new Uri(configOptions.Value.Search.Endpoint),
-            configOptions.Value.Search.IndexName,
-            new Azure.AzureKeyCredential(configOptions.Value.Search.Key));
+            new Uri(searchConfig.Value.Endpoint),
+            searchConfig.Value.IndexName,
+            new Azure.AzureKeyCredential(searchConfig.Value.Key));
 
-    private readonly string _semanticConfigurationName = configOptions.Value.Search.SemanticConfigurationName;
+    private readonly string _semanticConfigurationName = searchConfig.Value.SemanticConfigurationName;
 
     public async Task<(string, List<ProductSearchResult>)> FindComplementaryFurnitureAsync(FurnitureAnalysisResult analysis,
         RecommendationRequest request, CancellationToken cancellationToken = default)
@@ -35,7 +35,7 @@ public class SearchService(IOptions<AzureConfiguration> configOptions)
 
         // Use only the search intent for semantic search
         //string query = request.SearchText ?? string.Empty;
-        string query = GenerateSearchText(tags, analysis.Description);
+        string query = GenerateSearchText(tags, analysis.AzureVisionResult.Description);
 
         // Execute search
         var results = await _searchClient.SearchAsync<SearchDocument>(query, options, cancellationToken);
@@ -49,7 +49,9 @@ public class SearchService(IOptions<AzureConfiguration> configOptions)
         {
             // For semantic search, use RerankerScore with threshold around 1.0-1.5
             if (result.SemanticSearch?.RerankerScore == null)
+            {
                 continue;
+            }
 
             SearchDocument doc = result.Document;
 
@@ -185,7 +187,9 @@ public class SearchService(IOptions<AzureConfiguration> configOptions)
         FurnitureTags furnitureTags = new();
 
         if (string.IsNullOrWhiteSpace(openAIConciseDescription))
+        {
             return furnitureTags;
+        }
 
         // Regex pattern to capture key-value pairs
         string pattern = @"(?<key>Furniture Type|Style|Color|Material)\s*:\s*(?<value>.+)";
@@ -197,7 +201,9 @@ public class SearchService(IOptions<AzureConfiguration> configOptions)
             string value = match.Groups["value"].Value.Trim();
 
             if (string.IsNullOrEmpty(value))
+            {
                 continue;
+            }
 
             switch (key.ToLowerInvariant())
             {
@@ -222,7 +228,9 @@ public class SearchService(IOptions<AzureConfiguration> configOptions)
     private static string? ExtractTargetCategory(string? searchText)
     {
         if (string.IsNullOrWhiteSpace(searchText))
+        {
             return null;
+        }
 
         Dictionary<string, List<string>> _categorySynonyms = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase)
         {
