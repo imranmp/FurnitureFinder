@@ -1,0 +1,9 @@
+global using Xunit;
+global using Moq;
+global using Autofac.Extras.Moq;
+global using Microsoft.AspNetCore.Http;
+global using System;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using System.Collections.Generic;
+global using System.IO;

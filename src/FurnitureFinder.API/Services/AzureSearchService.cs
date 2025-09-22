@@ -14,13 +14,13 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig)
 
     private readonly string _semanticConfigurationName = searchConfig.Value.SemanticConfigurationName;
 
-    public async Task<(string, List<ProductSearchResult>)> FindComplementaryFurnitureAsync(FurnitureAnalysisResult analysis,
+    public async Task<(string, List<ProductSearchResult>)> FindComplementaryFurnitureAsync(AzureVisionResult azureVisionResult, string openAIConciseDescription,
         RecommendationRequest request, CancellationToken cancellationToken = default)
     {
         // Extract category from search text (e.g., "rugs" from "show me rugs that go with this chair")
         //string? targetCategory = ExtractTargetCategory(request.SearchText);
 
-        var tags = ExtractTags(analysis.OpenAIConciseDescription);
+        var tags = ExtractTags(openAIConciseDescription);
 
         var options = new SearchOptions
         {
@@ -35,7 +35,7 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig)
 
         // Use only the search intent for semantic search
         //string query = request.SearchText ?? string.Empty;
-        string query = GenerateSearchText(tags, analysis.AzureVisionResult.Description);
+        string query = GenerateSearchText(tags, azureVisionResult.Description);
 
         // Execute search
         var results = await _searchClient.SearchAsync<SearchDocument>(query, options, cancellationToken);
@@ -63,39 +63,19 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig)
                 doc.GetString("Decor"),
                 doc.GetString("Theme"),
                 doc.GetString("PrimaryColor"),
-                Dimensions: default,
                 doc.GetString("DetailCategory"),
                 doc.GetString("ReferenceColor"),
                 doc.GetString("ProductFactoryFinish"),
-
-                doc.ContainsKey("Attributes") && doc["Attributes"] is IEnumerable<object> attributeObjects
-                    ? [.. attributeObjects.Select(a =>
-                    {
-                        var attributeObject = new SearchDocument(a as IDictionary<string, object>);
-                        return new ProductAttribute(attributeObject.GetString("AttributeName"), attributeObject.GetString("AttributeValues"));
-                    })]
-                    : [],
-
                 doc.GetString("Material"),
                 doc.GetString("SKU"),
-                doc.GetString("PrimaryFinish"),
-
-                doc.ContainsKey("Assets") && doc["Assets"] is IEnumerable<object> assetObjects
-                    ? [.. assetObjects.Select(a =>
-                    {
-                        var assetDoc = new SearchDocument(a as IDictionary<string, object>);
-                        return new Asset(assetDoc.GetInt32("DivisionId"), assetDoc.GetString("AssetId"), assetDoc.GetString("AssetUsage"), assetDoc.GetString("AssetType"));
-                    })]
-                    : []);
+                doc.GetString("PrimaryFinish"));
 
             allResults.Add((result, product));
         }
 
         // Sort by RerankerScore in descending order and take the products
         recommendations = allResults
-            .OrderByDescending(x => x.Product.Assets?.Any() == true) // Items with assets first
-                                                                     //.ThenByDescending(x => x.Result.Score) // Then by semantic score
-            .ThenByDescending(x => x.Result.SemanticSearch?.RerankerScore) // Then by semantic score
+            .OrderByDescending(x => x.Result.SemanticSearch?.RerankerScore) // Then by semantic score
                                                                            //.OrderByDescending(x => x.Result.Score) // Then by semantic score
                                                                            //.ThenByDescending(x => x.Result.SemanticSearch?.RerankerScore) // Then by semantic score
             .Select(x => x.Product)

@@ -3,8 +3,7 @@ using Azure.AI.Vision.ImageAnalysis;
 
 namespace FurnitureFinder.API.Services;
 
-public class AzureVisionService(IOptions<VisionConfig> visionConfig)
-    : IAzureVisionService
+public class AzureVisionService(IOptions<VisionConfig> visionConfig) : IAzureVisionService
 {
     private readonly ImageAnalysisClient _client = new(
             new Uri(visionConfig.Value.Endpoint),
@@ -12,15 +11,16 @@ public class AzureVisionService(IOptions<VisionConfig> visionConfig)
 
     public async Task<AzureVisionResult> AnalyzeFurnitureAsync(byte[] imageData, CancellationToken cancellationToken)
     {
+        ArgumentNullException.ThrowIfNull(imageData, nameof(imageData));
+
         var imageSource = BinaryData.FromBytes(imageData);
 
         var result = await _client.AnalyzeAsync(imageSource,
             VisualFeatures.Caption | VisualFeatures.Objects | VisualFeatures.Tags | VisualFeatures.DenseCaptions,
             cancellationToken: cancellationToken);
 
-        return new AzureVisionResult
+        return new AzureVisionResult(result.Value.Caption.Text)
         {
-            Description = result.Value.Caption.Text,
             Tags = result.Value.Tags.Values.Select(t => t.Name),
             OtherDescriptions = result.Value.DenseCaptions.Values.Select(t => t.Text)
         };

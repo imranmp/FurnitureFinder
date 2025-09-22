@@ -1,6 +1,8 @@
-﻿namespace FurnitureFinder.API.Contracts;
+namespace FurnitureFinder.API.Contracts;
 
-public record RecommendationResponse(FurnitureAnalysisResult Analysis,
+public record RecommendationResponse(AzureVisionResult AzureVisionResult,
+                                     string OpenAIDescription,
+                                     string OpenAIConciseDescription,
                                      string SemanticQuery)
 {
     public List<ProductSearchResult> Recommendations { get; set; } = [];
@@ -14,20 +16,16 @@ public record ProductSearchResult(string Id,
                                   string Decor,
                                   string Theme,
                                   string PrimaryColor,
-                                  List<double> Dimensions,
                                   string DetailCategory,
                                   string ReferenceColor,
                                   string ProductFactoryFinish,
-                                  List<ProductAttribute> Attributes,
                                   string Material,
                                   string SKU,
-                                  string PrimaryFinish,
-                                  List<Asset> Assets);
+                                  string PrimaryFinish);
 
-public record ProductAttribute(string AttributeName,
-                               string AttributeValues);
+public record AzureVisionResult(string Description)
+{
+    public IEnumerable<string> Tags { get; set; } = [];
 
-public record Asset(int? DivisionId,
-                    string AssetId,
-                    string AssetUsage,
-                    string AssetType);
+    public IEnumerable<string> OtherDescriptions { get; set; } = [];
+}

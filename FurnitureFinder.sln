@@ -1,9 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFinder.API", "src\FurnitureFinder.API\FurnitureFinder.API.csproj", "{3EDE3538-7869-437C-A53A-D87EAE4EF99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFinder.API.Tests", "tests\FurnitureFinder.API.Tests\FurnitureFinder.API.Tests.csproj", "{CD37F395-761A-442B-812F-93493726D747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{633AE228-6FFA-4A0E-9435-76B6BDCD2BE2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3757AE68-B892-41B8-97D3-DC449B43FD17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +30,16 @@ Global
 		{3EDE3538-7869-437C-A53A-D87EAE4EF99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDE3538-7869-437C-A53A-D87EAE4EF99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDE3538-7869-437C-A53A-D87EAE4EF99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD37F395-761A-442B-812F-93493726D747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD37F395-761A-442B-812F-93493726D747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD37F395-761A-442B-812F-93493726D747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD37F395-761A-442B-812F-93493726D747}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EDE3538-7869-437C-A53A-D87EAE4EF99E} = {3757AE68-B892-41B8-97D3-DC449B43FD17}
+		{CD37F395-761A-442B-812F-93493726D747} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 EndGlobal
