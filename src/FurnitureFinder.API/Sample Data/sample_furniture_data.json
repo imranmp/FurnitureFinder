@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1001,
+    "sku": "SOF-MDN-CHR-001",
+    "name": "Modern Charcoal Sectional Sofa",
+    "description": "Spacious L-shaped sectional sofa with clean lines and plush cushioning, perfect for contemporary living spaces. Features durable charcoal fabric upholstery and solid hardwood frame with reversible chaise lounge.",
+    "category": "Seating",
+    "subcategory": "Sectionals",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "charcoal gray",
+      "secondary": "black",
+      "all_colors": ["charcoal gray", "black", "dark gray"]
+    },
+    "materials": ["fabric", "hardwood frame", "high-density foam"],
+    "room_types": ["living room", "family room"],
+    "features": [
+      "reversible chaise",
+      "removable cushions",
+      "stain-resistant fabric"
+    ],
+    "tags": ["spacious", "family-friendly", "contemporary", "comfortable"]
+  },
+  {
+    "id": 1002,
+    "sku": "CHR-VIN-BRN-002",
+    "name": "Vintage Leather Armchair",
+    "description": "Classic vintage-style armchair crafted from genuine top-grain leather with brass nail head trim. Features rich brown patina that develops character over time, perfect for studies or reading nooks.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["vintage", "traditional"],
+    "colors": {
+      "primary": "brown",
+      "secondary": "brass",
+      "all_colors": ["brown", "brass", "cognac"]
+    },
+    "materials": ["genuine leather", "hardwood frame", "brass hardware"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["nail head trim", "top-grain leather", "hand-finished"],
+    "tags": [
+      "accent",
+      "luxury",
+      "statement piece",
+      "masculine",
+      "reading chair"
+    ]
+  },
+  {
+    "id": 1003,
+    "sku": "TBL-RND-OAK-003",
+    "name": "Round Oak Dining Table",
+    "description": "Solid oak dining table with beautiful natural grain finish and pedestal base. Perfect for intimate dining experiences, seats up to 4 people comfortably with timeless farmhouse appeal.",
+    "category": "Tables",
+    "subcategory": "Dining Tables",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "natural oak",
+      "secondary": null,
+      "all_colors": ["natural oak", "brown", "honey oak"]
+    },
+    "materials": ["solid oak", "natural wood finish"],
+    "room_types": ["dining room", "kitchen"],
+    "features": [
+      "solid wood construction",
+      "natural grain pattern",
+      "pedestal base"
+    ],
+    "tags": ["eco-friendly", "durable", "family-size", "natural", "handcrafted"]
+  },
+  {
+    "id": 1004,
+    "sku": "LAM-TBL-CER-004",
+    "name": "Ceramic Base Table Lamp",
+    "description": "Elegant ceramic table lamp with glazed white finish and natural linen shade. Provides warm ambient lighting perfect for bedside tables or living room accent lighting.",
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "style": ["contemporary", "transitional"],
+    "colors": {
+      "primary": "white",
+      "secondary": "cream",
+      "all_colors": ["white", "cream", "off-white"]
+    },
+    "materials": ["ceramic", "linen shade", "metal fittings"],
+    "room_types": ["bedroom", "living room"],
+    "features": ["dimmer compatible", "linen shade", "ceramic base"],
+    "tags": ["accent lighting", "ambient", "elegant", "neutral", "bedside"]
+  },
+  {
+    "id": 1005,
+    "sku": "RUG-PRS-BLU-005",
+    "name": "Persian Blue Area Rug",
+    "description": "Traditional Persian-style area rug in rich navy blue with intricate gold and cream patterns. Machine-woven for durability while maintaining classic elegance and timeless appeal.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["traditional", "classic"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "gold",
+      "all_colors": ["navy blue", "gold", "cream", "burgundy"]
+    },
+    "materials": ["polypropylene", "jute backing"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["stain-resistant", "fade-resistant", "non-slip backing"],
+    "tags": ["statement piece", "traditional", "elegant", "durable", "ornate"]
+  },
+  {
+    "id": 1006,
+    "sku": "MIR-WAL-GLD-006",
+    "name": "Gold Framed Wall Mirror",
+    "description": "Decorative wall mirror with ornate gold frame featuring baroque-inspired details. Perfect statement piece for entryways, bedrooms, or powder rooms with classical elegance.",
+    "category": "Decor & Accessories",
+    "subcategory": "Mirrors",
+    "style": ["traditional", "glam"],
+    "colors": {
+      "primary": "gold",
+      "secondary": "antique brass",
+      "all_colors": ["gold", "antique brass", "brass"]
+    },
+    "materials": ["glass", "polyurethane frame", "gold leaf finish"],
+    "room_types": ["bedroom", "entryway", "living room"],
+    "features": ["beveled glass", "ornate frame", "easy hanging system"],
+    "tags": ["statement piece", "decorative", "elegant", "ornate", "glamorous"]
+  },
+  {
+    "id": 1007,
+    "sku": "BED-PLT-KNG-007",
+    "name": "King Platform Bed",
+    "description": "Minimalist king-size platform bed with built-in nightstands and LED accent lighting. Clean lines and dark walnut finish complement modern bedroom aesthetics perfectly.",
+    "category": "Bedroom",
+    "subcategory": "Beds",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "dark walnut",
+      "secondary": "black",
+      "all_colors": ["dark walnut", "black", "brown"]
+    },
+    "materials": ["engineered wood", "walnut veneer", "LED lighting"],
+    "room_types": ["bedroom"],
+    "features": [
+      "built-in nightstands",
+      "LED accent lighting",
+      "no box spring needed"
+    ],
+    "tags": [
+      "space-saving",
+      "tech-integrated",
+      "sleek",
+      "modern",
+      "multifunctional"
+    ]
+  },
+  {
+    "id": 1008,
+    "sku": "STO-BKC-WHT-008",
+    "name": "White Ladder Bookcase",
+    "description": "Five-shelf ladder-style bookcase in crisp white finish with clean Scandinavian design. Perfect for displaying books, plants, and decorative objects in any room.",
+    "category": "Storage",
+    "subcategory": "Bookcases",
+    "style": ["scandinavian", "contemporary"],
+    "colors": {
+      "primary": "white",
+      "secondary": null,
+      "all_colors": ["white", "off-white"]
+    },
+    "materials": ["engineered wood", "painted finish"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["adjustable shelves", "anti-tip hardware", "five shelves"],
+    "tags": ["space-saving", "versatile", "clean", "scandinavian", "display"]
+  },
+  {
+    "id": 1009,
+    "sku": "CHN-HUT-OAK-009",
+    "name": "Oak China Hutch",
+    "description": "Traditional oak china hutch with glass-front upper cabinet and spacious lower storage. Perfect for displaying fine china and storing dining essentials with classic farmhouse charm.",
+    "category": "Dining Room",
+    "subcategory": "Hutches",
+    "style": ["traditional", "farmhouse"],
+    "colors": {
+      "primary": "natural oak",
+      "secondary": "brass",
+      "all_colors": ["natural oak", "brass", "brown"]
+    },
+    "materials": ["solid oak", "tempered glass", "brass hardware"],
+    "room_types": ["dining room"],
+    "features": [
+      "glass-front display",
+      "interior lighting",
+      "adjustable shelves"
+    ],
+    "tags": ["elegant", "traditional", "display", "formal", "storage"]
+  },
+  {
+    "id": 1010,
+    "sku": "CUR-LIN-GRY-010",
+    "name": "Linen Blackout Curtains",
+    "description": "Set of two linen-textured blackout curtains in soft gray. Energy-efficient design blocks 99% of light while providing elegant window treatment for better sleep.",
+    "category": "Textiles",
+    "subcategory": "Curtains",
+    "style": ["contemporary", "transitional"],
+    "colors": {
+      "primary": "light gray",
+      "secondary": null,
+      "all_colors": ["light gray", "gray"]
+    },
+    "materials": ["polyester", "blackout lining"],
+    "room_types": ["bedroom", "living room"],
+    "features": ["99% light blocking", "energy efficient", "noise reducing"],
+    "tags": ["functional", "energy-saving", "neutral", "versatile", "blackout"]
+  },
+  {
+    "id": 1011,
+    "sku": "SOF-VLV-EMR-011",
+    "name": "Emerald Velvet Loveseat",
+    "description": "Luxurious loveseat upholstered in rich emerald velvet with gold-finished legs. Perfect accent piece that adds glamour and sophisticated color to any living space.",
+    "category": "Seating",
+    "subcategory": "Loveseats",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "emerald green",
+      "secondary": "gold",
+      "all_colors": ["emerald green", "gold", "green"]
+    },
+    "materials": ["velvet upholstery", "hardwood frame", "metal legs"],
+    "room_types": ["living room", "bedroom"],
+    "features": ["luxury velvet", "gold-finished legs", "high-density foam"],
+    "tags": ["statement piece", "luxury", "glamorous", "jewel tone", "accent"]
+  },
+  {
+    "id": 1012,
+    "sku": "TBL-COF-GLS-012",
+    "name": "Glass Top Coffee Table",
+    "description": "Modern coffee table with tempered glass top and chrome legs. Clean, minimalist design creates an open feel while providing functional surface space.",
+    "category": "Tables",
+    "subcategory": "Coffee Tables",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "clear glass",
+      "secondary": "chrome",
+      "all_colors": ["clear", "chrome", "silver"]
+    },
+    "materials": ["tempered glass", "chrome-plated steel"],
+    "room_types": ["living room", "family room"],
+    "features": ["tempered safety glass", "scratch-resistant", "easy to clean"],
+    "tags": ["space-enhancing", "sleek", "easy-care", "modern", "transparent"]
+  },
+  {
+    "id": 1013,
+    "sku": "CHR-ACC-TUF-013",
+    "name": "Tufted Accent Chair",
+    "description": "Classic button-tufted accent chair in soft beige fabric with dark wood legs. Timeless design complements both traditional and contemporary decor schemes beautifully.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["traditional", "transitional"],
+    "colors": {
+      "primary": "beige",
+      "secondary": "dark brown",
+      "all_colors": ["beige", "dark brown", "tan"]
+    },
+    "materials": ["fabric upholstery", "hardwood legs", "high-density foam"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": [
+      "button tufting",
+      "comfortable padding",
+      "sturdy hardwood legs"
+    ],
+    "tags": ["accent", "versatile", "comfortable", "neutral", "classic"]
+  },
+  {
+    "id": 1014,
+    "sku": "LAM-FLR-ARC-014",
+    "name": "Arc Floor Lamp",
+    "description": "Contemporary arc floor lamp with adjustable head and marble base. Perfect for reading or creating ambient lighting over seating areas with mid-century modern appeal.",
+    "category": "Lighting",
+    "subcategory": "Floor Lamps",
+    "style": ["mid-century modern", "contemporary"],
+    "colors": {
+      "primary": "brass",
+      "secondary": "white marble",
+      "all_colors": ["brass", "white", "gold"]
+    },
+    "materials": ["brass-plated metal", "marble base", "fabric shade"],
+    "room_types": ["living room", "family room", "bedroom"],
+    "features": ["adjustable head", "marble base", "dimmer compatible"],
+    "tags": [
+      "statement piece",
+      "functional",
+      "adjustable",
+      "elegant",
+      "reading light"
+    ]
+  },
+  {
+    "id": 1015,
+    "sku": "DRE-6DR-WHT-015",
+    "name": "Six-Drawer Dresser",
+    "description": "Classic white six-drawer dresser with brushed nickel hardware. Ample storage space with smooth-gliding drawers and anti-tip safety features for bedroom organization.",
+    "category": "Storage",
+    "subcategory": "Dressers",
+    "style": ["traditional", "transitional"],
+    "colors": {
+      "primary": "white",
+      "secondary": "brushed nickel",
+      "all_colors": ["white", "brushed nickel", "silver"]
+    },
+    "materials": ["engineered wood", "painted finish", "metal hardware"],
+    "room_types": ["bedroom"],
+    "features": ["soft-close drawers", "anti-tip hardware", "spacious storage"],
+    "tags": [
+      "storage",
+      "classic",
+      "functional",
+      "spacious",
+      "bedroom furniture"
+    ]
+  },
+  {
+    "id": 1016,
+    "sku": "ART-CAN-ABS-016",
+    "name": "Abstract Canvas Art",
+    "description": "Large abstract canvas artwork featuring bold brushstrokes in blues and golds. Gallery-wrapped and ready to hang, perfect for adding modern artistic flair to any room.",
+    "category": "Decor & Accessories",
+    "subcategory": "Canvas Art",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "blue",
+      "secondary": "gold",
+      "all_colors": ["blue", "gold", "white", "navy"]
+    },
+    "materials": ["canvas", "acrylic paint", "wood frame"],
+    "room_types": ["living room", "bedroom", "dining room"],
+    "features": ["gallery-wrapped", "ready to hang", "fade-resistant"],
+    "tags": ["statement piece", "colorful", "modern art", "large", "abstract"]
+  },
+  {
+    "id": 1017,
+    "sku": "RUG-MOD-GEO-017",
+    "name": "Modern Geometric Rug",
+    "description": "Contemporary area rug with bold geometric pattern in black, white, and gray. Low-profile design perfect for high-traffic areas with easy-care synthetic fibers.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "black",
+      "secondary": "white",
+      "all_colors": ["black", "white", "gray"]
+    },
+    "materials": ["polypropylene", "latex backing"],
+    "room_types": ["living room", "family room", "dining room"],
+    "features": ["stain-resistant", "low-profile", "non-slip backing"],
+    "tags": ["graphic", "versatile", "easy-care", "monochrome", "geometric"]
+  },
+  {
+    "id": 1018,
+    "sku": "BEN-UPH-GRN-018",
+    "name": "Upholstered Storage Bench",
+    "description": "Versatile storage bench with button-tufted top in sage green velvet. Perfect for bedroom, entryway, or living room organization with hidden storage compartment.",
+    "category": "Seating",
+    "subcategory": "Storage Benches",
+    "style": ["contemporary", "transitional"],
+    "colors": {
+      "primary": "sage green",
+      "secondary": "brass",
+      "all_colors": ["sage green", "brass", "green"]
+    },
+    "materials": ["velvet upholstery", "engineered wood", "metal legs"],
+    "room_types": ["bedroom", "entryway", "living room"],
+    "features": ["hidden storage", "button tufting", "soft-close lid"],
+    "tags": [
+      "multifunctional",
+      "storage",
+      "elegant",
+      "space-saving",
+      "versatile"
+    ]
+  },
+  {
+    "id": 1019,
+    "sku": "TBL-END-LIV-019",
+    "name": "Live Edge End Table",
+    "description": "Unique live edge end table crafted from reclaimed walnut with natural bark edge. Each piece features one-of-a-kind wood grain patterns and industrial hairpin legs.",
+    "category": "Tables",
+    "subcategory": "End Tables",
+    "style": ["rustic", "industrial"],
+    "colors": {
+      "primary": "natural walnut",
+      "secondary": "black metal",
+      "all_colors": ["brown", "black", "natural wood"]
+    },
+    "materials": ["reclaimed walnut", "steel hairpin legs"],
+    "room_types": ["living room", "family room", "bedroom"],
+    "features": ["live edge", "reclaimed wood", "unique grain patterns"],
+    "tags": [
+      "eco-friendly",
+      "unique",
+      "handcrafted",
+      "natural",
+      "one-of-a-kind"
+    ]
+  },
+  {
+    "id": 1020,
+    "sku": "CHD-CRY-CLE-020",
+    "name": "Crystal Chandelier",
+    "description": "Elegant 6-light crystal chandelier with chrome finish. Creates stunning light refraction and serves as dramatic focal point for formal dining rooms and entryways.",
+    "category": "Lighting",
+    "subcategory": "Chandeliers",
+    "style": ["traditional", "glam"],
+    "colors": {
+      "primary": "crystal clear",
+      "secondary": "chrome",
+      "all_colors": ["clear", "chrome", "silver"]
+    },
+    "materials": ["crystal", "chrome-plated metal", "electrical components"],
+    "room_types": ["dining room", "entryway"],
+    "features": ["6-light fixture", "dimmer compatible", "adjustable chain"],
+    "tags": ["statement piece", "elegant", "formal", "sparkling", "dramatic"]
+  },
+  {
+    "id": 1021,
+    "sku": "PIL-THR-VLV-021",
+    "name": "Velvet Throw Pillow Set",
+    "description": "Set of two luxurious velvet throw pillows in deep burgundy. Adds rich color and sumptuous texture to sofas, chairs, or beds with hidden zipper closures.",
+    "category": "Textiles",
+    "subcategory": "Throw Pillows",
+    "style": ["contemporary", "glam"],
+    "colors": {
+      "primary": "burgundy",
+      "secondary": null,
+      "all_colors": ["burgundy", "red", "wine"]
+    },
+    "materials": ["velvet", "polyester fill", "hidden zipper"],
+    "room_types": ["living room", "bedroom"],
+    "features": ["removable covers", "plush fill", "hidden zipper"],
+    "tags": ["accent", "colorful", "luxury", "soft", "decorative"]
+  },
+  {
+    "id": 1022,
+    "sku": "HBD-UPH-NAV-022",
+    "name": "Upholstered Headboard",
+    "description": "King-size upholstered headboard in navy blue linen with vertical channel tufting. Wall-mounted design saves floor space while adding elegant backdrop to bed.",
+    "category": "Bedroom",
+    "subcategory": "Headboards",
+    "style": ["contemporary", "transitional"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": null,
+      "all_colors": ["navy blue", "blue"]
+    },
+    "materials": ["linen fabric", "foam padding", "plywood backing"],
+    "room_types": ["bedroom"],
+    "features": ["wall-mounted", "channel tufting", "stain-resistant fabric"],
+    "tags": [
+      "space-saving",
+      "elegant",
+      "comfortable",
+      "modern",
+      "sophisticated"
+    ]
+  },
+  {
+    "id": 1023,
+    "sku": "SHF-FLT-BLK-023",
+    "name": "Black Floating Shelves Set",
+    "description": "Set of three black floating shelves in graduated sizes. Perfect for displaying books, photos, and decorative objects without visible brackets for clean modern look.",
+    "category": "Storage",
+    "subcategory": "Shelving Units",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "black",
+      "secondary": null,
+      "all_colors": ["black", "matte black"]
+    },
+    "materials": ["engineered wood", "painted finish", "hidden brackets"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": [
+      "hidden mounting",
+      "three sizes included",
+      "weight capacity 25 lbs each"
+    ],
+    "tags": ["space-saving", "versatile", "clean", "modern", "display"]
+  },
+  {
+    "id": 1024,
+    "sku": "BUF-DIN-REC-024",
+    "name": "Reclaimed Wood Buffet",
+    "description": "Rustic dining room buffet crafted from reclaimed barnwood with sliding barn doors. Combines ample storage functionality with authentic farmhouse charm and character.",
+    "category": "Dining Room",
+    "subcategory": "Buffets",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "weathered gray",
+      "secondary": "black metal",
+      "all_colors": ["gray", "brown", "black"]
+    },
+    "materials": ["reclaimed wood", "metal hardware", "barn door track"],
+    "room_types": ["dining room", "family room"],
+    "features": [
+      "sliding barn doors",
+      "reclaimed materials",
+      "adjustable shelving"
+    ],
+    "tags": [
+      "eco-friendly",
+      "rustic charm",
+      "spacious storage",
+      "handcrafted",
+      "authentic"
+    ]
+  },
+  {
+    "id": 1025,
+    "sku": "BLN-ROM-STR-025",
+    "name": "Roman Stripe Throw Blanket",
+    "description": "Soft cotton throw blanket with classic Roman stripe pattern in neutral tones. Perfect for draping over sofas or keeping cozy while reading with breathable cotton construction.",
+    "category": "Textiles",
+    "subcategory": "Throw Blankets",
+    "style": ["traditional", "classic"],
+    "colors": {
+      "primary": "cream",
+      "secondary": "navy blue",
+      "all_colors": ["cream", "navy blue", "gray"]
+    },
+    "materials": ["100% cotton", "woven construction"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["machine washable", "breathable cotton", "classic pattern"],
+    "tags": ["cozy", "versatile", "classic", "natural", "comfortable"]
+  },
+  {
+    "id": 1026,
+    "sku": "SOF-SCN-LGR-026",
+    "name": "Scandinavian Light Gray Sofa",
+    "description": "Clean-lined three-seat sofa in light gray linen with oak legs. Minimalist Scandinavian design emphasizes comfort and simplicity, perfect for modern living spaces seeking understated elegance.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["scandinavian", "minimalist"],
+    "colors": {
+      "primary": "light gray",
+      "secondary": "natural oak",
+      "all_colors": ["light gray", "natural oak", "beige"]
+    },
+    "materials": ["linen upholstery", "oak legs", "down-filled cushions"],
+    "room_types": ["living room", "family room"],
+    "features": ["removable covers", "down filling", "solid oak legs"],
+    "tags": [
+      "minimalist",
+      "comfortable",
+      "scandinavian",
+      "neutral",
+      "clean-lined"
+    ]
+  },
+  {
+    "id": 1027,
+    "sku": "CHR-IND-MET-027",
+    "name": "Industrial Metal Dining Chair",
+    "description": "Sturdy dining chair with powder-coated black metal frame and distressed leather seat. Industrial design perfect for urban lofts and contemporary dining spaces with authentic character.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["industrial", "contemporary"],
+    "colors": {
+      "primary": "black",
+      "secondary": "brown leather",
+      "all_colors": ["black", "brown", "dark brown"]
+    },
+    "materials": [
+      "powder-coated steel",
+      "distressed leather",
+      "metal hardware"
+    ],
+    "room_types": ["dining room", "kitchen"],
+    "features": ["stackable", "powder-coated finish", "distressed leather"],
+    "tags": ["industrial", "durable", "stackable", "urban", "edgy"]
+  },
+  {
+    "id": 1028,
+    "sku": "TBL-EXT-CHR-028",
+    "name": "Extendable Cherry Dining Table",
+    "description": "Beautiful cherry wood dining table that extends from 6 to 8 seats. Rich cherry finish showcases natural wood grain while butterfly leaf mechanism ensures smooth extension for entertaining.",
+    "category": "Tables",
+    "subcategory": "Dining Tables",
+    "style": ["traditional", "classic"],
+    "colors": {
+      "primary": "cherry red",
+      "secondary": null,
+      "all_colors": ["cherry red", "red", "brown"]
+    },
+    "materials": ["solid cherry wood", "butterfly leaf mechanism"],
+    "room_types": ["dining room"],
+    "features": ["extendable", "butterfly leaf", "seats 6-8 people"],
+    "tags": [
+      "extendable",
+      "formal",
+      "entertaining",
+      "traditional",
+      "solid wood"
+    ]
+  },
+  {
+    "id": 1029,
+    "sku": "LAM-SCN-BRS-059",
+    "name": "Brass Sconce Light",
+    "description": "Wall-mounted brass sconce with frosted glass shade and swing-arm design. Perfect for reading nooks, bedside lighting, or accent illumination with adjustable positioning.",
+    "category": "Lighting",
+    "subcategory": "Wall Sconces",
+    "style": ["transitional", "contemporary"],
+    "colors": {
+      "primary": "brass",
+      "secondary": "frosted glass",
+      "all_colors": ["brass", "white", "gold"]
+    },
+    "materials": ["solid brass", "frosted glass shade", "swing-arm mechanism"],
+    "room_types": ["bedroom", "living room", "study"],
+    "features": ["swing-arm design", "adjustable", "hardwired installation"],
+    "tags": [
+      "adjustable",
+      "reading light",
+      "brass",
+      "wall-mounted",
+      "functional"
+    ]
+  },
+  {
+    "id": 1060,
+    "sku": "STO-ARM-ANT-060",
+    "name": "Antique Armoire",
+    "description": "Large antique-style armoire with carved details and rich mahogany finish. Features hanging space, drawers, and shelves for complete bedroom storage solution.",
+    "category": "Storage",
+    "subcategory": "Armoires",
+    "style": ["traditional", "vintage"],
+    "colors": {
+      "primary": "mahogany",
+      "secondary": "antique brass",
+      "all_colors": ["mahogany", "dark brown", "brass"]
+    },
+    "materials": ["solid mahogany", "hand-carved details", "brass hardware"],
+    "room_types": ["bedroom"],
+    "features": ["carved details", "multiple compartments", "antique styling"],
+    "tags": [
+      "antique style",
+      "carved details",
+      "spacious",
+      "traditional",
+      "mahogany"
+    ]
+  },
+  {
+    "id": 1061,
+    "sku": "CHR-REC-PWR-061",
+    "name": "Power Reclining Chair",
+    "description": "Luxurious power reclining chair in brown leather with USB charging ports and memory foam cushioning. Ultimate comfort technology meets classic design.",
+    "category": "Seating",
+    "subcategory": "Recliners",
+    "style": ["contemporary", "transitional"],
+    "colors": {
+      "primary": "brown leather",
+      "secondary": "black",
+      "all_colors": ["brown", "black", "dark brown"]
+    },
+    "materials": ["genuine leather", "power mechanism", "memory foam"],
+    "room_types": ["living room", "family room"],
+    "features": ["power recline", "USB ports", "memory foam cushions"],
+    "tags": [
+      "tech-integrated",
+      "comfort",
+      "power recline",
+      "luxury",
+      "USB charging"
+    ]
+  },
+  {
+    "id": 1062,
+    "sku": "ART-PRI-BOT-062",
+    "name": "Botanical Print Set",
+    "description": "Set of four framed botanical prints featuring vintage-inspired plant illustrations. Green and cream color palette perfect for bringing natural elements indoors.",
+    "category": "Decor & Accessories",
+    "subcategory": "Prints",
+    "style": ["traditional", "natural"],
+    "colors": {
+      "primary": "green",
+      "secondary": "cream",
+      "all_colors": ["green", "cream", "beige"]
+    },
+    "materials": ["archival paper", "wood frames", "glass"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["set of four", "vintage-inspired", "ready to hang"],
+    "tags": [
+      "botanical",
+      "natural",
+      "vintage-inspired",
+      "green",
+      "wall art set"
+    ]
+  },
+  {
+    "id": 1063,
+    "sku": "TBL-ACC-GLS-063",
+    "name": "Glass Accent Table",
+    "description": "Small glass accent table with curved legs and minimalist design. Perfect beside chairs or sofas for drinks, books, or decorative objects without visual weight.",
+    "category": "Tables",
+    "subcategory": "Accent Tables",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "clear glass",
+      "secondary": null,
+      "all_colors": ["clear", "transparent"]
+    },
+    "materials": ["tempered glass", "curved glass legs"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["curved design", "space-enhancing", "minimalist"],
+    "tags": ["minimalist", "space-enhancing", "glass", "accent", "transparent"]
+  },
+  {
+    "id": 1064,
+    "sku": "BLN-CHU-RED-064",
+    "name": "Red Chunky Knit Throw",
+    "description": "Oversized chunky knit throw blanket in warm red wool blend. Cozy texture and vibrant color perfect for adding warmth and visual interest to any seating area.",
+    "category": "Textiles",
+    "subcategory": "Throw Blankets",
+    "style": ["contemporary", "cozy"],
+    "colors": {
+      "primary": "red",
+      "secondary": null,
+      "all_colors": ["red", "burgundy", "wine"]
+    },
+    "materials": ["wool blend", "chunky knit construction"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["chunky knit", "oversized", "wool blend"],
+    "tags": ["cozy", "chunky knit", "colorful", "warm", "textured"]
+  },
+  {
+    "id": 1065,
+    "sku": "STO-MED-BLK-065",
+    "name": "Black Media Console",
+    "description": "Sleek black media console with sliding doors and cable management. Modern design accommodates large TVs while concealing electronics and media storage.",
+    "category": "Storage",
+    "subcategory": "Media Centers",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "black",
+      "secondary": null,
+      "all_colors": ["black", "matte black"]
+    },
+    "materials": ["engineered wood", "painted finish", "metal hardware"],
+    "room_types": ["living room", "family room"],
+    "features": ["sliding doors", "cable management", "large TV support"],
+    "tags": [
+      "modern",
+      "cable management",
+      "media storage",
+      "sleek",
+      "entertainment"
+    ]
+  },
+  {
+    "id": 1066,
+    "sku": "LAM-CHD-MOD-066",
+    "name": "Modern Chandelier",
+    "description": "Contemporary 8-light chandelier with geometric metal frame in matte black. Linear design creates striking focal point perfect for dining rooms or large entryways.",
+    "category": "Lighting",
+    "subcategory": "Chandeliers",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "matte black",
+      "secondary": null,
+      "all_colors": ["black", "matte black"]
+    },
+    "materials": ["powder-coated metal", "exposed bulbs", "adjustable chain"],
+    "room_types": ["dining room", "entryway", "living room"],
+    "features": ["geometric design", "8-light fixture", "exposed bulbs"],
+    "tags": ["geometric", "modern", "statement piece", "linear", "contemporary"]
+  },
+  {
+    "id": 1067,
+    "sku": "CHR-DIN-UPH-067",
+    "name": "Upholstered Dining Chair",
+    "description": "Comfortable dining chair with button-tufted back in soft gray fabric and dark wood legs. Classic design provides dining comfort while complementing various table styles.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["transitional", "contemporary"],
+    "colors": {
+      "primary": "gray fabric",
+      "secondary": "dark wood",
+      "all_colors": ["gray", "dark brown", "charcoal"]
+    },
+    "materials": ["fabric upholstery", "hardwood frame", "foam padding"],
+    "room_types": ["dining room", "kitchen"],
+    "features": [
+      "button tufting",
+      "comfortable padding",
+      "sturdy construction"
+    ],
+    "tags": ["comfortable", "dining", "upholstered", "versatile", "classic"]
+  },
+  {
+    "id": 1068,
+    "sku": "RUG-FLO-PNK-068",
+    "name": "Pink Floral Area Rug",
+    "description": "Soft area rug with delicate pink and cream floral pattern. Vintage-inspired design adds feminine charm and warmth to bedrooms or living spaces.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["vintage", "romantic"],
+    "colors": {
+      "primary": "blush pink",
+      "secondary": "cream",
+      "all_colors": ["pink", "cream", "beige", "white"]
+    },
+    "materials": ["synthetic fibers", "soft pile", "cotton backing"],
+    "room_types": ["bedroom", "living room", "nursery"],
+    "features": ["floral pattern", "soft pile", "vintage styling"],
+    "tags": ["floral", "feminine", "soft", "vintage", "romantic"]
+  },
+  {
+    "id": 1069,
+    "sku": "MIR-FUL-OAK-069",
+    "name": "Oak Full-Length Mirror",
+    "description": "Full-length mirror with solid oak frame and beveled glass. Perfect for bedrooms or dressing areas, combining functionality with natural wood warmth.",
+    "category": "Decor & Accessories",
+    "subcategory": "Mirrors",
+    "style": ["natural", "transitional"],
+    "colors": {
+      "primary": "natural oak",
+      "secondary": null,
+      "all_colors": ["natural oak", "brown", "honey oak"]
+    },
+    "materials": [
+      "solid oak frame",
+      "beveled mirror glass",
+      "wall mounting hardware"
+    ],
+    "room_types": ["bedroom", "dressing room", "entryway"],
+    "features": ["full-length", "beveled glass", "solid oak frame"],
+    "tags": ["full-length", "natural wood", "functional", "bedroom", "oak"]
+  },
+  {
+    "id": 1070,
+    "sku": "STO-BOO-LAD-070",
+    "name": "Ladder Bookshelf",
+    "description": "Unique ladder-style bookshelf in white with five graduated shelves. Leaning design saves space while creating interesting visual display for books and objects.",
+    "category": "Storage",
+    "subcategory": "Bookcases",
+    "style": ["contemporary", "scandinavian"],
+    "colors": {
+      "primary": "white",
+      "secondary": null,
+      "all_colors": ["white", "off-white"]
+    },
+    "materials": ["engineered wood", "painted finish", "anti-tip hardware"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["leaning design", "graduated shelves", "space-saving"],
+    "tags": ["space-saving", "leaning", "display", "unique design", "white"]
+  },
+  {
+    "id": 1071,
+    "sku": "TBL-BAR-IND-071",
+    "name": "Industrial Bar Table",
+    "description": "High bar table with reclaimed wood top and black metal pipe base. Perfect for casual dining, home bars, or small kitchens with authentic industrial character.",
+    "category": "Tables",
+    "subcategory": "Bar Tables",
+    "style": ["industrial", "rustic"],
+    "colors": {
+      "primary": "reclaimed wood",
+      "secondary": "black metal",
+      "all_colors": ["brown", "black", "gray"]
+    },
+    "materials": ["reclaimed wood", "black metal pipes", "industrial fittings"],
+    "room_types": ["kitchen", "dining room", "family room"],
+    "features": ["bar height", "reclaimed materials", "pipe base"],
+    "tags": ["industrial", "bar height", "reclaimed", "casual dining", "urban"]
+  },
+  {
+    "id": 1072,
+    "sku": "CUR-BLK-OUT-072",
+    "name": "Blackout Bedroom Curtains",
+    "description": "Heavy blackout curtains in deep charcoal that block 100% of light. Thermal insulation helps regulate room temperature while ensuring restful sleep.",
+    "category": "Textiles",
+    "subcategory": "Curtains",
+    "style": ["contemporary", "functional"],
+    "colors": {
+      "primary": "charcoal gray",
+      "secondary": null,
+      "all_colors": ["charcoal gray", "dark gray", "black"]
+    },
+    "materials": ["blackout fabric", "thermal lining", "grommet top"],
+    "room_types": ["bedroom"],
+    "features": ["100% blackout", "thermal insulation", "energy efficient"],
+    "tags": ["blackout", "energy efficient", "sleep", "thermal", "functional"]
+  },
+  {
+    "id": 1073,
+    "sku": "LAM-TBL-WOD-073",
+    "name": "Wooden Base Table Lamp",
+    "description": "Rustic table lamp with natural wood base and burlap shade. Warm lighting perfect for cabins, farmhouse decor, or adding natural elements to any room.",
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "style": ["rustic", "farmhouse"],
+    "colors": {
+      "primary": "natural wood",
+      "secondary": "burlap",
+      "all_colors": ["brown", "beige", "tan"]
+    },
+    "materials": ["natural wood base", "burlap shade", "cord switch"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["natural materials", "warm lighting", "rustic design"],
+    "tags": ["rustic", "natural", "warm lighting", "farmhouse", "wood"]
+  },
+  {
+    "id": 1074,
+    "sku": "STO-CNT-STO-074",
+    "name": "Storage Counter Stool",
+    "description": "Counter-height stool with hidden storage compartment in seat and industrial metal frame. Perfect for kitchen islands where extra storage is needed.",
+    "category": "Seating",
+    "subcategory": "Counter Stools",
+    "style": ["industrial", "contemporary"],
+    "colors": {
+      "primary": "black metal",
+      "secondary": "brown wood",
+      "all_colors": ["black", "brown", "dark brown"]
+    },
+    "materials": [
+      "powder-coated steel",
+      "wood seat with storage",
+      "swivel mechanism"
+    ],
+    "room_types": ["kitchen", "dining room"],
+    "features": ["hidden storage", "counter height", "swivel seat"],
+    "tags": [
+      "storage",
+      "counter height",
+      "multifunctional",
+      "industrial",
+      "space-saving"
+    ]
+  },
+  {
+    "id": 1075,
+    "sku": "PIL-FUR-GRY-075",
+    "name": "Gray Faux Fur Pillow",
+    "description": "Luxurious faux fur throw pillow in soft gray with plush texture. Adds cozy glamour and tactile interest to sofas, chairs, or beds.",
+    "category": "Textiles",
+    "subcategory": "Throw Pillows",
+    "style": ["glam", "cozy"],
+    "colors": {
+      "primary": "gray",
+      "secondary": null,
+      "all_colors": ["gray", "silver", "charcoal"]
+    },
+    "materials": ["faux fur", "polyester fill", "hidden zipper"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["faux fur texture", "removable cover", "luxurious feel"],
+    "tags": ["faux fur", "luxurious", "textured", "cozy", "glamorous"]
+  },
+  {
+    "id": 1076,
+    "sku": "ART-MET-GOL-076",
+    "name": "Gold Metal Wall Art",
+    "description": "Abstract metal wall sculpture in brushed gold finish with geometric shapes. Modern sculptural piece creates dimensional focal point perfect for contemporary interiors.",
+    "category": "Decor & Accessories",
+    "subcategory": "Wall Art",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "gold",
+      "secondary": null,
+      "all_colors": ["gold", "brass", "bronze"]
+    },
+    "materials": ["brushed metal", "gold finish", "wall mounting hardware"],
+    "room_types": ["living room", "dining room", "entryway"],
+    "features": ["dimensional design", "geometric shapes", "metallic finish"],
+    "tags": ["sculptural", "dimensional", "modern", "metallic", "geometric"]
+  },
+  {
+    "id": 1077,
+    "sku": "BED-BOX-WHT-077",
+    "name": "White Box Spring",
+    "description": "Standard queen box spring in white fabric covering. Low-profile design provides mattress support while maintaining clean bedroom aesthetic.",
+    "category": "Bedroom",
+    "subcategory": "Box Springs",
+    "style": ["contemporary"],
+    "colors": {
+      "primary": "white",
+      "secondary": null,
+      "all_colors": ["white", "off-white"]
+    },
+    "materials": ["wood frame", "fabric covering", "steel coils"],
+    "room_types": ["bedroom"],
+    "features": ["low-profile", "standard support", "queen size"],
+    "tags": ["support", "low-profile", "bedroom", "foundation", "clean"]
+  },
+  {
+    "id": 1078,
+    "sku": "RUG-BRA-MUL-078",
+    "name": "Multicolor Braided Rug",
+    "description": "Traditional braided rug in multicolor pattern featuring warm earth tones. Hand-braided construction adds rustic charm to kitchens, family rooms, or entryways.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["traditional", "country"],
+    "colors": {
+      "primary": "multicolor",
+      "secondary": "earth tones",
+      "all_colors": ["brown", "red", "gold", "green"]
+    },
+    "materials": ["braided cotton", "natural fibers"],
+    "room_types": ["kitchen", "family room", "entryway"],
+    "features": ["hand-braided", "traditional construction", "durable"],
+    "tags": ["braided", "traditional", "multicolor", "rustic", "handmade"]
+  },
+  {
+    "id": 1079,
+    "sku": "STO-TV-COR-079",
+    "name": "Corner TV Stand",
+    "description": "Space-saving corner TV stand in dark walnut with two open shelves and cabinet storage. Perfect for maximizing corner space while organizing entertainment equipment.",
+    "category": "Storage",
+    "subcategory": "TV Stands",
+    "style": ["transitional", "contemporary"],
+    "colors": {
+      "primary": "dark walnut",
+      "secondary": "black hardware",
+      "all_colors": ["dark brown", "black", "walnut"]
+    },
+    "materials": ["engineered wood", "walnut veneer", "tempered glass shelves"],
+    "room_types": ["living room", "family room", "bedroom"],
+    "features": ["corner design", "cable management", "mixed storage"],
+    "tags": [
+      "corner solution",
+      "space-saving",
+      "TV storage",
+      "entertainment",
+      "walnut"
+    ]
+  },
+  {
+    "id": 1080,
+    "sku": "CHR-ACC-VEL-080",
+    "name": "Velvet Accent Chair",
+    "description": "Elegant accent chair in deep purple velvet with gold legs and button tufting. Luxurious statement piece perfect for adding color and sophistication to any room.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "deep purple",
+      "secondary": "gold",
+      "all_colors": ["purple", "gold", "plum"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "gold finish"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["button tufting", "velvet upholstery", "gold legs"],
+    "tags": ["statement piece", "luxurious", "colorful", "velvet", "glamorous"]
+  },
+  {
+    "id": 1081,
+    "sku": "LAM-FLR-COL-081",
+    "name": "Colorful Floor Lamp",
+    "description": "Modern floor lamp with adjustable colorful shade in turquoise and white geometric pattern. Adds playful color while providing functional task or ambient lighting.",
+    "category": "Lighting",
+    "subcategory": "Floor Lamps",
+    "style": ["contemporary", "eclectic"],
+    "colors": {
+      "primary": "turquoise",
+      "secondary": "white",
+      "all_colors": ["turquoise", "white", "blue"]
+    },
+    "materials": ["fabric shade", "metal base", "adjustable mechanism"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["adjustable shade", "geometric pattern", "colorful design"],
+    "tags": ["colorful", "playful", "adjustable", "geometric", "modern"]
+  },
+  {
+    "id": 1082,
+    "sku": "TBL-END-GLO-082",
+    "name": "Globe End Table",
+    "description": "Unique spherical end table in white lacquer with hidden storage compartment. Modern sculptural piece functions as side table while adding artistic element.",
+    "category": "Tables",
+    "subcategory": "End Tables",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "white lacquer",
+      "secondary": null,
+      "all_colors": ["white", "glossy white"]
+    },
+    "materials": ["lacquered fiberglass", "hidden storage", "smooth finish"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["spherical design", "hidden storage", "sculptural"],
+    "tags": ["sculptural", "unique", "modern", "storage", "artistic"]
+  },
+  {
+    "id": 1083,
+    "sku": "BLN-CAB-BLU-083",
+    "name": "Blue Cable Knit Throw",
+    "description": "Cozy cable knit throw blanket in ocean blue cotton blend. Traditional knit pattern provides warmth and texture perfect for sofas, chairs, or beds.",
+    "category": "Textiles",
+    "subcategory": "Throw Blankets",
+    "style": ["traditional", "cozy"],
+    "colors": {
+      "primary": "ocean blue",
+      "secondary": null,
+      "all_colors": ["blue", "navy blue", "ocean blue"]
+    },
+    "materials": ["cotton blend", "cable knit construction"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["cable knit pattern", "cotton blend", "traditional styling"],
+    "tags": ["cable knit", "cozy", "traditional", "blue", "textured"]
+  },
+  {
+    "id": 1084,
+    "sku": "MIR-DEC-HEX-084",
+    "name": "Hexagonal Mirror Set",
+    "description": "Set of seven hexagonal mirrors in various sizes creating honeycomb pattern. Modern geometric design perfect for creating custom wall arrangements and reflecting light.",
+    "category": "Decor & Accessories",
+    "subcategory": "Decorative Mirrors",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "mirror silver",
+      "secondary": null,
+      "all_colors": ["silver", "clear", "reflective"]
+    },
+    "materials": ["mirror glass", "beveled edges", "mounting hardware"],
+    "room_types": ["living room", "entryway", "bedroom"],
+    "features": ["set of seven", "various sizes", "geometric shapes"],
+    "tags": ["geometric", "modern", "mirror set", "honeycomb", "reflective"]
+  },
+  {
+    "id": 1085,
+    "sku": "STO-SHE-CUB-085",
+    "name": "Cube Storage Shelves",
+    "description": "Modular cube storage system in white with nine compartments. Versatile organization solution perfect for books, toys, decorative objects, or storage baskets.",
+    "category": "Storage",
+    "subcategory": "Shelving Units",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "white",
+      "secondary": null,
+      "all_colors": ["white", "off-white"]
+    },
+    "materials": ["engineered wood", "painted finish", "modular design"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["nine compartments", "modular system", "versatile"],
+    "tags": ["modular", "organization", "versatile", "cube storage", "white"]
+  },
+  {
+    "id": 1086,
+    "sku": "CHR-DIN-WOD-086",
+    "name": "Wooden Dining Chair",
+    "description": "Classic wooden dining chair in natural finish with contoured seat and backrest. Simple design complements various dining tables while providing comfortable seating.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["traditional", "natural"],
+    "colors": {
+      "primary": "natural wood",
+      "secondary": null,
+      "all_colors": ["natural wood", "brown", "honey oak"]
+    },
+    "materials": ["solid wood", "natural finish", "traditional joinery"],
+    "room_types": ["dining room", "kitchen"],
+    "features": [
+      "contoured design",
+      "solid wood construction",
+      "natural finish"
+    ],
+    "tags": ["natural", "traditional", "solid wood", "dining", "classic"]
+  },
+  {
+    "id": 1087,
+    "sku": "LAM-PEN-FAR-087",
+    "name": "Farmhouse Pendant Light",
+    "description": "Rustic farmhouse pendant with galvanized metal shade and vintage-style Edison bulb. Perfect for kitchen islands or dining areas seeking authentic farmhouse character.",
+    "category": "Lighting",
+    "subcategory": "Pendant Lights",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "galvanized metal",
+      "secondary": "warm white",
+      "all_colors": ["silver", "gray", "warm white"]
+    },
+    "materials": ["galvanized steel", "vintage-style bulb", "chain mounting"],
+    "room_types": ["kitchen", "dining room", "family room"],
+    "features": ["galvanized finish", "vintage bulb", "farmhouse styling"],
+    "tags": ["farmhouse", "rustic", "galvanized", "vintage bulb", "authentic"]
+  },
+  {
+    "id": 1088,
+    "sku": "RUG-NAV-GLD-088",
+    "name": "Navy and Gold Area Rug",
+    "description": "Sophisticated area rug with navy background and gold geometric pattern. Contemporary design adds elegance and visual interest to living rooms or dining areas.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["contemporary", "glam"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "gold",
+      "all_colors": ["navy blue", "gold", "yellow", "blue"]
+    },
+    "materials": ["synthetic fibers", "geometric pattern", "medium pile"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["geometric pattern", "sophisticated colors", "medium pile"],
+    "tags": ["sophisticated", "geometric", "navy", "gold", "elegant"]
+  },
+  {
+    "id": 1089,
+    "sku": "ART-CAN-LAN-089",
+    "name": "Landscape Canvas Print",
+    "description": "Large canvas print featuring serene mountain landscape in muted earth tones. Nature photography brings calming outdoor beauty into interior spaces.",
+    "category": "Decor & Accessories",
+    "subcategory": "Canvas Art",
+    "style": ["natural", "contemporary"],
+    "colors": {
+      "primary": "earth tones",
+      "secondary": "muted colors",
+      "all_colors": ["brown", "green", "beige", "blue"]
+    },
+    "materials": ["canvas print", "wood frame", "fade-resistant inks"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["large format", "nature photography", "calming imagery"],
+    "tags": ["nature", "calming", "landscape", "earth tones", "photography"]
+  },
+  {
+    "id": 1090,
+    "sku": "STO-BEN-HAL-090",
+    "name": "Hallway Storage Bench",
+    "description": "Narrow storage bench perfect for hallways and entryways with lift-top seat and lower shoe storage. Maximizes utility in tight spaces.",
+    "category": "Seating",
+    "subcategory": "Storage Benches",
+    "style": ["transitional", "functional"],
+    "colors": {
+      "primary": "espresso",
+      "secondary": "brushed nickel",
+      "all_colors": ["dark brown", "espresso", "silver"]
+    },
+    "materials": ["engineered wood", "fabric seat", "metal hardware"],
+    "room_types": ["entryway", "hallway", "mudroom"],
+    "features": ["narrow design", "dual storage", "lift-top seat"],
+    "tags": [
+      "narrow",
+      "hallway",
+      "dual storage",
+      "space-efficient",
+      "functional"
+    ]
+  },
+  {
+    "id": 1091,
+    "sku": "TBL-COF-LIV-091",
+    "name": "Live Edge Coffee Table",
+    "description": "Stunning coffee table with live edge walnut slab top and hairpin legs. Each piece showcases unique wood grain patterns celebrating natural beauty.",
+    "category": "Tables",
+    "subcategory": "Coffee Tables",
+    "style": ["rustic", "contemporary"],
+    "colors": {
+      "primary": "natural walnut",
+      "secondary": "black metal",
+      "all_colors": ["brown", "black", "natural wood"]
+    },
+    "materials": ["live edge walnut", "steel hairpin legs", "natural finish"],
+    "room_types": ["living room", "family room"],
+    "features": ["live edge", "unique grain patterns", "natural beauty"],
+    "tags": ["live edge", "unique", "natural", "walnut", "one-of-a-kind"]
+  },
+  {
+    "id": 1030,
+    "sku": "RUG-VIN-ORI-030",
+    "name": "Vintage Oriental Rug",
+    "description": "Distressed vintage-style oriental rug in faded blues and creams. Machine-woven construction provides durability while maintaining authentic aged appearance for character-rich interiors.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["vintage", "traditional"],
+    "colors": {
+      "primary": "faded blue",
+      "secondary": "cream",
+      "all_colors": ["blue", "cream", "beige", "gray"]
+    },
+    "materials": ["polypropylene", "distressed finish", "jute backing"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["distressed appearance", "fade-resistant", "vintage styling"],
+    "tags": ["vintage", "character", "distressed", "oriental", "faded colors"]
+  },
+  {
+    "id": 1031,
+    "sku": "STO-CAB-WHT-031",
+    "name": "White Shaker Cabinet",
+    "description": "Classic white shaker-style cabinet with raised panel doors and brushed nickel hardware. Versatile storage solution perfect for kitchens, bathrooms, or utility rooms.",
+    "category": "Storage",
+    "subcategory": "Cabinets",
+    "style": ["traditional", "transitional"],
+    "colors": {
+      "primary": "white",
+      "secondary": "brushed nickel",
+      "all_colors": ["white", "brushed nickel"]
+    },
+    "materials": ["engineered wood", "painted finish", "metal hardware"],
+    "room_types": ["kitchen", "bathroom", "laundry room"],
+    "features": [
+      "raised panel doors",
+      "adjustable shelves",
+      "soft-close hinges"
+    ],
+    "tags": ["classic", "versatile", "storage", "shaker style", "traditional"]
+  },
+  {
+    "id": 1032,
+    "sku": "BED-TUF-GRY-032",
+    "name": "Gray Tufted Platform Bed",
+    "description": "Contemporary platform bed with diamond-tufted headboard in charcoal gray fabric. Low-profile design eliminates need for box spring while creating sophisticated bedroom focal point.",
+    "category": "Bedroom",
+    "subcategory": "Beds",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "charcoal gray",
+      "secondary": "black",
+      "all_colors": ["charcoal gray", "black", "dark gray"]
+    },
+    "materials": ["fabric upholstery", "engineered wood frame", "foam padding"],
+    "room_types": ["bedroom"],
+    "features": ["diamond tufting", "no box spring needed", "low profile"],
+    "tags": ["modern", "sophisticated", "platform", "tufted", "contemporary"]
+  },
+  {
+    "id": 1033,
+    "sku": "ART-FRA-BLK-033",
+    "name": "Black and White Photography Set",
+    "description": "Set of three framed black and white landscape photographs in sleek black frames. Professional quality prints create sophisticated gallery wall perfect for modern interiors.",
+    "category": "Decor & Accessories",
+    "subcategory": "Photography",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "black",
+      "secondary": "white",
+      "all_colors": ["black", "white", "gray"]
+    },
+    "materials": ["photographic paper", "glass", "black wood frames"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["set of three", "professional quality", "ready to hang"],
+    "tags": [
+      "gallery wall",
+      "sophisticated",
+      "black and white",
+      "photography",
+      "modern art"
+    ]
+  },
+  {
+    "id": 1034,
+    "sku": "CUR-VEL-TUQ-034",
+    "name": "Turquoise Velvet Curtains",
+    "description": "Luxurious velvet curtains in vibrant turquoise with blackout lining. Rod pocket design makes installation easy while rich color adds dramatic flair to any room.",
+    "category": "Textiles",
+    "subcategory": "Curtains",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "turquoise",
+      "secondary": null,
+      "all_colors": ["turquoise", "blue", "teal"]
+    },
+    "materials": ["velvet fabric", "blackout lining", "rod pocket"],
+    "room_types": ["bedroom", "living room", "dining room"],
+    "features": ["blackout lining", "luxury velvet", "rod pocket"],
+    "tags": ["dramatic", "colorful", "luxury", "blackout", "statement"]
+  },
+  {
+    "id": 1035,
+    "sku": "OTT-STO-RND-035",
+    "name": "Round Storage Ottoman",
+    "description": "Versatile round ottoman with hidden storage and button-tufted top in cream linen. Perfect as extra seating, footrest, or coffee table while concealing clutter.",
+    "category": "Seating",
+    "subcategory": "Ottomans",
+    "style": ["transitional", "contemporary"],
+    "colors": {
+      "primary": "cream",
+      "secondary": "natural wood",
+      "all_colors": ["cream", "beige", "off-white"]
+    },
+    "materials": ["linen upholstery", "engineered wood", "foam padding"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["hidden storage", "button tufting", "multifunctional"],
+    "tags": [
+      "multifunctional",
+      "storage",
+      "versatile",
+      "neutral",
+      "space-saving"
+    ]
+  },
+  {
+    "id": 1036,
+    "sku": "TBL-SID-MCM-036",
+    "name": "Mid-Century Walnut Side Table",
+    "description": "Authentic mid-century modern side table in rich walnut with tapered legs and single drawer. Clean lines and warm wood tone complement vintage and contemporary decor.",
+    "category": "Tables",
+    "subcategory": "Side Tables",
+    "style": ["mid-century modern", "vintage"],
+    "colors": {
+      "primary": "walnut",
+      "secondary": "brass",
+      "all_colors": ["walnut", "brown", "brass"]
+    },
+    "materials": ["solid walnut", "brass hardware", "dovetail joints"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["single drawer", "tapered legs", "dovetail construction"],
+    "tags": [
+      "mid-century",
+      "vintage",
+      "walnut",
+      "authentic",
+      "quality craftsmanship"
+    ]
+  },
+  {
+    "id": 1037,
+    "sku": "LAM-FLR-TRI-037",
+    "name": "Tripod Floor Lamp",
+    "description": "Modern tripod floor lamp with adjustable wooden legs and linen drum shade. Scandinavian-inspired design provides ambient lighting while serving as sculptural accent piece.",
+    "category": "Lighting",
+    "subcategory": "Floor Lamps",
+    "style": ["scandinavian", "modern"],
+    "colors": {
+      "primary": "natural wood",
+      "secondary": "white linen",
+      "all_colors": ["natural wood", "white", "beige"]
+    },
+    "materials": ["solid wood legs", "linen shade", "metal fittings"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["adjustable legs", "drum shade", "tripod design"],
+    "tags": [
+      "sculptural",
+      "scandinavian",
+      "adjustable",
+      "ambient lighting",
+      "modern"
+    ]
+  },
+  {
+    "id": 1038,
+    "sku": "RUG-COW-BLK-038",
+    "name": "Black and White Cowhide Rug",
+    "description": "Genuine cowhide rug in classic black and white pattern. Natural hide provides unique texture and pattern variation, perfect for adding rustic sophistication to modern spaces.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["rustic", "contemporary"],
+    "colors": {
+      "primary": "black",
+      "secondary": "white",
+      "all_colors": ["black", "white", "cream"]
+    },
+    "materials": ["genuine cowhide", "natural leather"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["genuine hide", "unique patterns", "natural texture"],
+    "tags": ["natural", "unique", "rustic", "sophisticated", "one-of-a-kind"]
+  },
+  {
+    "id": 1039,
+    "sku": "MIR-RND-BRS-039",
+    "name": "Round Brass Mirror",
+    "description": "Large round mirror with thin brass frame and clean modern lines. Perfect statement piece for entryways or above mantels, reflecting light while adding metallic warmth.",
+    "category": "Decor & Accessories",
+    "subcategory": "Wall Mirrors",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "brass",
+      "secondary": null,
+      "all_colors": ["brass", "gold", "bronze"]
+    },
+    "materials": ["brass frame", "mirror glass", "mounting hardware"],
+    "room_types": ["entryway", "living room", "bedroom"],
+    "features": ["large size", "thin frame", "easy mounting"],
+    "tags": [
+      "statement piece",
+      "modern",
+      "metallic",
+      "light-reflecting",
+      "round"
+    ]
+  },
+  {
+    "id": 1040,
+    "sku": "CHR-WIN-LEA-040",
+    "name": "Leather Wingback Chair",
+    "description": "Classic wingback chair in rich cognac leather with brass nail head trim. Traditional silhouette updated with contemporary proportions creates timeless elegance for any room.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["traditional", "transitional"],
+    "colors": {
+      "primary": "cognac",
+      "secondary": "brass",
+      "all_colors": ["cognac", "brown", "brass"]
+    },
+    "materials": ["top-grain leather", "hardwood frame", "brass nail heads"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["wingback design", "nail head trim", "top-grain leather"],
+    "tags": ["classic", "elegant", "traditional", "luxury", "timeless"]
+  },
+  {
+    "id": 1041,
+    "sku": "STO-WRD-OAK-041",
+    "name": "Oak Wardrobe Armoire",
+    "description": "Spacious oak wardrobe with hanging rod, shelves, and drawer storage. Traditional craftsmanship meets modern functionality for complete bedroom organization solution.",
+    "category": "Storage",
+    "subcategory": "Wardrobes",
+    "style": ["traditional", "farmhouse"],
+    "colors": {
+      "primary": "natural oak",
+      "secondary": "antique brass",
+      "all_colors": ["natural oak", "brown", "antique brass"]
+    },
+    "materials": ["solid oak", "brass hardware", "cedar lining"],
+    "room_types": ["bedroom"],
+    "features": ["hanging rod", "drawer storage", "cedar lining"],
+    "tags": [
+      "spacious",
+      "organization",
+      "traditional",
+      "solid wood",
+      "bedroom storage"
+    ]
+  },
+  {
+    "id": 1042,
+    "sku": "PIL-LUM-YEL-042",
+    "name": "Yellow Lumbar Pillow",
+    "description": "Bright yellow lumbar pillow in cotton canvas with contrasting navy piping. Perfect accent piece for adding cheerful color and lower back support to sofas and chairs.",
+    "category": "Textiles",
+    "subcategory": "Throw Pillows",
+    "style": ["contemporary", "coastal"],
+    "colors": {
+      "primary": "yellow",
+      "secondary": "navy blue",
+      "all_colors": ["yellow", "navy blue", "white"]
+    },
+    "materials": ["cotton canvas", "polyester fill", "contrasting piping"],
+    "room_types": ["living room", "family room", "bedroom"],
+    "features": ["lumbar support", "contrasting piping", "removable cover"],
+    "tags": ["cheerful", "colorful", "lumbar support", "accent", "coastal"]
+  },
+  {
+    "id": 1043,
+    "sku": "TBL-CON-IND-043",
+    "name": "Industrial Console Table",
+    "description": "Rugged console table combining reclaimed wood top with black metal pipe legs. Industrial aesthetic perfect for entryways, behind sofas, or as media console.",
+    "category": "Tables",
+    "subcategory": "Console Tables",
+    "style": ["industrial", "rustic"],
+    "colors": {
+      "primary": "reclaimed wood",
+      "secondary": "black metal",
+      "all_colors": ["brown", "black", "gray"]
+    },
+    "materials": ["reclaimed wood", "black metal pipes", "industrial hardware"],
+    "room_types": ["entryway", "living room", "family room"],
+    "features": ["reclaimed materials", "pipe legs", "industrial styling"],
+    "tags": ["industrial", "rugged", "reclaimed", "versatile", "edgy"]
+  },
+  {
+    "id": 1044,
+    "sku": "LAM-TBL-CRY-044",
+    "name": "Crystal Table Lamp",
+    "description": "Elegant crystal base table lamp with white silk shade. Cut crystal creates beautiful light refraction while providing sophisticated illumination for bedside or accent lighting.",
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "style": ["glam", "traditional"],
+    "colors": {
+      "primary": "crystal clear",
+      "secondary": "white silk",
+      "all_colors": ["clear", "white", "silver"]
+    },
+    "materials": ["cut crystal", "silk shade", "chrome fittings"],
+    "room_types": ["bedroom", "living room", "dining room"],
+    "features": ["cut crystal base", "silk shade", "dimmer compatible"],
+    "tags": ["elegant", "glamorous", "sophisticated", "sparkling", "luxury"]
+  },
+  {
+    "id": 1045,
+    "sku": "BED-CAN-WHT-045",
+    "name": "White Canopy Bed",
+    "description": "Romantic white canopy bed with four posts and flowing curtain panels. Creates dreamy bedroom sanctuary perfect for master suites seeking fairy-tale elegance.",
+    "category": "Bedroom",
+    "subcategory": "Beds",
+    "style": ["romantic", "traditional"],
+    "colors": {
+      "primary": "white",
+      "secondary": "cream",
+      "all_colors": ["white", "cream", "off-white"]
+    },
+    "materials": ["painted wood", "flowing fabric panels", "metal hardware"],
+    "room_types": ["bedroom"],
+    "features": ["four-poster design", "curtain panels", "romantic styling"],
+    "tags": ["romantic", "dreamy", "canopy", "elegant", "fairy-tale"]
+  },
+  {
+    "id": 1046,
+    "sku": "RUG-JUT-NAT-046",
+    "name": "Natural Jute Area Rug",
+    "description": "Handwoven jute area rug in natural beige with subtle texture variations. Eco-friendly material adds organic warmth and casual sophistication to any room.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["natural", "coastal"],
+    "colors": {
+      "primary": "natural beige",
+      "secondary": null,
+      "all_colors": ["beige", "tan", "cream"]
+    },
+    "materials": ["100% jute", "handwoven construction"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["handwoven", "eco-friendly", "natural fibers"],
+    "tags": ["eco-friendly", "natural", "handwoven", "organic", "sustainable"]
+  },
+  {
+    "id": 1047,
+    "sku": "STO-SHL-FLT-047",
+    "name": "Floating Corner Shelves",
+    "description": "Set of three white floating corner shelves in graduated sizes. Space-saving design perfect for displaying books, plants, and decorative objects in unused corner spaces.",
+    "category": "Storage",
+    "subcategory": "Shelving Units",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "white",
+      "secondary": null,
+      "all_colors": ["white", "off-white"]
+    },
+    "materials": ["engineered wood", "hidden brackets", "painted finish"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["corner design", "three sizes", "hidden mounting"],
+    "tags": [
+      "space-saving",
+      "corner solution",
+      "modern",
+      "display",
+      "minimalist"
+    ]
+  },
+  {
+    "id": 1048,
+    "sku": "CHR-BAR-IND-048",
+    "name": "Industrial Bar Chair",
+    "description": "Adjustable height bar chair with distressed leather seat and black metal frame. Industrial design perfect for kitchen islands or bar areas with authentic urban appeal.",
+    "category": "Seating",
+    "subcategory": "Bar Stools",
+    "style": ["industrial", "contemporary"],
+    "colors": {
+      "primary": "black metal",
+      "secondary": "brown leather",
+      "all_colors": ["black", "brown", "dark brown"]
+    },
+    "materials": ["powder-coated steel", "distressed leather", "gas cylinder"],
+    "room_types": ["kitchen", "dining room"],
+    "features": ["adjustable height", "swivel seat", "footrest"],
+    "tags": ["adjustable", "industrial", "urban", "swivel", "bar seating"]
+  },
+  {
+    "id": 1049,
+    "sku": "ART-SCU-CER-049",
+    "name": "Ceramic Sculpture Set",
+    "description": "Set of three abstract ceramic sculptures in matte white finish. Modern organic shapes create sophisticated sculptural display perfect for mantels, shelves, or tables.",
+    "category": "Decor & Accessories",
+    "subcategory": "Sculptures",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "matte white",
+      "secondary": null,
+      "all_colors": ["white", "cream"]
+    },
+    "materials": ["ceramic", "matte glaze finish"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["set of three", "abstract shapes", "matte finish"],
+    "tags": [
+      "sculptural",
+      "modern",
+      "abstract",
+      "sophisticated",
+      "decorative objects"
+    ]
+  },
+  {
+    "id": 1050,
+    "sku": "TBL-DIN-REC-050",
+    "name": "Reclaimed Wood Dining Table",
+    "description": "Large rectangular dining table crafted from reclaimed barn wood with steel hairpin legs. Rustic character meets modern design for unique entertaining centerpiece.",
+    "category": "Tables",
+    "subcategory": "Dining Tables",
+    "style": ["rustic", "industrial"],
+    "colors": {
+      "primary": "weathered brown",
+      "secondary": "black steel",
+      "all_colors": ["brown", "gray", "black"]
+    },
+    "materials": [
+      "reclaimed barn wood",
+      "steel hairpin legs",
+      "natural finish"
+    ],
+    "room_types": ["dining room", "kitchen"],
+    "features": ["reclaimed materials", "hairpin legs", "seats 8 people"],
+    "tags": ["eco-friendly", "rustic", "unique", "reclaimed", "large dining"]
+  },
+  {
+    "id": 1051,
+    "sku": "CUR-SHE-NAT-051",
+    "name": "Natural Sheer Curtains",
+    "description": "Flowing sheer curtains in natural linen blend that filter light beautifully while maintaining privacy. Soft drape and neutral color complement any decor style.",
+    "category": "Textiles",
+    "subcategory": "Curtains",
+    "style": ["transitional", "natural"],
+    "colors": {
+      "primary": "natural linen",
+      "secondary": null,
+      "all_colors": ["beige", "cream", "off-white"]
+    },
+    "materials": ["linen blend", "sheer weave", "rod pocket"],
+    "room_types": ["living room", "bedroom", "dining room"],
+    "features": ["light filtering", "natural fibers", "flowing drape"],
+    "tags": ["natural", "light filtering", "soft", "versatile", "neutral"]
+  },
+  {
+    "id": 1052,
+    "sku": "STO-CHE-VIN-052",
+    "name": "Vintage Storage Chest",
+    "description": "Antique-style storage chest with distressed finish and brass corner hardware. Perfect for blanket storage at foot of bed or as coffee table with hidden storage.",
+    "category": "Storage",
+    "subcategory": "Chests",
+    "style": ["vintage", "traditional"],
+    "colors": {
+      "primary": "distressed brown",
+      "secondary": "brass",
+      "all_colors": ["brown", "brass", "tan"]
+    },
+    "materials": ["engineered wood", "distressed finish", "brass hardware"],
+    "room_types": ["bedroom", "living room"],
+    "features": ["vintage styling", "brass hardware", "spacious interior"],
+    "tags": [
+      "vintage",
+      "storage",
+      "multifunctional",
+      "distressed",
+      "antique style"
+    ]
+  },
+  {
+    "id": 1053,
+    "sku": "LAM-PEN-GLB-053",
+    "name": "Globe Pendant Light",
+    "description": "Modern glass globe pendant light with brass fittings and adjustable cord length. Clean spherical design provides even light distribution perfect for kitchen islands or dining areas.",
+    "category": "Lighting",
+    "subcategory": "Pendant Lights",
+    "style": ["modern", "contemporary"],
+    "colors": {
+      "primary": "clear glass",
+      "secondary": "brass",
+      "all_colors": ["clear", "brass", "gold"]
+    },
+    "materials": ["blown glass globe", "brass fittings", "fabric cord"],
+    "room_types": ["kitchen", "dining room", "entryway"],
+    "features": ["adjustable cord", "even light distribution", "globe design"],
+    "tags": [
+      "modern",
+      "clean design",
+      "adjustable",
+      "even lighting",
+      "spherical"
+    ]
+  },
+  {
+    "id": 1054,
+    "sku": "MIR-VAN-LED-054",
+    "name": "LED Vanity Mirror",
+    "description": "Hollywood-style vanity mirror with LED bulbs around perimeter providing perfect makeup lighting. Dimmable lights and sleek white frame create professional beauty station.",
+    "category": "Decor & Accessories",
+    "subcategory": "Mirrors",
+    "style": ["contemporary", "glam"],
+    "colors": {
+      "primary": "white",
+      "secondary": "warm white LED",
+      "all_colors": ["white", "clear"]
+    },
+    "materials": ["mirror glass", "LED bulbs", "painted frame"],
+    "room_types": ["bedroom", "bathroom"],
+    "features": ["LED lighting", "dimmable", "Hollywood style"],
+    "tags": [
+      "functional",
+      "glamorous",
+      "LED lighting",
+      "vanity",
+      "professional"
+    ]
+  },
+  {
+    "id": 1055,
+    "sku": "BEN-ENT-OAK-055",
+    "name": "Oak Entryway Bench",
+    "description": "Solid oak bench with slatted design and lower storage shelf. Perfect for entryways, mudrooms, or bedroom seating with classic craftsmanship and practical storage.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["traditional", "craftsman"],
+    "colors": {
+      "primary": "natural oak",
+      "secondary": null,
+      "all_colors": ["natural oak", "brown"]
+    },
+    "materials": ["solid oak", "mortise and tenon joints", "natural finish"],
+    "room_types": ["entryway", "bedroom", "mudroom"],
+    "features": ["slatted design", "storage shelf", "solid wood construction"],
+    "tags": ["functional", "traditional", "storage", "solid wood", "entryway"]
+  },
+  {
+    "id": 1056,
+    "sku": "PIL-GEO-BLU-056",
+    "name": "Blue Geometric Throw Pillows",
+    "description": "Set of two throw pillows featuring bold geometric patterns in navy and white. Contemporary design adds visual interest and comfort to sofas, chairs, or beds.",
+    "category": "Textiles",
+    "subcategory": "Throw Pillows",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "white",
+      "all_colors": ["navy blue", "white", "blue"]
+    },
+    "materials": ["cotton blend", "polyester fill", "hidden zipper"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["geometric pattern", "set of two", "removable covers"],
+    "tags": ["geometric", "contemporary", "bold pattern", "navy", "decorative"]
+  },
+  {
+    "id": 1057,
+    "sku": "TBL-NIG-FLT-057",
+    "name": "Floating Nightstand",
+    "description": "Wall-mounted floating nightstand in walnut finish with hidden drawer and open shelf. Space-saving design perfect for small bedrooms or modern minimalist aesthetics.",
+    "category": "Tables",
+    "subcategory": "Nightstands",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "walnut",
+      "secondary": null,
+      "all_colors": ["walnut", "brown"]
+    },
+    "materials": ["engineered wood", "walnut veneer", "soft-close drawer"],
+    "room_types": ["bedroom"],
+    "features": ["wall-mounted", "hidden drawer", "space-saving"],
+    "tags": ["space-saving", "modern", "floating", "minimalist", "bedroom"]
+  },
+  {
+    "id": 1058,
+    "sku": "RUG-STR-GRY-058",
+    "name": "Gray Striped Runner Rug",
+    "description": "Long runner rug with subtle gray and white stripes perfect for hallways, kitchens, or entryways. Low-profile construction withstands high-traffic areas while adding style.",
+    "category": "Textiles",
+    "subcategory": "Runner Rugs",
+    "style": ["contemporary", "transitional"],
+    "colors": {
+      "primary": "gray",
+      "secondary": "white",
+      "all_colors": ["gray", "white", "light gray"]
+    },
+    "materials": ["polypropylene", "low-pile construction", "non-slip backing"],
+    "room_types": ["hallway", "kitchen", "entryway"],
+    "features": ["high-traffic durability", "low-profile", "stripe pattern"],
+    "tags": ["high-traffic", "hallway", "striped", "durable", "neutral"]
+  },
+  {
+    "id": 1126,
+    "sku": "SOF-CHE-TAN-126",
+    "name": "Tan Chesterfield Sofa",
+    "description": "Classic Chesterfield sofa in rich tan leather with deep button tufting and rolled arms. Traditional British design brings timeless elegance to formal living rooms with authentic leather aging.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["traditional", "classic"],
+    "colors": {
+      "primary": "tan leather",
+      "secondary": "brass studs",
+      "all_colors": ["tan", "brown", "brass"]
+    },
+    "materials": ["genuine leather", "hardwood frame", "brass nail heads"],
+    "room_types": ["living room", "study", "family room"],
+    "features": ["deep button tufting", "rolled arms", "genuine leather"],
+    "tags": [
+      "chesterfield",
+      "traditional",
+      "leather",
+      "button tufted",
+      "classic"
+    ]
+  },
+  {
+    "id": 1127,
+    "sku": "TBL-WRI-OAK-127",
+    "name": "Oak Writing Desk",
+    "description": "Compact writing desk in solid oak with single drawer and cable management. Perfect for home offices or bedrooms where space is limited but style matters.",
+    "category": "Tables",
+    "subcategory": "Desks",
+    "style": ["traditional", "craftsman"],
+    "colors": {
+      "primary": "natural oak",
+      "secondary": "antique brass",
+      "all_colors": ["natural oak", "brown", "brass"]
+    },
+    "materials": ["solid oak", "dovetail drawer", "brass hardware"],
+    "room_types": ["study", "bedroom", "living room"],
+    "features": ["single drawer", "cable management", "compact design"],
+    "tags": [
+      "writing desk",
+      "compact",
+      "solid oak",
+      "home office",
+      "traditional"
+    ]
+  },
+  {
+    "id": 1128,
+    "sku": "LAM-CHA-RUS-128",
+    "name": "Rustic Chain Chandelier",
+    "description": "Farmhouse chandelier with weathered wood beam and hanging mason jar lights. Rustic design perfect for dining rooms seeking authentic country charm with modern functionality.",
+    "category": "Lighting",
+    "subcategory": "Chandeliers",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "weathered wood",
+      "secondary": "clear glass",
+      "all_colors": ["brown", "gray", "clear glass"]
+    },
+    "materials": ["reclaimed wood", "mason jars", "chain mounting"],
+    "room_types": ["dining room", "kitchen", "family room"],
+    "features": ["mason jar lights", "weathered wood", "farmhouse styling"],
+    "tags": ["farmhouse", "mason jars", "rustic", "weathered wood", "country"]
+  },
+  {
+    "id": 1129,
+    "sku": "RUG-KIL-RED-129",
+    "name": "Red Kilim Area Rug",
+    "description": "Hand-woven kilim rug in rich red with traditional geometric patterns. Flat-weave construction and authentic designs add global sophistication to any interior space.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["global", "traditional"],
+    "colors": {
+      "primary": "red",
+      "secondary": "gold",
+      "all_colors": ["red", "gold", "burgundy", "cream"]
+    },
+    "materials": ["wool", "flat-weave construction", "natural dyes"],
+    "room_types": ["living room", "dining room", "bedroom"],
+    "features": ["hand-woven", "flat-weave", "geometric patterns"],
+    "tags": ["kilim", "hand-woven", "global", "geometric", "authentic"]
+  },
+  {
+    "id": 1130,
+    "sku": "MIR-SUN-GLD-130",
+    "name": "Sunburst Gold Mirror",
+    "description": "Dramatic sunburst mirror with radiating gold-finished rays extending from central mirror. Statement piece creates stunning focal point while reflecting light throughout the room.",
+    "category": "Decor & Accessories",
+    "subcategory": "Decorative Mirrors",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "gold",
+      "secondary": null,
+      "all_colors": ["gold", "brass", "bronze"]
+    },
+    "materials": ["metal rays", "gold finish", "mirror glass"],
+    "room_types": ["living room", "entryway", "dining room"],
+    "features": ["sunburst design", "radiating rays", "dramatic scale"],
+    "tags": ["sunburst", "dramatic", "statement piece", "gold", "radiating"]
+  },
+  {
+    "id": 1131,
+    "sku": "STO-ARB-WAL-131",
+    "name": "Walnut Armoire",
+    "description": "Large walnut armoire with multiple compartments, hanging space, and adjustable shelves. Traditional craftsmanship meets modern storage needs for complete bedroom organization.",
+    "category": "Storage",
+    "subcategory": "Armoires",
+    "style": ["traditional", "craftsman"],
+    "colors": {
+      "primary": "walnut",
+      "secondary": "antique brass",
+      "all_colors": ["walnut", "brown", "brass"]
+    },
+    "materials": ["solid walnut", "brass hardware", "adjustable shelves"],
+    "room_types": ["bedroom"],
+    "features": [
+      "multiple compartments",
+      "hanging space",
+      "adjustable shelves"
+    ],
+    "tags": [
+      "walnut",
+      "spacious",
+      "bedroom storage",
+      "traditional",
+      "organization"
+    ]
+  },
+  {
+    "id": 1132,
+    "sku": "PIL-IKA-BLU-132",
+    "name": "Blue Ikat Throw Pillows",
+    "description": "Set of two throw pillows featuring traditional ikat pattern in blue and white. Hand-dyed appearance adds global textile artistry to sofas, chairs, or beds.",
+    "category": "Textiles",
+    "subcategory": "Throw Pillows",
+    "style": ["global", "bohemian"],
+    "colors": {
+      "primary": "blue",
+      "secondary": "white",
+      "all_colors": ["blue", "white", "indigo"]
+    },
+    "materials": ["cotton", "ikat pattern", "polyester fill"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["ikat pattern", "set of two", "global styling"],
+    "tags": [
+      "ikat",
+      "global",
+      "bohemian",
+      "hand-dyed appearance",
+      "textile art"
+    ]
+  },
+  {
+    "id": 1133,
+    "sku": "CHR-BAR-SWI-133",
+    "name": "Swivel Bar Stool",
+    "description": "Adjustable height bar stool with 360-degree swivel and faux leather seat. Modern design with chrome base perfect for kitchen islands or home bars.",
+    "category": "Seating",
+    "subcategory": "Bar Stools",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "black faux leather",
+      "secondary": "chrome",
+      "all_colors": ["black", "chrome", "silver"]
+    },
+    "materials": ["faux leather", "chrome base", "gas lift mechanism"],
+    "room_types": ["kitchen", "dining room", "family room"],
+    "features": ["360-degree swivel", "adjustable height", "gas lift"],
+    "tags": ["swivel", "adjustable", "modern", "chrome", "bar seating"]
+  },
+  {
+    "id": 1134,
+    "sku": "TBL-NES-GLO-134",
+    "name": "Globe Nesting Tables",
+    "description": "Set of three nesting tables with spherical bases in different sizes. Space-saving design allows tables to nest together or separate for flexible occasional seating.",
+    "category": "Tables",
+    "subcategory": "Accent Tables",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "white lacquer",
+      "secondary": null,
+      "all_colors": ["white", "glossy white"]
+    },
+    "materials": ["lacquered wood", "spherical base", "smooth finish"],
+    "room_types": ["living room", "family room", "study"],
+    "features": ["nesting design", "set of three", "space-saving"],
+    "tags": [
+      "nesting tables",
+      "space-saving",
+      "spherical",
+      "modern",
+      "flexible"
+    ]
+  },
+  {
+    "id": 1135,
+    "sku": "LAM-WAL-SCO-135",
+    "name": "Wall Sconce Set",
+    "description": "Pair of modern wall sconces with matte black finish and brass accents. Perfect for flanking mirrors, artwork, or providing ambient lighting in hallways and bedrooms.",
+    "category": "Lighting",
+    "subcategory": "Wall Sconces",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "matte black",
+      "secondary": "brass accents",
+      "all_colors": ["black", "brass", "gold"]
+    },
+    "materials": ["powder-coated metal", "brass details", "frosted glass"],
+    "room_types": ["bedroom", "hallway", "living room"],
+    "features": ["set of two", "hardwired", "ambient lighting"],
+    "tags": [
+      "wall sconces",
+      "pair",
+      "ambient lighting",
+      "modern",
+      "brass accents"
+    ]
+  },
+  {
+    "id": 1136,
+    "sku": "CUR-BOH-MUL-136",
+    "name": "Bohemian Multicolor Curtains",
+    "description": "Flowing curtains with bohemian-inspired patterns in warm earth tones and jewel colors. Eclectic design adds artistic flair and vibrant energy to any room.",
+    "category": "Textiles",
+    "subcategory": "Curtains",
+    "style": ["bohemian", "eclectic"],
+    "colors": {
+      "primary": "multicolor",
+      "secondary": "earth tones",
+      "all_colors": ["orange", "red", "gold", "purple", "green"]
+    },
+    "materials": ["cotton blend", "bohemian patterns", "grommet top"],
+    "room_types": ["bedroom", "living room", "family room"],
+    "features": ["bohemian patterns", "vibrant colors", "flowing fabric"],
+    "tags": ["bohemian", "multicolor", "eclectic", "artistic", "vibrant"]
+  },
+  {
+    "id": 1137,
+    "sku": "BED-CAN-BLA-137",
+    "name": "Black Canopy Bed",
+    "description": "Dramatic black metal canopy bed with clean geometric lines and minimalist design. Modern interpretation of classic four-poster creates striking bedroom centerpiece.",
+    "category": "Bedroom",
+    "subcategory": "Beds",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "matte black",
+      "secondary": null,
+      "all_colors": ["black", "matte black"]
+    },
+    "materials": ["powder-coated steel", "geometric design", "modern canopy"],
+    "room_types": ["bedroom"],
+    "features": ["four-poster design", "geometric lines", "modern canopy"],
+    "tags": ["canopy bed", "modern", "geometric", "dramatic", "black"]
+  },
+  {
+    "id": 1138,
+    "sku": "ART-BOT-FRA-138",
+    "name": "Framed Botanical Prints",
+    "description": "Collection of four vintage-inspired botanical prints in matching natural wood frames. Scientific illustration style brings nature indoors with sophisticated presentation.",
+    "category": "Decor & Accessories",
+    "subcategory": "Prints",
+    "style": ["traditional", "natural"],
+    "colors": {
+      "primary": "green",
+      "secondary": "natural wood",
+      "all_colors": ["green", "brown", "cream"]
+    },
+    "materials": ["archival prints", "natural wood frames", "museum glass"],
+    "room_types": ["study", "dining room", "bedroom"],
+    "features": ["set of four", "scientific illustrations", "vintage-inspired"],
+    "tags": [
+      "botanical",
+      "scientific",
+      "vintage-inspired",
+      "nature",
+      "collection"
+    ]
+  },
+  {
+    "id": 1139,
+    "sku": "RUG-GRA-MOD-139",
+    "name": "Modern Gradient Rug",
+    "description": "Contemporary area rug with subtle color gradient from charcoal to light gray. Ombre effect creates visual depth while maintaining neutral palette perfect for modern interiors.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "charcoal gray",
+      "secondary": "light gray",
+      "all_colors": ["charcoal", "gray", "light gray", "silver"]
+    },
+    "materials": ["synthetic blend", "gradient design", "medium pile"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["gradient effect", "ombre design", "neutral tones"],
+    "tags": ["gradient", "ombre", "modern", "neutral", "contemporary"]
+  },
+  {
+    "id": 1140,
+    "sku": "STO-WIN-SEA-140",
+    "name": "Window Seat Bench",
+    "description": "Built-in style window seat bench with hinged storage and comfortable cushioning. Perfect for bay windows or reading nooks with hidden storage compartment.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["transitional", "functional"],
+    "colors": {
+      "primary": "white",
+      "secondary": "gray cushion",
+      "all_colors": ["white", "gray", "off-white"]
+    },
+    "materials": ["engineered wood", "hinged top", "foam cushioning"],
+    "room_types": ["bedroom", "living room", "family room"],
+    "features": ["hinged storage", "window seat design", "built-in appearance"],
+    "tags": [
+      "window seat",
+      "storage",
+      "reading nook",
+      "built-in style",
+      "functional"
+    ]
+  },
+  {
+    "id": 1141,
+    "sku": "LAM-TBL-MAR-141",
+    "name": "Marble Table Lamp",
+    "description": "Elegant table lamp with white marble base and crisp white linen shade. Natural stone veining makes each lamp unique while providing sophisticated illumination.",
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "style": ["contemporary", "luxurious"],
+    "colors": {
+      "primary": "white marble",
+      "secondary": "white linen",
+      "all_colors": ["white", "cream", "gray veining"]
+    },
+    "materials": ["genuine marble", "linen shade", "brass fittings"],
+    "room_types": ["bedroom", "living room", "study"],
+    "features": ["genuine marble", "unique veining", "linen shade"],
+    "tags": [
+      "marble",
+      "luxurious",
+      "unique veining",
+      "sophisticated",
+      "natural stone"
+    ]
+  },
+  {
+    "id": 1142,
+    "sku": "CHR-ACC-PEA-142",
+    "name": "Peacock Blue Accent Chair",
+    "description": "Bold accent chair in luxurious peacock blue velvet with curved silhouette and gold legs. Statement seating piece adds dramatic color and sophistication to any room.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "peacock blue",
+      "secondary": "gold",
+      "all_colors": ["blue", "peacock blue", "gold"]
+    },
+    "materials": ["velvet upholstery", "curved frame", "gold-finished legs"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["curved silhouette", "velvet upholstery", "gold legs"],
+    "tags": ["peacock blue", "statement piece", "velvet", "dramatic", "curved"]
+  },
+  {
+    "id": 1143,
+    "sku": "TBL-COF-LIV-143",
+    "name": "Live Edge Walnut Coffee Table",
+    "description": "Stunning coffee table featuring live edge walnut slab with natural bark edge and steel hairpin legs. Each piece celebrates unique wood grain and natural character.",
+    "category": "Tables",
+    "subcategory": "Coffee Tables",
+    "style": ["rustic", "contemporary"],
+    "colors": {
+      "primary": "natural walnut",
+      "secondary": "black steel",
+      "all_colors": ["brown", "black", "natural wood"]
+    },
+    "materials": ["live edge walnut", "steel hairpin legs", "natural finish"],
+    "room_types": ["living room", "family room"],
+    "features": ["live edge", "natural bark edge", "unique grain"],
+    "tags": ["live edge", "natural", "unique", "walnut", "organic"]
+  },
+  {
+    "id": 1144,
+    "sku": "BLN-KAS-CRE-144",
+    "name": "Cream Cashmere Throw",
+    "description": "Luxurious cashmere throw blanket in soft cream color with subtle texture. Ultimate comfort and elegance perfect for adding warmth and sophistication to any seating area.",
+    "category": "Textiles",
+    "subcategory": "Throw Blankets",
+    "style": ["luxurious", "contemporary"],
+    "colors": {
+      "primary": "cream",
+      "secondary": null,
+      "all_colors": ["cream", "ivory", "off-white"]
+    },
+    "materials": ["100% cashmere", "soft texture", "luxury fibers"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["cashmere fiber", "luxury softness", "elegant texture"],
+    "tags": ["cashmere", "luxurious", "soft", "elegant", "premium"]
+  },
+  {
+    "id": 1145,
+    "sku": "MIR-FLO-SIL-145",
+    "name": "Silver Floor Mirror",
+    "description": "Full-length floor mirror with sleek silver frame and contemporary design. Perfect for bedrooms or dressing areas, combining functionality with modern elegance.",
+    "category": "Decor & Accessories",
+    "subcategory": "Mirrors",
+    "style": ["contemporary", "modern"],
+    "colors": {
+      "primary": "silver",
+      "secondary": null,
+      "all_colors": ["silver", "chrome", "metallic"]
+    },
+    "materials": [
+      "silver-finished frame",
+      "full-length mirror",
+      "floor standing"
+    ],
+    "room_types": ["bedroom", "dressing room", "entryway"],
+    "features": ["full-length", "floor standing", "silver frame"],
+    "tags": ["full-length", "floor mirror", "silver", "contemporary", "bedroom"]
+  },
+  {
+    "id": 1146,
+    "sku": "STO-CUB-MOD-146",
+    "name": "Modular Cube Storage",
+    "description": "Expandable cube storage system in white with multiple configuration options. Versatile organization solution grows with changing storage needs in any room.",
+    "category": "Storage",
+    "subcategory": "Shelving Units",
+    "style": ["contemporary", "modular"],
+    "colors": {
+      "primary": "white",
+      "secondary": null,
+      "all_colors": ["white", "off-white"]
+    },
+    "materials": ["engineered wood", "modular components", "painted finish"],
+    "room_types": ["living room", "bedroom", "family room"],
+    "features": ["modular design", "expandable", "multiple configurations"],
+    "tags": [
+      "modular",
+      "expandable",
+      "versatile",
+      "organization",
+      "configurable"
+    ]
+  },
+  {
+    "id": 1147,
+    "sku": "LAM-PEN-FAR-147",
+    "name": "Farmhouse Pendant Light",
+    "description": "Rustic pendant light with chicken wire glass shade and weathered metal finish. Authentic farmhouse styling perfect for kitchens seeking country charm with modern function.",
+    "category": "Lighting",
+    "subcategory": "Pendant Lights",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "weathered metal",
+      "secondary": "clear glass",
+      "all_colors": ["gray", "silver", "clear"]
+    },
+    "materials": ["weathered metal", "chicken wire glass", "rustic finish"],
+    "room_types": ["kitchen", "dining room", "family room"],
+    "features": ["chicken wire glass", "weathered finish", "farmhouse styling"],
+    "tags": ["farmhouse", "chicken wire", "weathered", "rustic", "country"]
+  },
+  {
+    "id": 1148,
+    "sku": "RUG-NAT-SEA-148",
+    "name": "Natural Seagrass Rug",
+    "description": "Handwoven seagrass area rug in natural beige with cotton border. Sustainable natural fiber adds organic texture while providing durable floor covering.",
+    "category": "Textiles",
+    "subcategory": "Area Rugs",
+    "style": ["natural", "coastal"],
+    "colors": {
+      "primary": "natural beige",
+      "secondary": "cotton border",
+      "all_colors": ["beige", "tan", "cream"]
+    },
+    "materials": ["seagrass fiber", "cotton border", "handwoven"],
+    "room_types": ["living room", "family room", "sunroom"],
+    "features": ["handwoven", "natural fiber", "sustainable material"],
+    "tags": ["seagrass", "natural", "sustainable", "handwoven", "organic"]
+  },
+  {
+    "id": 1149,
+    "sku": "ART-ABS-MUL-149",
+    "name": "Abstract Multicolor Canvas",
+    "description": "Large abstract canvas painting with vibrant multicolor brushstrokes and dynamic composition. Original artwork adds energy and creative expression to modern interiors.",
+    "category": "Decor & Accessories",
+    "subcategory": "Canvas Art",
+    "style": ["abstract", "contemporary"],
+    "colors": {
+      "primary": "multicolor",
+      "secondary": "vibrant tones",
+      "all_colors": ["red", "blue", "yellow", "orange", "purple"]
+    },
+    "materials": ["canvas", "acrylic paint", "gallery frame"],
+    "room_types": ["living room", "study", "family room"],
+    "features": ["original artwork", "vibrant colors", "dynamic composition"],
+    "tags": ["abstract", "multicolor", "vibrant", "original art", "energetic"]
+  },
+  {
+    "id": 1150,
+    "sku": "STO-ENT-HAL-150",
+    "name": "Hallway Storage Console",
+    "description": "Narrow console table with drawers and lower shelf perfect for hallways and tight spaces. Maximizes storage while maintaining traffic flow in narrow areas.",
+    "category": "Storage",
+    "subcategory": "Cabinets",
+    "style": ["transitional", "functional"],
+    "colors": {
+      "primary": "espresso",
+      "secondary": "brushed nickel",
+      "all_colors": ["dark brown", "espresso", "silver"]
+    },
+    "materials": ["engineered wood", "metal hardware", "narrow profile"],
+    "room_types": ["hallway", "entryway"],
+    "features": ["narrow profile", "drawer storage", "lower shelf"],
+    "tags": ["narrow", "hallway", "space-efficient", "storage", "console"]
+  },
+  {
+    "id": 1151,
+    "sku": "SOF-MOD-GRY-151",
+    "name": "Modern Gray Sofa",
+    "description": "Three-seat sofa in soft gray fabric with slim metal legs and minimalist silhouette. Perfect for contemporary living rooms seeking understated elegance.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "gray",
+      "secondary": "chrome",
+      "all_colors": ["gray", "chrome", "silver"]
+    },
+    "materials": ["fabric upholstery", "metal legs", "foam padding"],
+    "room_types": ["living room", "family room"],
+    "features": ["removable cushions", "easy-care fabric", "slim profile"],
+    "tags": ["modern", "minimalist", "gray", "sleek", "comfortable"]
+  },
+  {
+    "id": 1152,
+    "sku": "CHR-MID-WAL-152",
+    "name": "Walnut Mid-Century Chair",
+    "description": "Iconic mid-century armchair with walnut frame and teal velvet seat. Tapered legs and curved backrest offer vintage charm and comfort.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["mid-century modern", "vintage"],
+    "colors": {
+      "primary": "walnut",
+      "secondary": "teal",
+      "all_colors": ["walnut", "teal", "brown"]
+    },
+    "materials": ["solid walnut", "velvet upholstery", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["tapered legs", "curved back", "velvet seat"],
+    "tags": ["mid-century", "vintage", "walnut", "teal", "accent"]
+  },
+  {
+    "id": 1153,
+    "sku": "BEN-STO-STR-153",
+    "name": "Storage Bench",
+    "description": "Upholstered bench with hidden storage compartment and tufted top in navy blue. Ideal for entryways or bedrooms needing extra organization.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["transitional", "functional"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "silver",
+      "all_colors": ["navy blue", "silver", "blue"]
+    },
+    "materials": ["fabric upholstery", "engineered wood", "metal hardware"],
+    "room_types": ["entryway", "bedroom", "living room"],
+    "features": ["hidden storage", "tufted top", "soft-close lid"],
+    "tags": ["storage", "bench", "navy", "tufted", "functional"]
+  },
+  {
+    "id": 1154,
+    "sku": "CHR-ACC-RED-154",
+    "name": "Red Accent Chair",
+    "description": "Bold accent chair in cherry red velvet with gold legs and curved silhouette. Adds dramatic color and sophistication to any room.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "red",
+      "secondary": "gold",
+      "all_colors": ["red", "gold", "cherry"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "foam padding"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["curved silhouette", "velvet upholstery", "gold legs"],
+    "tags": ["red", "accent", "glam", "velvet", "statement"]
+  },
+  {
+    "id": 1155,
+    "sku": "SOF-SCN-BLU-155",
+    "name": "Scandinavian Blue Sofa",
+    "description": "Minimalist three-seat sofa in blue linen with oak legs. Scandinavian design emphasizes comfort and simplicity for modern living spaces.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["scandinavian", "minimalist"],
+    "colors": {
+      "primary": "blue",
+      "secondary": "oak",
+      "all_colors": ["blue", "oak", "beige"]
+    },
+    "materials": ["linen upholstery", "oak legs", "foam cushions"],
+    "room_types": ["living room", "family room"],
+    "features": ["removable covers", "solid oak legs", "minimalist design"],
+    "tags": ["scandinavian", "blue", "minimalist", "comfortable", "modern"]
+  },
+  {
+    "id": 1156,
+    "sku": "CHR-IND-BLK-156",
+    "name": "Industrial Black Chair",
+    "description": "Powder-coated black metal chair with distressed leather seat. Urban design perfect for lofts and contemporary dining spaces.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["industrial", "urban"],
+    "colors": {
+      "primary": "black",
+      "secondary": "brown",
+      "all_colors": ["black", "brown", "dark brown"]
+    },
+    "materials": ["metal frame", "leather seat", "powder-coated finish"],
+    "room_types": ["dining room", "kitchen", "study"],
+    "features": ["stackable", "powder-coated finish", "distressed leather"],
+    "tags": ["industrial", "black", "urban", "durable", "stackable"]
+  },
+  {
+    "id": 1157,
+    "sku": "BEN-UPH-GRN-157",
+    "name": "Green Upholstered Bench",
+    "description": "Button-tufted bench in sage green velvet with brass legs. Elegant seating for bedrooms, entryways, or living rooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["contemporary", "glam"],
+    "colors": {
+      "primary": "sage green",
+      "secondary": "brass",
+      "all_colors": ["sage green", "brass", "green"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "engineered wood"],
+    "room_types": ["bedroom", "entryway", "living room"],
+    "features": ["button tufting", "brass legs", "velvet fabric"],
+    "tags": ["green", "bench", "velvet", "glam", "tufted"]
+  },
+  {
+    "id": 1158,
+    "sku": "CHR-ARM-LEA-158",
+    "name": "Leather Armchair",
+    "description": "Classic armchair in top-grain brown leather with nail head trim. Timeless design for studies, living rooms, or reading nooks.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["traditional", "classic"],
+    "colors": {
+      "primary": "brown",
+      "secondary": "brass",
+      "all_colors": ["brown", "brass", "cognac"]
+    },
+    "materials": ["top-grain leather", "hardwood frame", "brass hardware"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["nail head trim", "leather upholstery", "sturdy frame"],
+    "tags": ["leather", "armchair", "classic", "brown", "traditional"]
+  },
+  {
+    "id": 1159,
+    "sku": "SOF-VLV-EMR-159",
+    "name": "Emerald Velvet Sofa",
+    "description": "Luxurious emerald green velvet sofa with gold-finished legs. Adds glamour and sophisticated color to any living space.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "emerald green",
+      "secondary": "gold",
+      "all_colors": ["emerald green", "gold", "green"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "foam padding"],
+    "room_types": ["living room", "bedroom"],
+    "features": ["luxury velvet", "gold legs", "high-density foam"],
+    "tags": ["emerald", "velvet", "glam", "luxury", "sofa"]
+  },
+  {
+    "id": 1160,
+    "sku": "BEN-MOD-WHT-160",
+    "name": "Modern White Bench",
+    "description": "Sleek white bench with chrome legs and minimalist design. Perfect for entryways, bedrooms, or under windows.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "white",
+      "secondary": "chrome",
+      "all_colors": ["white", "chrome", "silver"]
+    },
+    "materials": ["engineered wood", "chrome legs", "foam padding"],
+    "room_types": ["entryway", "bedroom", "living room"],
+    "features": ["minimalist design", "chrome legs", "easy to clean"],
+    "tags": ["white", "bench", "modern", "minimalist", "sleek"]
+  },
+  {
+    "id": 1161,
+    "sku": "CHR-GLD-ACC-161",
+    "name": "Gold Accent Chair",
+    "description": "Accent chair in plush navy velvet with gold frame and geometric arms. Adds luxury and bold style to living spaces.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "modern"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "gold",
+      "all_colors": ["navy blue", "gold", "blue"]
+    },
+    "materials": ["velvet upholstery", "metal frame", "foam padding"],
+    "room_types": ["living room", "bedroom", "study"],
+    "features": ["gold frame", "geometric arms", "plush velvet"],
+    "tags": ["gold", "accent", "navy", "glam", "modern"]
+  },
+  {
+    "id": 1162,
+    "sku": "SOF-SEC-GRY-162",
+    "name": "Gray Sectional Sofa",
+    "description": "Spacious L-shaped sectional in charcoal gray fabric with reversible chaise. Ideal for family rooms and entertaining.",
+    "category": "Seating",
+    "subcategory": "Sectionals",
+    "style": ["contemporary", "family-friendly"],
+    "colors": {
+      "primary": "charcoal gray",
+      "secondary": "black",
+      "all_colors": ["charcoal gray", "black", "dark gray"]
+    },
+    "materials": ["fabric upholstery", "hardwood frame", "foam cushions"],
+    "room_types": ["living room", "family room"],
+    "features": ["reversible chaise", "removable cushions", "stain-resistant"],
+    "tags": ["sectional", "gray", "family", "spacious", "modern"]
+  },
+  {
+    "id": 1163,
+    "sku": "CHR-COA-BLU-163",
+    "name": "Coastal Blue Chair",
+    "description": "Accent chair in light blue linen with whitewashed wood frame. Coastal style brings breezy comfort to living rooms or sunrooms.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["coastal", "casual"],
+    "colors": {
+      "primary": "light blue",
+      "secondary": "whitewashed wood",
+      "all_colors": ["light blue", "white", "beige"]
+    },
+    "materials": ["linen upholstery", "wood frame", "foam padding"],
+    "room_types": ["living room", "sunroom", "bedroom"],
+    "features": ["whitewashed frame", "linen fabric", "casual comfort"],
+    "tags": ["coastal", "blue", "casual", "linen", "accent"]
+  },
+  {
+    "id": 1164,
+    "sku": "BEN-VIN-LEA-164",
+    "name": "Vintage Leather Bench",
+    "description": "Bench in distressed brown leather with antique brass studs and solid wood legs. Adds character to entryways or bedrooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["vintage", "traditional"],
+    "colors": {
+      "primary": "brown",
+      "secondary": "brass",
+      "all_colors": ["brown", "brass", "tan"]
+    },
+    "materials": ["distressed leather", "wood legs", "brass studs"],
+    "room_types": ["entryway", "bedroom", "living room"],
+    "features": ["distressed leather", "brass studs", "solid wood"],
+    "tags": ["vintage", "leather", "bench", "brown", "traditional"]
+  },
+  {
+    "id": 1165,
+    "sku": "CHR-ARM-GRN-165",
+    "name": "Green Armchair",
+    "description": "Armchair in olive green velvet with walnut legs and deep seat. Comfortable reading chair for living rooms or studies.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "comfortable"],
+    "colors": {
+      "primary": "olive green",
+      "secondary": "walnut",
+      "all_colors": ["olive green", "walnut", "brown"]
+    },
+    "materials": ["velvet upholstery", "wood legs", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["deep seat", "walnut legs", "velvet fabric"],
+    "tags": ["green", "armchair", "velvet", "comfortable", "modern"]
+  },
+  {
+    "id": 1166,
+    "sku": "SOF-RET-BLU-166",
+    "name": "Retro Blue Sofa",
+    "description": "Retro-inspired sofa in bright blue fabric with angled wood legs. Fun style for eclectic living rooms or game rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["retro", "eclectic"],
+    "colors": {
+      "primary": "bright blue",
+      "secondary": "natural wood",
+      "all_colors": ["bright blue", "natural wood", "beige"]
+    },
+    "materials": ["fabric upholstery", "wood legs", "foam cushions"],
+    "room_types": ["living room", "game room", "family room"],
+    "features": ["angled legs", "retro style", "bright color"],
+    "tags": ["retro", "blue", "sofa", "fun", "eclectic"]
+  },
+  {
+    "id": 1167,
+    "sku": "BEN-COA-WHT-167",
+    "name": "White Coastal Bench",
+    "description": "Bench in white painted wood with slatted seat and open shelf. Coastal style for breezy entryways or mudrooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["coastal", "casual"],
+    "colors": {
+      "primary": "white",
+      "secondary": "natural wood",
+      "all_colors": ["white", "natural wood", "beige"]
+    },
+    "materials": ["painted wood", "engineered wood", "metal hardware"],
+    "room_types": ["entryway", "mudroom", "bedroom"],
+    "features": ["slatted seat", "open shelf", "coastal style"],
+    "tags": ["white", "bench", "coastal", "casual", "storage"]
+  },
+  {
+    "id": 1168,
+    "sku": "CHR-GLM-PNK-168",
+    "name": "Pink Glam Chair",
+    "description": "Accent chair in blush pink velvet with gold legs and tufted back. Glamorous seating for bedrooms or dressing rooms.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "blush pink",
+      "secondary": "gold",
+      "all_colors": ["blush pink", "gold", "pink"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "foam padding"],
+    "room_types": ["bedroom", "dressing room", "living room"],
+    "features": ["tufted back", "gold legs", "velvet fabric"],
+    "tags": ["pink", "glam", "chair", "velvet", "tufted"]
+  },
+  {
+    "id": 1169,
+    "sku": "SOF-SEC-BRN-169",
+    "name": "Brown Sectional Sofa",
+    "description": "Large sectional in chocolate brown microfiber with chaise lounge and storage ottoman. Family-friendly and easy to clean.",
+    "category": "Seating",
+    "subcategory": "Sectionals",
+    "style": ["family-friendly", "modern"],
+    "colors": {
+      "primary": "chocolate brown",
+      "secondary": "black",
+      "all_colors": ["chocolate brown", "black", "dark brown"]
+    },
+    "materials": ["microfiber upholstery", "hardwood frame", "foam cushions"],
+    "room_types": ["living room", "family room"],
+    "features": ["chaise lounge", "storage ottoman", "easy-care fabric"],
+    "tags": ["brown", "sectional", "family", "storage", "modern"]
+  },
+  {
+    "id": 1170,
+    "sku": "CHR-BOH-MUL-170",
+    "name": "Bohemian Multicolor Chair",
+    "description": "Boho accent chair with handwoven multicolor fabric and natural wood frame. Artistic flair for eclectic interiors.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["bohemian", "eclectic"],
+    "colors": {
+      "primary": "multicolor",
+      "secondary": "natural wood",
+      "all_colors": ["red", "blue", "yellow", "green", "natural wood"]
+    },
+    "materials": ["handwoven fabric", "wood frame", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["handwoven fabric", "artistic design", "comfortable seat"],
+    "tags": ["bohemian", "multicolor", "chair", "artistic", "eclectic"]
+  },
+  {
+    "id": 1171,
+    "sku": "BEN-MID-GRN-171",
+    "name": "Mid-Century Green Bench",
+    "description": "Bench in olive green fabric with tapered walnut legs and button tufting. Vintage style for entryways or bedrooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["mid-century modern", "vintage"],
+    "colors": {
+      "primary": "olive green",
+      "secondary": "walnut",
+      "all_colors": ["olive green", "walnut", "brown"]
+    },
+    "materials": ["fabric upholstery", "wood legs", "foam padding"],
+    "room_types": ["entryway", "bedroom", "living room"],
+    "features": ["tapered legs", "button tufting", "mid-century style"],
+    "tags": ["mid-century", "green", "bench", "vintage", "tufted"]
+  },
+  {
+    "id": 1172,
+    "sku": "CHR-RET-YEL-172",
+    "name": "Retro Yellow Chair",
+    "description": "Accent chair in bright yellow vinyl with chrome legs and curved back. Fun retro style for game rooms or offices.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["retro", "fun"],
+    "colors": {
+      "primary": "yellow",
+      "secondary": "chrome",
+      "all_colors": ["yellow", "chrome", "silver"]
+    },
+    "materials": ["vinyl upholstery", "metal legs", "foam padding"],
+    "room_types": ["game room", "office", "living room"],
+    "features": ["curved back", "chrome legs", "retro style"],
+    "tags": ["retro", "yellow", "chair", "fun", "accent"]
+  },
+  {
+    "id": 1173,
+    "sku": "SOF-LUX-BLK-173",
+    "name": "Luxury Black Sofa",
+    "description": "Elegant black velvet sofa with deep seat and gold trim. Sophisticated centerpiece for formal living rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["luxurious", "contemporary"],
+    "colors": {
+      "primary": "black",
+      "secondary": "gold",
+      "all_colors": ["black", "gold", "charcoal"]
+    },
+    "materials": ["velvet upholstery", "metal trim", "foam cushions"],
+    "room_types": ["living room", "study"],
+    "features": ["deep seat", "gold trim", "luxury velvet"],
+    "tags": ["luxury", "black", "sofa", "velvet", "gold"]
+  },
+  {
+    "id": 1174,
+    "sku": "BEN-FRM-OAK-174",
+    "name": "Oak Farmhouse Bench",
+    "description": "Solid oak bench with natural finish and crossbeam legs. Farmhouse style for dining rooms or entryways.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "oak",
+      "secondary": "natural wood",
+      "all_colors": ["oak", "natural wood", "brown"]
+    },
+    "materials": ["solid oak", "wood joinery"],
+    "room_types": ["dining room", "entryway", "mudroom"],
+    "features": ["crossbeam legs", "solid oak", "farmhouse style"],
+    "tags": ["oak", "farmhouse", "bench", "rustic", "solid wood"]
+  },
+  {
+    "id": 1175,
+    "sku": "CHR-GLD-WHT-175",
+    "name": "White and Gold Chair",
+    "description": "Accent chair in white faux leather with gold metal frame and angular arms. Modern glam for living rooms or offices.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "glam"],
+    "colors": {
+      "primary": "white",
+      "secondary": "gold",
+      "all_colors": ["white", "gold", "cream"]
+    },
+    "materials": ["faux leather", "metal frame", "foam padding"],
+    "room_types": ["living room", "office", "bedroom"],
+    "features": ["angular arms", "gold frame", "faux leather"],
+    "tags": ["white", "gold", "chair", "modern", "glam"]
+  },
+  {
+    "id": 1176,
+    "sku": "SOF-SEC-BLU-176",
+    "name": "Blue Sectional Sofa",
+    "description": "Large sectional in navy blue fabric with reversible chaise and storage ottoman. Perfect for family gatherings.",
+    "category": "Seating",
+    "subcategory": "Sectionals",
+    "style": ["contemporary", "family-friendly"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "black",
+      "all_colors": ["navy blue", "black", "blue"]
+    },
+    "materials": ["fabric upholstery", "hardwood frame", "foam cushions"],
+    "room_types": ["living room", "family room"],
+    "features": ["reversible chaise", "storage ottoman", "easy-care fabric"],
+    "tags": ["blue", "sectional", "family", "storage", "modern"]
+  },
+  {
+    "id": 1177,
+    "sku": "BEN-GLM-SLV-177",
+    "name": "Silver Glam Bench",
+    "description": "Bench in silver velvet with acrylic legs and tufted seat. Glamorous accent for bedrooms or dressing areas.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["glam", "modern"],
+    "colors": {
+      "primary": "silver",
+      "secondary": "clear acrylic",
+      "all_colors": ["silver", "clear", "gray"]
+    },
+    "materials": ["velvet upholstery", "acrylic legs", "foam padding"],
+    "room_types": ["bedroom", "dressing room", "living room"],
+    "features": ["acrylic legs", "tufted seat", "glam style"],
+    "tags": ["silver", "bench", "glam", "acrylic", "tufted"]
+  },
+  {
+    "id": 1178,
+    "sku": "CHR-ARM-BLU-178",
+    "name": "Blue Armchair",
+    "description": "Armchair in deep blue linen with walnut legs and wide seat. Comfortable reading chair for living rooms or studies.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "comfortable"],
+    "colors": {
+      "primary": "deep blue",
+      "secondary": "walnut",
+      "all_colors": ["deep blue", "walnut", "brown"]
+    },
+    "materials": ["linen upholstery", "wood legs", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["wide seat", "walnut legs", "linen fabric"],
+    "tags": ["blue", "armchair", "linen", "comfortable", "modern"]
+  },
+  {
+    "id": 1179,
+    "sku": "SOF-MOD-WHT-179",
+    "name": "Modern White Sofa",
+    "description": "Three-seat sofa in white faux leather with chrome legs and minimalist silhouette. Sleek style for contemporary living rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "white",
+      "secondary": "chrome",
+      "all_colors": ["white", "chrome", "silver"]
+    },
+    "materials": ["faux leather", "metal legs", "foam padding"],
+    "room_types": ["living room", "family room"],
+    "features": ["removable cushions", "easy-care fabric", "slim profile"],
+    "tags": ["modern", "white", "sofa", "sleek", "minimalist"]
+  },
+  {
+    "id": 1180,
+    "sku": "BEN-RUS-WAL-180",
+    "name": "Rustic Walnut Bench",
+    "description": "Bench in reclaimed walnut with natural finish and metal legs. Rustic style for entryways or dining rooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["rustic", "industrial"],
+    "colors": {
+      "primary": "walnut",
+      "secondary": "black metal",
+      "all_colors": ["walnut", "black", "brown"]
+    },
+    "materials": ["reclaimed walnut", "metal legs"],
+    "room_types": ["entryway", "dining room", "mudroom"],
+    "features": ["reclaimed wood", "metal legs", "rustic style"],
+    "tags": ["rustic", "walnut", "bench", "industrial", "reclaimed"]
+  },
+  {
+    "id": 1181,
+    "sku": "CHR-GLM-GRN-181",
+    "name": "Green Glam Chair",
+    "description": "Accent chair in emerald green velvet with gold legs and tufted back. Glamorous seating for bedrooms or living rooms.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "emerald green",
+      "secondary": "gold",
+      "all_colors": ["emerald green", "gold", "green"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "foam padding"],
+    "room_types": ["bedroom", "living room", "study"],
+    "features": ["tufted back", "gold legs", "velvet fabric"],
+    "tags": ["green", "glam", "chair", "velvet", "tufted"]
+  },
+  {
+    "id": 1182,
+    "sku": "SOF-RET-YEL-182",
+    "name": "Retro Yellow Sofa",
+    "description": "Retro-inspired sofa in bright yellow fabric with angled wood legs. Fun style for eclectic living rooms or game rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["retro", "eclectic"],
+    "colors": {
+      "primary": "bright yellow",
+      "secondary": "natural wood",
+      "all_colors": ["bright yellow", "natural wood", "beige"]
+    },
+    "materials": ["fabric upholstery", "wood legs", "foam cushions"],
+    "room_types": ["living room", "game room", "family room"],
+    "features": ["angled legs", "retro style", "bright color"],
+    "tags": ["retro", "yellow", "sofa", "fun", "eclectic"]
+  },
+  {
+    "id": 1183,
+    "sku": "BEN-MOD-BLK-183",
+    "name": "Modern Black Bench",
+    "description": "Bench in black faux leather with chrome legs and minimalist design. Sleek seating for entryways or bedrooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "black",
+      "secondary": "chrome",
+      "all_colors": ["black", "chrome", "silver"]
+    },
+    "materials": ["faux leather", "metal legs", "foam padding"],
+    "room_types": ["entryway", "bedroom", "living room"],
+    "features": ["minimalist design", "chrome legs", "easy to clean"],
+    "tags": ["black", "bench", "modern", "minimalist", "sleek"]
+  },
+  {
+    "id": 1184,
+    "sku": "CHR-ARM-RED-184",
+    "name": "Red Armchair",
+    "description": "Armchair in cherry red velvet with walnut legs and deep seat. Comfortable reading chair for living rooms or studies.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "comfortable"],
+    "colors": {
+      "primary": "cherry red",
+      "secondary": "walnut",
+      "all_colors": ["cherry red", "walnut", "brown"]
+    },
+    "materials": ["velvet upholstery", "wood legs", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["deep seat", "walnut legs", "velvet fabric"],
+    "tags": ["red", "armchair", "velvet", "comfortable", "modern"]
+  },
+  {
+    "id": 1185,
+    "sku": "SOF-LUX-GRN-185",
+    "name": "Luxury Green Sofa",
+    "description": "Elegant green velvet sofa with deep seat and gold trim. Sophisticated centerpiece for formal living rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["luxurious", "contemporary"],
+    "colors": {
+      "primary": "green",
+      "secondary": "gold",
+      "all_colors": ["green", "gold", "emerald"]
+    },
+    "materials": ["velvet upholstery", "metal trim", "foam cushions"],
+    "room_types": ["living room", "study"],
+    "features": ["deep seat", "gold trim", "luxury velvet"],
+    "tags": ["luxury", "green", "sofa", "velvet", "gold"]
+  },
+  {
+    "id": 1186,
+    "sku": "BEN-FRM-WHT-186",
+    "name": "White Farmhouse Bench",
+    "description": "Bench in white painted wood with crossbeam legs and natural finish. Farmhouse style for dining rooms or entryways.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "white",
+      "secondary": "natural wood",
+      "all_colors": ["white", "natural wood", "beige"]
+    },
+    "materials": ["painted wood", "wood joinery"],
+    "room_types": ["dining room", "entryway", "mudroom"],
+    "features": ["crossbeam legs", "farmhouse style", "solid wood"],
+    "tags": ["white", "farmhouse", "bench", "rustic", "solid wood"]
+  },
+  {
+    "id": 1187,
+    "sku": "CHR-GLD-BLK-187",
+    "name": "Black and Gold Chair",
+    "description": "Accent chair in black faux leather with gold metal frame and angular arms. Modern glam for living rooms or offices.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "glam"],
+    "colors": {
+      "primary": "black",
+      "secondary": "gold",
+      "all_colors": ["black", "gold", "charcoal"]
+    },
+    "materials": ["faux leather", "metal frame", "foam padding"],
+    "room_types": ["living room", "office", "bedroom"],
+    "features": ["angular arms", "gold frame", "faux leather"],
+    "tags": ["black", "gold", "chair", "modern", "glam"]
+  },
+  {
+    "id": 1188,
+    "sku": "SOF-SEC-GRN-188",
+    "name": "Green Sectional Sofa",
+    "description": "Large sectional in sage green fabric with reversible chaise and storage ottoman. Perfect for family gatherings.",
+    "category": "Seating",
+    "subcategory": "Sectionals",
+    "style": ["contemporary", "family-friendly"],
+    "colors": {
+      "primary": "sage green",
+      "secondary": "black",
+      "all_colors": ["sage green", "black", "green"]
+    },
+    "materials": ["fabric upholstery", "hardwood frame", "foam cushions"],
+    "room_types": ["living room", "family room"],
+    "features": ["reversible chaise", "storage ottoman", "easy-care fabric"],
+    "tags": ["green", "sectional", "family", "storage", "modern"]
+  },
+  {
+    "id": 1189,
+    "sku": "BEN-GLM-PNK-189",
+    "name": "Pink Glam Bench",
+    "description": "Bench in blush pink velvet with acrylic legs and tufted seat. Glamorous accent for bedrooms or dressing areas.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["glam", "modern"],
+    "colors": {
+      "primary": "blush pink",
+      "secondary": "clear acrylic",
+      "all_colors": ["blush pink", "clear", "pink"]
+    },
+    "materials": ["velvet upholstery", "acrylic legs", "foam padding"],
+    "room_types": ["bedroom", "dressing room", "living room"],
+    "features": ["acrylic legs", "tufted seat", "glam style"],
+    "tags": ["pink", "bench", "glam", "acrylic", "tufted"]
+  },
+  {
+    "id": 1190,
+    "sku": "CHR-ARM-WHT-190",
+    "name": "White Armchair",
+    "description": "Armchair in white linen with walnut legs and wide seat. Comfortable reading chair for living rooms or studies.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "comfortable"],
+    "colors": {
+      "primary": "white",
+      "secondary": "walnut",
+      "all_colors": ["white", "walnut", "brown"]
+    },
+    "materials": ["linen upholstery", "wood legs", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["wide seat", "walnut legs", "linen fabric"],
+    "tags": ["white", "armchair", "linen", "comfortable", "modern"]
+  },
+  {
+    "id": 1191,
+    "sku": "SOF-MOD-BLK-191",
+    "name": "Modern Black Sofa",
+    "description": "Three-seat sofa in black faux leather with chrome legs and minimalist silhouette. Sleek style for contemporary living rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "black",
+      "secondary": "chrome",
+      "all_colors": ["black", "chrome", "silver"]
+    },
+    "materials": ["faux leather", "metal legs", "foam padding"],
+    "room_types": ["living room", "family room"],
+    "features": ["removable cushions", "easy-care fabric", "slim profile"],
+    "tags": ["modern", "black", "sofa", "sleek", "minimalist"]
+  },
+  {
+    "id": 1192,
+    "sku": "BEN-RUS-OAK-192",
+    "name": "Rustic Oak Bench",
+    "description": "Bench in reclaimed oak with natural finish and metal legs. Rustic style for entryways or dining rooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["rustic", "industrial"],
+    "colors": {
+      "primary": "oak",
+      "secondary": "black metal",
+      "all_colors": ["oak", "black", "brown"]
+    },
+    "materials": ["reclaimed oak", "metal legs"],
+    "room_types": ["entryway", "dining room", "mudroom"],
+    "features": ["reclaimed wood", "metal legs", "rustic style"],
+    "tags": ["rustic", "oak", "bench", "industrial", "reclaimed"]
+  },
+  {
+    "id": 1193,
+    "sku": "CHR-GLM-BLU-193",
+    "name": "Blue Glam Chair",
+    "description": "Accent chair in navy blue velvet with gold legs and tufted back. Glamorous seating for bedrooms or living rooms.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["glam", "contemporary"],
+    "colors": {
+      "primary": "navy blue",
+      "secondary": "gold",
+      "all_colors": ["navy blue", "gold", "blue"]
+    },
+    "materials": ["velvet upholstery", "metal legs", "foam padding"],
+    "room_types": ["bedroom", "living room", "study"],
+    "features": ["tufted back", "gold legs", "velvet fabric"],
+    "tags": ["blue", "glam", "chair", "velvet", "tufted"]
+  },
+  {
+    "id": 1194,
+    "sku": "SOF-RET-GRN-194",
+    "name": "Retro Green Sofa",
+    "description": "Retro-inspired sofa in bright green fabric with angled wood legs. Fun style for eclectic living rooms or game rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["retro", "eclectic"],
+    "colors": {
+      "primary": "bright green",
+      "secondary": "natural wood",
+      "all_colors": ["bright green", "natural wood", "beige"]
+    },
+    "materials": ["fabric upholstery", "wood legs", "foam cushions"],
+    "room_types": ["living room", "game room", "family room"],
+    "features": ["angled legs", "retro style", "bright color"],
+    "tags": ["retro", "green", "sofa", "fun", "eclectic"]
+  },
+  {
+    "id": 1195,
+    "sku": "BEN-MOD-GRY-195",
+    "name": "Modern Gray Bench",
+    "description": "Bench in gray faux leather with chrome legs and minimalist design. Sleek seating for entryways or bedrooms.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["modern", "minimalist"],
+    "colors": {
+      "primary": "gray",
+      "secondary": "chrome",
+      "all_colors": ["gray", "chrome", "silver"]
+    },
+    "materials": ["faux leather", "metal legs", "foam padding"],
+    "room_types": ["entryway", "bedroom", "living room"],
+    "features": ["minimalist design", "chrome legs", "easy to clean"],
+    "tags": ["gray", "bench", "modern", "minimalist", "sleek"]
+  },
+  {
+    "id": 1196,
+    "sku": "CHR-ARM-PNK-196",
+    "name": "Pink Armchair",
+    "description": "Armchair in blush pink velvet with walnut legs and wide seat. Comfortable reading chair for living rooms or studies.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "comfortable"],
+    "colors": {
+      "primary": "blush pink",
+      "secondary": "walnut",
+      "all_colors": ["blush pink", "walnut", "brown"]
+    },
+    "materials": ["velvet upholstery", "wood legs", "foam padding"],
+    "room_types": ["living room", "study", "bedroom"],
+    "features": ["wide seat", "walnut legs", "velvet fabric"],
+    "tags": ["pink", "armchair", "velvet", "comfortable", "modern"]
+  },
+  {
+    "id": 1197,
+    "sku": "SOF-LUX-BLU-197",
+    "name": "Luxury Blue Sofa",
+    "description": "Elegant blue velvet sofa with deep seat and gold trim. Sophisticated centerpiece for formal living rooms.",
+    "category": "Seating",
+    "subcategory": "Sofas",
+    "style": ["luxurious", "contemporary"],
+    "colors": {
+      "primary": "blue",
+      "secondary": "gold",
+      "all_colors": ["blue", "gold", "navy"]
+    },
+    "materials": ["velvet upholstery", "metal trim", "foam cushions"],
+    "room_types": ["living room", "study"],
+    "features": ["deep seat", "gold trim", "luxury velvet"],
+    "tags": ["luxury", "blue", "sofa", "velvet", "gold"]
+  },
+  {
+    "id": 1198,
+    "sku": "BEN-FRM-GRN-198",
+    "name": "Green Farmhouse Bench",
+    "description": "Bench in sage green painted wood with crossbeam legs and natural finish. Farmhouse style for dining rooms or entryways.",
+    "category": "Seating",
+    "subcategory": "Benches",
+    "style": ["farmhouse", "rustic"],
+    "colors": {
+      "primary": "sage green",
+      "secondary": "natural wood",
+      "all_colors": ["sage green", "natural wood", "beige"]
+    },
+    "materials": ["painted wood", "wood joinery"],
+    "room_types": ["dining room", "entryway", "mudroom"],
+    "features": ["crossbeam legs", "farmhouse style", "solid wood"],
+    "tags": ["green", "farmhouse", "bench", "rustic", "solid wood"]
+  },
+  {
+    "id": 1199,
+    "sku": "CHR-GLD-GRN-199",
+    "name": "Green and Gold Chair",
+    "description": "Accent chair in emerald green velvet with gold metal frame and angular arms. Modern glam for living rooms or offices.",
+    "category": "Seating",
+    "subcategory": "Chairs",
+    "style": ["modern", "glam"],
+    "colors": {
+      "primary": "emerald green",
+      "secondary": "gold",
+      "all_colors": ["emerald green", "gold", "green"]
+    },
+    "materials": ["velvet upholstery", "metal frame", "foam padding"],
+    "room_types": ["living room", "office", "bedroom"],
+    "features": ["angular arms", "gold frame", "velvet fabric"],
+    "tags": ["green", "gold", "chair", "modern", "glam"]
+  }
+]

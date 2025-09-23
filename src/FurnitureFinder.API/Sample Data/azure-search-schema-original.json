@@ -1,0 +1,322 @@
+{
+    "name": "furniture-index",
+    "fields": [
+        {
+            "name": "id",
+            "type": "Edm.Int32",
+            "key": true,
+            "searchable": false,
+            "filterable": true,
+            "retrievable": true
+        },
+        {
+            "name": "sku",
+            "type": "Edm.String",
+            "searchable": true,
+            "filterable": true,
+            "retrievable": true
+        },
+        {
+            "name": "name",
+            "type": "Edm.String",
+            "searchable": true,
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true,
+            "analyzer": "en.microsoft"
+        },
+        {
+            "name": "description",
+            "type": "Edm.String",
+            "searchable": true,
+            "retrievable": true,
+            "analyzer": "en.microsoft"
+        },
+        {
+            "name": "category",
+            "type": "Edm.String",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "subcategory",
+            "type": "Edm.String",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "brand",
+            "type": "Edm.String",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "style",
+            "type": "Collection(Edm.String)",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "colors",
+            "type": "Edm.ComplexType",
+            "fields": [
+                {
+                    "name": "primary",
+                    "type": "Edm.String",
+                    "searchable": true,
+                    "filterable": true,
+                    "facetable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "secondary",
+                    "type": "Edm.String",
+                    "searchable": true,
+                    "filterable": true,
+                    "facetable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "tertiary",
+                    "type": "Edm.String",
+                    "searchable": true,
+                    "filterable": true,
+                    "facetable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "all_colors",
+                    "type": "Collection(Edm.String)",
+                    "searchable": true,
+                    "filterable": true,
+                    "facetable": true,
+                    "retrievable": true
+                }
+            ]
+        },
+        {
+            "name": "materials",
+            "type": "Collection(Edm.String)",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "dimensions",
+            "type": "Edm.ComplexType",
+            "fields": [
+                {
+                    "name": "width",
+                    "type": "Edm.Double",
+                    "filterable": true,
+                    "sortable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "height",
+                    "type": "Edm.Double",
+                    "filterable": true,
+                    "sortable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "depth",
+                    "type": "Edm.Double",
+                    "filterable": true,
+                    "sortable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "weight",
+                    "type": "Edm.Double",
+                    "filterable": true,
+                    "sortable": true,
+                    "retrievable": true
+                },
+                {
+                    "name": "unit",
+                    "type": "Edm.String",
+                    "retrievable": true
+                }
+            ]
+        },
+        {
+            "name": "price",
+            "type": "Edm.Double",
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true
+        },
+        {
+            "name": "sale_price",
+            "type": "Edm.Double",
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true
+        },
+        {
+            "name": "availability",
+            "type": "Edm.String",
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "stock_quantity",
+            "type": "Edm.Int32",
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true
+        },
+        {
+            "name": "room_types",
+            "type": "Collection(Edm.String)",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "features",
+            "type": "Collection(Edm.String)",
+            "searchable": true,
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "care_instructions",
+            "type": "Edm.String",
+            "searchable": true,
+            "retrievable": true
+        },
+        {
+            "name": "assembly_required",
+            "type": "Edm.Boolean",
+            "filterable": true,
+            "facetable": true,
+            "retrievable": true
+        },
+        {
+            "name": "warranty_years",
+            "type": "Edm.Int32",
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true
+        },
+        {
+            "name": "tags",
+            "type": "Collection(Edm.String)",
+            "searchable": true,
+            "filterable": true,
+            "retrievable": true
+        },
+        {
+            "name": "image_urls",
+            "type": "Collection(Edm.String)",
+            "retrievable": true
+        },
+        {
+            "name": "created_date",
+            "type": "Edm.DateTimeOffset",
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true
+        },
+        {
+            "name": "updated_date",
+            "type": "Edm.DateTimeOffset",
+            "filterable": true,
+            "sortable": true,
+            "retrievable": true
+        },
+        {
+            "name": "content_vector",
+            "type": "Collection(Edm.Single)",
+            "searchable": true,
+            "retrievable": false,
+            "dimensions": 1536,
+            "vectorSearchProfile": "furniture-vector-profile"
+        }
+    ],
+    "vectorSearch": {
+        "profiles": [
+            {
+                "name": "furniture-vector-profile",
+                "algorithm": "furniture-hnsw-algorithm",
+                "vectorizer": "furniture-vectorizer"
+            }
+        ],
+        "algorithms": [
+            {
+                "name": "furniture-hnsw-algorithm",
+                "kind": "hnsw",
+                "hnswParameters": {
+                    "metric": "cosine",
+                    "m": 4,
+                    "efConstruction": 400,
+                    "efSearch": 500
+                }
+            }
+        ],
+        "vectorizers": [
+            {
+                "name": "furniture-vectorizer",
+                "kind": "azureOpenAI",
+                "azureOpenAIParameters": {
+                    "resourceUri": "https://your-openai-resource.openai.azure.com",
+                    "deploymentId": "text-embedding-ada-002"
+                }
+            }
+        ]
+    },
+    "semantic": {
+        "configurations": [
+            {
+                "name": "furniture-semantic-config",
+                "prioritizedFields": {
+                    "titleField": {
+                        "fieldName": "name"
+                    },
+                    "prioritizedContentFields": [
+                        {
+                            "fieldName": "description"
+                        },
+                        {
+                            "fieldName": "features"
+                        }
+                    ],
+                    "prioritizedKeywordsFields": [
+                        {
+                            "fieldName": "category"
+                        },
+                        {
+                            "fieldName": "subcategory"
+                        },
+                        {
+                            "fieldName": "room_types"
+                        },
+                        {
+                            "fieldName": "style"
+                        },
+                        {
+                            "fieldName": "materials"
+                        },
+                        {
+                            "fieldName": "tags"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

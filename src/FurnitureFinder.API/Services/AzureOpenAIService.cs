@@ -96,32 +96,36 @@ public class AzureOpenAIService(IOptions<OpenAIConfig> openAIConfig)
             Provide TWO outputs in the exact format shown:
 
             1. A single-sentence keyword-rich description of the furniture piece (max 30 words) emphasizing:
-               - Primary furniture type
+               - Furniture category
+               - Furniture subcategory
                - Key distinguishing features
                - Main materials
                - Dominant colors
                - Design style
 
             2. Structured attributes (exactly as shown):
-                Furniture type: [single primary type only]
+                Furniture category: [single type only]
+                Furniture subcategory: [single type only]
                 Style: [up to 2 most relevant styles]
                 Color: [up to 3 dominant colors]
                 Material: [up to 3 primary materials]
 
-            Furniture Type must be one of the following: ACCENT, ACCESSORIES, APPLIANCE, BAR, BEDDING EXTRAS, BEDROOM, DINING, DINING ROOM, ELECTRONICS, FOUNDATION, HOME ACCENT, HOME DECOR, HOME ENTERTAINMENT, HOME OFFICE, KITCHEN APPLIANCE, LAMP, LAUNDRY APPLIANCE, LEGACY, LIVING ROOM, MAINTENANCE, MATTRESS, MATTRESS SET, RUG, SEATING, SHADE, SUPPLIES, WALL DECOR
-            
-            Style examples: modern, contemporary, traditional, rustic, industrial, mid-century modern, etc.
-            Material examples: wood, metal, glass, fabric, leather, plastic, etc.
+            Furniture category examples: Seating, Tables, Storage, Bedroom, Dining Room, Lighting, Decor & Accessories, Textiles
+            Furniture subcategory examples: Sofas, Sectionals, Loveseats, Chairs, Recliners, Benches, Ottomans, Bar Stools, Counter Stools, Dining Tables, Coffee Tables, End Tables, Side Tables, Console Tables, Desks, Nightstands, Bar Tables, Accent Tables, Dressers, Chests, Bookcases, Shelving Units, TV Stands, Media Centers, Cabinets, Wardrobes, Armoires, Storage Benches, Storage Ottomans, Beds, Headboards, Footboards, Bed Frames, Mattresses, Box Springs, Bedroom Sets, Vanities, Mirrors (bedroom), Dining Sets, China Cabinets, Hutches, Buffets, Sideboards, Wine Racks, Serving Carts, Table Lamps, Floor Lamps, Desk Lamps, Ceiling Fixtures, Chandeliers, Pendant Lights, Wall Sconces, Track Lighting, Accent Lighting, Smart Lighting, Wall Art, Paintings, Prints, Photography, Posters, Canvas Art, Mirrors, Decorative Mirrors, Wall Mirrors, Vases, Planters, Decorative Bowls, Sculptures, Figurines, Picture Frames, Wall Clocks, Artificial Plants, Artificial Flowers, Area Rugs, Runner Rugs, Throw Pillows, Decorative Pillows, Throw Blankets, Curtains, Drapes, Window Treatments, Blinds, Shades, Valances, Bedding Sets, Comforters, Quilts, Sheets
+            Style examples: abstract, bohemian, casual, classic, coastal, comfortable, contemporary, cozy, country, craftsman, eclectic, family-friendly, farmhouse, fun, functional, glam, global, industrial, luxurious, mid-century modern, minimalist, modern, modular, natural, retro, romantic, rustic, scandinavian, traditional, transitional, urban, vintage
+            Color examples: Black, White, Gray, Brown, Blue, Green, Red, Yellow, Orange, Purple, Pink, Gold, Silver, Beige, Tan, Cream, etc.
+            Material examples: Wood, Metal, Fabric, Leather, Glass, Ceramic, Plastic, Stone, Composite, Hardware, Foam, Natural Fibers, Synthetic Fibers, Finishes, etc.
             
             Do not include unnecessary details.
 
             Example Output:
-            Modern leather office chair with ergonomic design, chrome base, and adjustable height mechanism.
+            Sophisticated contemporary area rug with navy background and yellow geometric pattern.
 
-            Furniture type: BEDROOM
-            Style: modern, ergonomic
-            Color: black
-            Material: leather, metal
+            Furniture category: Textiles
+            Furniture subcategory: Area Rugs
+            Style: Contemporary, abstract
+            Color: navy blue, off-white, bright yellow
+            Material: fabric, synthetic fibers, jute
             """;
 
         var chatClient = _client.GetChatClient(_deploymentName);

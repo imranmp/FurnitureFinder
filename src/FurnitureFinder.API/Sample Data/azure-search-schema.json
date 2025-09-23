@@ -1,0 +1,200 @@
+{
+  "name": "furniture-index",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.Int32",
+      "key": true,
+      "searchable": false,
+      "filterable": true,
+      "retrievable": true
+    },
+    {
+      "name": "sku",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "retrievable": true
+    },
+    {
+      "name": "name",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "retrievable": true,
+      "analyzer": "en.microsoft"
+    },
+    {
+      "name": "description",
+      "type": "Edm.String",
+      "searchable": true,
+      "retrievable": true,
+      "analyzer": "en.microsoft"
+    },
+    {
+      "name": "category",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true,
+      "retrievable": true
+    },
+    {
+      "name": "subcategory",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true,
+      "retrievable": true
+    },
+    {
+      "name": "style",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true,
+      "retrievable": true
+    },
+    {
+      "name": "colors",
+      "type": "Edm.ComplexType",
+      "fields": [
+        {
+          "name": "primary",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "facetable": true,
+          "retrievable": true
+        },
+        {
+          "name": "secondary",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "facetable": true,
+          "retrievable": true
+        },
+        {
+          "name": "all_colors",
+          "type": "Collection(Edm.String)",
+          "searchable": true,
+          "filterable": true,
+          "facetable": true,
+          "retrievable": true
+        }
+      ]
+    },
+    {
+      "name": "materials",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true,
+      "retrievable": true
+    },
+    {
+      "name": "room_types",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true,
+      "retrievable": true
+    },
+    {
+      "name": "features",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "filterable": true,
+      "facetable": true,
+      "retrievable": true
+    },
+    {
+      "name": "tags",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "filterable": true,
+      "retrievable": true
+    },
+    {
+      "name": "content_vector",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "retrievable": false,
+      "dimensions": 1536,
+      "vectorSearchProfile": "furniture-vector-profile"
+    }
+  ],
+  "vectorSearch": {
+    "profiles": [
+      {
+        "name": "furniture-vector-profile",
+        "algorithm": "furniture-hnsw-algorithm",
+        "vectorizer": "furniture-vectorizer"
+      }
+    ],
+    "algorithms": [
+      {
+        "name": "furniture-hnsw-algorithm",
+        "kind": "hnsw",
+        "hnswParameters": {
+          "metric": "cosine",
+          "m": 4,
+          "efConstruction": 400,
+          "efSearch": 500
+        }
+      }
+    ],
+    "vectorizers": [
+      {
+        "name": "furniture-vectorizer",
+        "kind": "azureOpenAI",
+        "azureOpenAIParameters": {
+          "resourceUri": "https://your-openai-resource.openai.azure.com",
+          "deploymentId": "text-embedding-ada-002"
+        }
+      }
+    ]
+  },
+  "semantic": {
+    "configurations": [
+      {
+        "name": "furniture-semantic-config",
+        "prioritizedFields": {
+          "titleField": {
+            "fieldName": "name"
+          },
+          "prioritizedContentFields": [
+            {
+              "fieldName": "description"
+            },
+            {
+              "fieldName": "features"
+            }
+          ],
+          "prioritizedKeywordsFields": [
+            {
+              "fieldName": "category"
+            },
+            {
+              "fieldName": "subcategory"
+            },
+            {
+              "fieldName": "room_types"
+            },
+            {
+              "fieldName": "style"
+            },
+            {
+              "fieldName": "materials"
+            },
+            {
+              "fieldName": "tags"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,10 +1,11 @@
+using Azure;
 using Azure.Search.Documents;
 using Azure.Search.Documents.Models;
 using System.Text.RegularExpressions;
 
 namespace FurnitureFinder.API.Services;
 
-public class AzureSearchService(IOptions<SearchConfig> searchConfig)
+public class AzureSearchService(IOptions<SearchConfig> searchConfig, ILogger<AzureSearchService> logger)
     : IAzureSearchService
 {
     private readonly SearchClient _searchClient = new(
@@ -13,6 +14,31 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig)
             new Azure.AzureKeyCredential(searchConfig.Value.Key));
 
     private readonly string _semanticConfigurationName = searchConfig.Value.SemanticConfigurationName;
+
+    public async Task MergeOrUploadProductsAsync(IEnumerable<Product> products, CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            if (products == null || !products.Any())
+            {
+                products = JsonSerializer.Deserialize<List<Product>>(File.ReadAllText("sample-data/sample_furniture_data.json")) ?? [];
+            }
+
+            Response<IndexDocumentsResult> result = await _searchClient.MergeOrUploadDocumentsAsync<Product>(products, cancellationToken: cancellationToken);
+
+            result.Value.Results.ToList().ForEach(r =>
+            {
+                if (!r.Succeeded)
+                {
+                    logger.LogWarning("Failed to index document with key: {Key}, Error: {ErrorMessage}", r.Key, r.ErrorMessage);
+                }
+            });
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, "Error populating search index.");
+        }
+    }
 
     public async Task<(string, List<ProductSearchResult>)> FindComplementaryFurnitureAsync(AzureVisionResult azureVisionResult, string openAIConciseDescription,
         RecommendationRequest request, CancellationToken cancellationToken = default)
@@ -76,8 +102,8 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig)
         // Sort by RerankerScore in descending order and take the products
         recommendations = allResults
             .OrderByDescending(x => x.Result.SemanticSearch?.RerankerScore) // Then by semantic score
-                                                                           //.OrderByDescending(x => x.Result.Score) // Then by semantic score
-                                                                           //.ThenByDescending(x => x.Result.SemanticSearch?.RerankerScore) // Then by semantic score
+                                                                            //.OrderByDescending(x => x.Result.Score) // Then by semantic score
+                                                                            //.ThenByDescending(x => x.Result.SemanticSearch?.RerankerScore) // Then by semantic score
             .Select(x => x.Product)
             .ToList();
 
@@ -203,349 +229,6 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig)
         }
 
         return furnitureTags;
-    }
-
-    private static string? ExtractTargetCategory(string? searchText)
-    {
-        if (string.IsNullOrWhiteSpace(searchText))
-        {
-            return null;
-        }
-
-        Dictionary<string, List<string>> _categorySynonyms = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase)
-        {
-            {
-                "ACCENT", new List<string>
-                {
-                    "Side table",
-                    "End table",
-                    "Console",
-                    "Entryway piece",
-                    "Decorative furniture",
-                    "Statement piece"
-                }
-            },
-            {
-                "ACCESSORIES", new List<string>
-                {
-                    "Decor items",
-                    "Trinkets",
-                    "Add-ons",
-                    "Ornaments",
-                    "Small decor",
-                    "Finishing touches"
-                }
-            },
-            {
-                "APPLIANCE", new List<string>
-                {
-                    "Machine",
-                    "Device",
-                    "Equipment",
-                    "Household gadget",
-                    "Power tool",
-                    "Utility item"
-                }
-            },
-            {
-                "BAR", new List<string>
-                {
-                    "Wine rack",
-                    "Liquor cabinet",
-                    "Bar cart",
-                    "Drink station",
-                    "Cocktail table",
-                    "Pub furniture"
-                }
-            },
-            {
-                "BEDDING EXTRAS", new List<string>
-                {
-                    "Pillows",
-                    "Duvet",
-                    "Comforter",
-                    "Mattress topper",
-                    "Bedspread",
-                    "Linens"
-                }
-            },
-            {
-                "BEDROOM", new List<string>
-                {
-                    "Bed frame",
-                    "Nightstand",
-                    "Dresser",
-                    "Wardrobe",
-                    "Chest of drawers",
-                    "Boudoir furniture"
-                }
-            },
-            {
-                "DINING", new List<string>
-                {
-                    "Dining table",
-                    "Dining chairs",
-                    "Table set",
-                    "Eat-in",
-                    "Kitchen table",
-                    "Banquette"
-                }
-            },
-            {
-                "DINING ROOM", new List<string>
-                {
-                    "Formal dining",
-                    "Buffet",
-                    "Hutch",
-                    "China cabinet",
-                    "Sideboard",
-                    "Dining suite"
-                }
-            },
-            {
-                "ELECTRONICS", new List<string>
-                {
-                    "TV",
-                    "Stereo",
-                    "Speaker",
-                    "Sound system",
-                    "Smart device",
-                    "Entertainment tech"
-                }
-            },
-            {
-                "FOUNDATION", new List<string>
-                {
-                    "Box spring",
-                    "Bed base",
-                    "Support frame",
-                    "Underbed support",
-                    "Mattress base"
-                }
-            },
-            {
-                "HEAT", new List<string>
-                {
-                    "Heater",
-                    "Fireplace",
-                    "Radiator",
-                    "Space heater",
-                    "Heating unit"
-                }
-            },
-            {
-                "HOME ACCENT", new List<string>
-                {
-                    "Vase",
-                    "Sculpture",
-                    "Tray",
-                    "Candle holder",
-                    "Wall shelf",
-                    "Decorative bowl"
-                }
-            },
-            {
-                "HOME DECOR", new List<string>
-                {
-                    "Art",
-                    "Wall hanging",
-                    "Mirror",
-                    "Clock",
-                    "Picture frame",
-                    "Centerpiece"
-                }
-            },
-            {
-                "HOME ENTERTAINMENT", new List<string>
-                {
-                    "Media console",
-                    "TV stand",
-                    "Game cabinet",
-                    "Home theater",
-                    "Entertainment center"
-                }
-            },
-            {
-                "HOME OFFICE", new List<string>
-                {
-                    "Desk",
-                    "Office chair",
-                    "Filing cabinet",
-                    "Workstation",
-                    "Study table",
-                    "Computer desk"
-                }
-            },
-            {
-                "INFANT", new List<string>
-                {
-                    "Crib",
-                    "Changing table",
-                    "Bassinet",
-                    "Nursery",
-                    "Baby furniture",
-                    "Rocker"
-                }
-            },
-            {
-                "KITCHEN APPLIANCE", new List<string>
-                {
-                    "Fridge",
-                    "Oven",
-                    "Microwave",
-                    "Blender",
-                    "Toaster",
-                    "Dishwasher"
-                }
-            },
-            {
-                "LAMP", new List<string>
-                {
-                    "Light",
-                    "Lighting",
-                    "Table lamp",
-                    "Floor lamp",
-                    "Desk lamp",
-                    "Shade light"
-                }
-            },
-            {
-                "LAUNDRY APPLIANCE", new List<string>
-                {
-                    "Washer",
-                    "Dryer",
-                    "Laundry machine",
-                    "Clothes cleaner",
-                    "Utility appliance"
-                }
-            },
-            {
-                "LEGACY", new List<string>
-                {
-                    "Antique",
-                    "Vintage",
-                    "Heirloom",
-                    "Classic",
-                    "Traditional",
-                    "Heritage"
-                }
-            },
-            {
-                "LIVING ROOM", new List<string>
-                {
-                    "Sofa",
-                    "Couch",
-                    "Coffee table",
-                    "Recliner",
-                    "Sectional",
-                    "TV stand"
-                }
-            },
-            {
-                "MAINTENANCE", new List<string>
-                {
-                    "Repair kit",
-                    "Cleaning supplies",
-                    "Tools",
-                    "Furniture care",
-                    "Polish",
-                    "Fixing items"
-                }
-            },
-            {
-                "MATTRESS", new List<string>
-                {
-                    "Foam bed",
-                    "Spring mattress",
-                    "Sleep surface",
-                    "Bed cushion",
-                    "Memory foam"
-                }
-            },
-            {
-                "MATTRESS SET", new List<string>
-                {
-                    "Bed set",
-                    "Mattress and box spring",
-                    "Sleep system",
-                    "Complete bed",
-                    "Mattress combo"
-                }
-            },
-            {
-                "OCCASIONAL", new List<string>
-                {
-                    "Side table",
-                    "Nesting table",
-                    "Accent table",
-                    "Coffee table",
-                    "Occasional chair"
-                }
-            },
-            {
-                "RUG", new List<string>
-                {
-                    "Rug",
-                    "Carpet",
-                    "Runner",
-                    "Mat",
-                    "Area rug",
-                    "Floor covering"
-                }
-            },
-            {
-                "SEATING", new List<string>
-                {
-                    "Chair",
-                    "Stool",
-                    "Bench",
-                    "Recliner",
-                    "Armchair",
-                    "Loveseat"
-                }
-            },
-            {
-                "SHADE", new List<string>
-                {
-                    "Lampshade",
-                    "Window shade",
-                    "Curtain",
-                    "Blind",
-                    "Light cover"
-                }
-            },
-            {
-                "SUPPLIES", new List<string>
-                {
-                    "Stock",
-                    "Inventory",
-                    "Essentials",
-                    "Materials",
-                    "Replacements"
-                }
-            },
-            {
-                "WALL DECOR", new List<string>
-                {
-                    "Wall art",
-                    "Painting",
-                    "Poster",
-                    "Hanging",
-                    "Tapestry",
-                    "Wall sculpture"
-                }
-            }
-        };
-
-        foreach (var kvp in _categorySynonyms)
-        {
-            if (kvp.Value.Any(synonym => searchText.Contains(synonym, StringComparison.OrdinalIgnoreCase)))
-            {
-                return kvp.Key;
-            }
-        }
-
-        return null;
     }
 
     public class FurnitureTags

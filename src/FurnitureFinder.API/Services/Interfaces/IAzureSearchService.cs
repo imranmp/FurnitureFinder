@@ -1,3 +1,4 @@
+
 namespace FurnitureFinder.API.Services.Interfaces;
 
 public interface IAzureSearchService
@@ -6,4 +7,6 @@ public interface IAzureSearchService
                                                                               string openAIConciseDescription,
                                                                               RecommendationRequest request,
                                                                               CancellationToken cancellationToken = default);
+    Task MergeOrUploadProductsAsync(IEnumerable<Product> products,
+                                    CancellationToken cancellationToken = default);
 }
