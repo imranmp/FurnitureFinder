@@ -1,6 +1,6 @@
 [
   {
-    "id": 1001,
+    "id": "1001",
     "sku": "SOF-MDN-CHR-001",
     "name": "Modern Charcoal Sectional Sofa",
     "description": "Spacious L-shaped sectional sofa with clean lines and plush cushioning, perfect for contemporary living spaces. Features durable charcoal fabric upholstery and solid hardwood frame with reversible chaise lounge.",
@@ -22,7 +22,7 @@
     "tags": ["spacious", "family-friendly", "contemporary", "comfortable"]
   },
   {
-    "id": 1002,
+    "id": "1002",
     "sku": "CHR-VIN-BRN-002",
     "name": "Vintage Leather Armchair",
     "description": "Classic vintage-style armchair crafted from genuine top-grain leather with brass nail head trim. Features rich brown patina that develops character over time, perfect for studies or reading nooks.",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "id": 1003,
+    "id": "1003",
     "sku": "TBL-RND-OAK-003",
     "name": "Round Oak Dining Table",
     "description": "Solid oak dining table with beautiful natural grain finish and pedestal base. Perfect for intimate dining experiences, seats up to 4 people comfortably with timeless farmhouse appeal.",
@@ -68,7 +68,7 @@
     "tags": ["eco-friendly", "durable", "family-size", "natural", "handcrafted"]
   },
   {
-    "id": 1004,
+    "id": "1004",
     "sku": "LAM-TBL-CER-004",
     "name": "Ceramic Base Table Lamp",
     "description": "Elegant ceramic table lamp with glazed white finish and natural linen shade. Provides warm ambient lighting perfect for bedside tables or living room accent lighting.",
@@ -86,7 +86,7 @@
     "tags": ["accent lighting", "ambient", "elegant", "neutral", "bedside"]
   },
   {
-    "id": 1005,
+    "id": "1005",
     "sku": "RUG-PRS-BLU-005",
     "name": "Persian Blue Area Rug",
     "description": "Traditional Persian-style area rug in rich navy blue with intricate gold and cream patterns. Machine-woven for durability while maintaining classic elegance and timeless appeal.",
@@ -104,7 +104,7 @@
     "tags": ["statement piece", "traditional", "elegant", "durable", "ornate"]
   },
   {
-    "id": 1006,
+    "id": "1006",
     "sku": "MIR-WAL-GLD-006",
     "name": "Gold Framed Wall Mirror",
     "description": "Decorative wall mirror with ornate gold frame featuring baroque-inspired details. Perfect statement piece for entryways, bedrooms, or powder rooms with classical elegance.",
@@ -122,7 +122,7 @@
     "tags": ["statement piece", "decorative", "elegant", "ornate", "glamorous"]
   },
   {
-    "id": 1007,
+    "id": "1007",
     "sku": "BED-PLT-KNG-007",
     "name": "King Platform Bed",
     "description": "Minimalist king-size platform bed with built-in nightstands and LED accent lighting. Clean lines and dark walnut finish complement modern bedroom aesthetics perfectly.",
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "id": 1008,
+    "id": "1008",
     "sku": "STO-BKC-WHT-008",
     "name": "White Ladder Bookcase",
     "description": "Five-shelf ladder-style bookcase in crisp white finish with clean Scandinavian design. Perfect for displaying books, plants, and decorative objects in any room.",
@@ -168,7 +168,7 @@
     "tags": ["space-saving", "versatile", "clean", "scandinavian", "display"]
   },
   {
-    "id": 1009,
+    "id": "1009",
     "sku": "CHN-HUT-OAK-009",
     "name": "Oak China Hutch",
     "description": "Traditional oak china hutch with glass-front upper cabinet and spacious lower storage. Perfect for displaying fine china and storing dining essentials with classic farmhouse charm.",
@@ -190,7 +190,7 @@
     "tags": ["elegant", "traditional", "display", "formal", "storage"]
   },
   {
-    "id": 1010,
+    "id": "1010",
     "sku": "CUR-LIN-GRY-010",
     "name": "Linen Blackout Curtains",
     "description": "Set of two linen-textured blackout curtains in soft gray. Energy-efficient design blocks 99% of light while providing elegant window treatment for better sleep.",
@@ -208,7 +208,7 @@
     "tags": ["functional", "energy-saving", "neutral", "versatile", "blackout"]
   },
   {
-    "id": 1011,
+    "id": "1011",
     "sku": "SOF-VLV-EMR-011",
     "name": "Emerald Velvet Loveseat",
     "description": "Luxurious loveseat upholstered in rich emerald velvet with gold-finished legs. Perfect accent piece that adds glamour and sophisticated color to any living space.",
@@ -226,7 +226,7 @@
     "tags": ["statement piece", "luxury", "glamorous", "jewel tone", "accent"]
   },
   {
-    "id": 1012,
+    "id": "1012",
     "sku": "TBL-COF-GLS-012",
     "name": "Glass Top Coffee Table",
     "description": "Modern coffee table with tempered glass top and chrome legs. Clean, minimalist design creates an open feel while providing functional surface space.",
@@ -244,7 +244,7 @@
     "tags": ["space-enhancing", "sleek", "easy-care", "modern", "transparent"]
   },
   {
-    "id": 1013,
+    "id": "1013",
     "sku": "CHR-ACC-TUF-013",
     "name": "Tufted Accent Chair",
     "description": "Classic button-tufted accent chair in soft beige fabric with dark wood legs. Timeless design complements both traditional and contemporary decor schemes beautifully.",
@@ -266,7 +266,7 @@
     "tags": ["accent", "versatile", "comfortable", "neutral", "classic"]
   },
   {
-    "id": 1014,
+    "id": "1014",
     "sku": "LAM-FLR-ARC-014",
     "name": "Arc Floor Lamp",
     "description": "Contemporary arc floor lamp with adjustable head and marble base. Perfect for reading or creating ambient lighting over seating areas with mid-century modern appeal.",
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "id": 1015,
+    "id": "1015",
     "sku": "DRE-6DR-WHT-015",
     "name": "Six-Drawer Dresser",
     "description": "Classic white six-drawer dresser with brushed nickel hardware. Ample storage space with smooth-gliding drawers and anti-tip safety features for bedroom organization.",
@@ -314,7 +314,7 @@
     ]
   },
   {
-    "id": 1016,
+    "id": "1016",
     "sku": "ART-CAN-ABS-016",
     "name": "Abstract Canvas Art",
     "description": "Large abstract canvas artwork featuring bold brushstrokes in blues and golds. Gallery-wrapped and ready to hang, perfect for adding modern artistic flair to any room.",
@@ -332,7 +332,7 @@
     "tags": ["statement piece", "colorful", "modern art", "large", "abstract"]
   },
   {
-    "id": 1017,
+    "id": "1017",
     "sku": "RUG-MOD-GEO-017",
     "name": "Modern Geometric Rug",
     "description": "Contemporary area rug with bold geometric pattern in black, white, and gray. Low-profile design perfect for high-traffic areas with easy-care synthetic fibers.",
@@ -350,7 +350,7 @@
     "tags": ["graphic", "versatile", "easy-care", "monochrome", "geometric"]
   },
   {
-    "id": 1018,
+    "id": "1018",
     "sku": "BEN-UPH-GRN-018",
     "name": "Upholstered Storage Bench",
     "description": "Versatile storage bench with button-tufted top in sage green velvet. Perfect for bedroom, entryway, or living room organization with hidden storage compartment.",
@@ -374,7 +374,7 @@
     ]
   },
   {
-    "id": 1019,
+    "id": "1019",
     "sku": "TBL-END-LIV-019",
     "name": "Live Edge End Table",
     "description": "Unique live edge end table crafted from reclaimed walnut with natural bark edge. Each piece features one-of-a-kind wood grain patterns and industrial hairpin legs.",
@@ -398,7 +398,7 @@
     ]
   },
   {
-    "id": 1020,
+    "id": "1020",
     "sku": "CHD-CRY-CLE-020",
     "name": "Crystal Chandelier",
     "description": "Elegant 6-light crystal chandelier with chrome finish. Creates stunning light refraction and serves as dramatic focal point for formal dining rooms and entryways.",
@@ -416,7 +416,7 @@
     "tags": ["statement piece", "elegant", "formal", "sparkling", "dramatic"]
   },
   {
-    "id": 1021,
+    "id": "1021",
     "sku": "PIL-THR-VLV-021",
     "name": "Velvet Throw Pillow Set",
     "description": "Set of two luxurious velvet throw pillows in deep burgundy. Adds rich color and sumptuous texture to sofas, chairs, or beds with hidden zipper closures.",
@@ -434,7 +434,7 @@
     "tags": ["accent", "colorful", "luxury", "soft", "decorative"]
   },
   {
-    "id": 1022,
+    "id": "1022",
     "sku": "HBD-UPH-NAV-022",
     "name": "Upholstered Headboard",
     "description": "King-size upholstered headboard in navy blue linen with vertical channel tufting. Wall-mounted design saves floor space while adding elegant backdrop to bed.",
@@ -458,7 +458,7 @@
     ]
   },
   {
-    "id": 1023,
+    "id": "1023",
     "sku": "SHF-FLT-BLK-023",
     "name": "Black Floating Shelves Set",
     "description": "Set of three black floating shelves in graduated sizes. Perfect for displaying books, photos, and decorative objects without visible brackets for clean modern look.",
@@ -480,7 +480,7 @@
     "tags": ["space-saving", "versatile", "clean", "modern", "display"]
   },
   {
-    "id": 1024,
+    "id": "1024",
     "sku": "BUF-DIN-REC-024",
     "name": "Reclaimed Wood Buffet",
     "description": "Rustic dining room buffet crafted from reclaimed barnwood with sliding barn doors. Combines ample storage functionality with authentic farmhouse charm and character.",
@@ -508,7 +508,7 @@
     ]
   },
   {
-    "id": 1025,
+    "id": "1025",
     "sku": "BLN-ROM-STR-025",
     "name": "Roman Stripe Throw Blanket",
     "description": "Soft cotton throw blanket with classic Roman stripe pattern in neutral tones. Perfect for draping over sofas or keeping cozy while reading with breathable cotton construction.",
@@ -526,7 +526,7 @@
     "tags": ["cozy", "versatile", "classic", "natural", "comfortable"]
   },
   {
-    "id": 1026,
+    "id": "1026",
     "sku": "SOF-SCN-LGR-026",
     "name": "Scandinavian Light Gray Sofa",
     "description": "Clean-lined three-seat sofa in light gray linen with oak legs. Minimalist Scandinavian design emphasizes comfort and simplicity, perfect for modern living spaces seeking understated elegance.",
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "id": 1027,
+    "id": "1027",
     "sku": "CHR-IND-MET-027",
     "name": "Industrial Metal Dining Chair",
     "description": "Sturdy dining chair with powder-coated black metal frame and distressed leather seat. Industrial design perfect for urban lofts and contemporary dining spaces with authentic character.",
@@ -572,7 +572,7 @@
     "tags": ["industrial", "durable", "stackable", "urban", "edgy"]
   },
   {
-    "id": 1028,
+    "id": "1028",
     "sku": "TBL-EXT-CHR-028",
     "name": "Extendable Cherry Dining Table",
     "description": "Beautiful cherry wood dining table that extends from 6 to 8 seats. Rich cherry finish showcases natural wood grain while butterfly leaf mechanism ensures smooth extension for entertaining.",
@@ -596,7 +596,7 @@
     ]
   },
   {
-    "id": 1029,
+    "id": "1029",
     "sku": "LAM-SCN-BRS-059",
     "name": "Brass Sconce Light",
     "description": "Wall-mounted brass sconce with frosted glass shade and swing-arm design. Perfect for reading nooks, bedside lighting, or accent illumination with adjustable positioning.",
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "id": 1060,
+    "id": "1060",
     "sku": "STO-ARM-ANT-060",
     "name": "Antique Armoire",
     "description": "Large antique-style armoire with carved details and rich mahogany finish. Features hanging space, drawers, and shelves for complete bedroom storage solution.",
@@ -644,7 +644,7 @@
     ]
   },
   {
-    "id": 1061,
+    "id": "1061",
     "sku": "CHR-REC-PWR-061",
     "name": "Power Reclining Chair",
     "description": "Luxurious power reclining chair in brown leather with USB charging ports and memory foam cushioning. Ultimate comfort technology meets classic design.",
@@ -668,7 +668,7 @@
     ]
   },
   {
-    "id": 1062,
+    "id": "1062",
     "sku": "ART-PRI-BOT-062",
     "name": "Botanical Print Set",
     "description": "Set of four framed botanical prints featuring vintage-inspired plant illustrations. Green and cream color palette perfect for bringing natural elements indoors.",
@@ -692,7 +692,7 @@
     ]
   },
   {
-    "id": 1063,
+    "id": "1063",
     "sku": "TBL-ACC-GLS-063",
     "name": "Glass Accent Table",
     "description": "Small glass accent table with curved legs and minimalist design. Perfect beside chairs or sofas for drinks, books, or decorative objects without visual weight.",
@@ -710,7 +710,7 @@
     "tags": ["minimalist", "space-enhancing", "glass", "accent", "transparent"]
   },
   {
-    "id": 1064,
+    "id": "1064",
     "sku": "BLN-CHU-RED-064",
     "name": "Red Chunky Knit Throw",
     "description": "Oversized chunky knit throw blanket in warm red wool blend. Cozy texture and vibrant color perfect for adding warmth and visual interest to any seating area.",
@@ -728,7 +728,7 @@
     "tags": ["cozy", "chunky knit", "colorful", "warm", "textured"]
   },
   {
-    "id": 1065,
+    "id": "1065",
     "sku": "STO-MED-BLK-065",
     "name": "Black Media Console",
     "description": "Sleek black media console with sliding doors and cable management. Modern design accommodates large TVs while concealing electronics and media storage.",
@@ -752,7 +752,7 @@
     ]
   },
   {
-    "id": 1066,
+    "id": "1066",
     "sku": "LAM-CHD-MOD-066",
     "name": "Modern Chandelier",
     "description": "Contemporary 8-light chandelier with geometric metal frame in matte black. Linear design creates striking focal point perfect for dining rooms or large entryways.",
@@ -770,7 +770,7 @@
     "tags": ["geometric", "modern", "statement piece", "linear", "contemporary"]
   },
   {
-    "id": 1067,
+    "id": "1067",
     "sku": "CHR-DIN-UPH-067",
     "name": "Upholstered Dining Chair",
     "description": "Comfortable dining chair with button-tufted back in soft gray fabric and dark wood legs. Classic design provides dining comfort while complementing various table styles.",
@@ -792,7 +792,7 @@
     "tags": ["comfortable", "dining", "upholstered", "versatile", "classic"]
   },
   {
-    "id": 1068,
+    "id": "1068",
     "sku": "RUG-FLO-PNK-068",
     "name": "Pink Floral Area Rug",
     "description": "Soft area rug with delicate pink and cream floral pattern. Vintage-inspired design adds feminine charm and warmth to bedrooms or living spaces.",
@@ -810,7 +810,7 @@
     "tags": ["floral", "feminine", "soft", "vintage", "romantic"]
   },
   {
-    "id": 1069,
+    "id": "1069",
     "sku": "MIR-FUL-OAK-069",
     "name": "Oak Full-Length Mirror",
     "description": "Full-length mirror with solid oak frame and beveled glass. Perfect for bedrooms or dressing areas, combining functionality with natural wood warmth.",
@@ -832,7 +832,7 @@
     "tags": ["full-length", "natural wood", "functional", "bedroom", "oak"]
   },
   {
-    "id": 1070,
+    "id": "1070",
     "sku": "STO-BOO-LAD-070",
     "name": "Ladder Bookshelf",
     "description": "Unique ladder-style bookshelf in white with five graduated shelves. Leaning design saves space while creating interesting visual display for books and objects.",
@@ -850,7 +850,7 @@
     "tags": ["space-saving", "leaning", "display", "unique design", "white"]
   },
   {
-    "id": 1071,
+    "id": "1071",
     "sku": "TBL-BAR-IND-071",
     "name": "Industrial Bar Table",
     "description": "High bar table with reclaimed wood top and black metal pipe base. Perfect for casual dining, home bars, or small kitchens with authentic industrial character.",
@@ -868,7 +868,7 @@
     "tags": ["industrial", "bar height", "reclaimed", "casual dining", "urban"]
   },
   {
-    "id": 1072,
+    "id": "1072",
     "sku": "CUR-BLK-OUT-072",
     "name": "Blackout Bedroom Curtains",
     "description": "Heavy blackout curtains in deep charcoal that block 100% of light. Thermal insulation helps regulate room temperature while ensuring restful sleep.",
@@ -886,7 +886,7 @@
     "tags": ["blackout", "energy efficient", "sleep", "thermal", "functional"]
   },
   {
-    "id": 1073,
+    "id": "1073",
     "sku": "LAM-TBL-WOD-073",
     "name": "Wooden Base Table Lamp",
     "description": "Rustic table lamp with natural wood base and burlap shade. Warm lighting perfect for cabins, farmhouse decor, or adding natural elements to any room.",
@@ -904,7 +904,7 @@
     "tags": ["rustic", "natural", "warm lighting", "farmhouse", "wood"]
   },
   {
-    "id": 1074,
+    "id": "1074",
     "sku": "STO-CNT-STO-074",
     "name": "Storage Counter Stool",
     "description": "Counter-height stool with hidden storage compartment in seat and industrial metal frame. Perfect for kitchen islands where extra storage is needed.",
@@ -932,7 +932,7 @@
     ]
   },
   {
-    "id": 1075,
+    "id": "1075",
     "sku": "PIL-FUR-GRY-075",
     "name": "Gray Faux Fur Pillow",
     "description": "Luxurious faux fur throw pillow in soft gray with plush texture. Adds cozy glamour and tactile interest to sofas, chairs, or beds.",
@@ -950,7 +950,7 @@
     "tags": ["faux fur", "luxurious", "textured", "cozy", "glamorous"]
   },
   {
-    "id": 1076,
+    "id": "1076",
     "sku": "ART-MET-GOL-076",
     "name": "Gold Metal Wall Art",
     "description": "Abstract metal wall sculpture in brushed gold finish with geometric shapes. Modern sculptural piece creates dimensional focal point perfect for contemporary interiors.",
@@ -968,7 +968,7 @@
     "tags": ["sculptural", "dimensional", "modern", "metallic", "geometric"]
   },
   {
-    "id": 1077,
+    "id": "1077",
     "sku": "BED-BOX-WHT-077",
     "name": "White Box Spring",
     "description": "Standard queen box spring in white fabric covering. Low-profile design provides mattress support while maintaining clean bedroom aesthetic.",
@@ -986,7 +986,7 @@
     "tags": ["support", "low-profile", "bedroom", "foundation", "clean"]
   },
   {
-    "id": 1078,
+    "id": "1078",
     "sku": "RUG-BRA-MUL-078",
     "name": "Multicolor Braided Rug",
     "description": "Traditional braided rug in multicolor pattern featuring warm earth tones. Hand-braided construction adds rustic charm to kitchens, family rooms, or entryways.",
@@ -1004,7 +1004,7 @@
     "tags": ["braided", "traditional", "multicolor", "rustic", "handmade"]
   },
   {
-    "id": 1079,
+    "id": "1079",
     "sku": "STO-TV-COR-079",
     "name": "Corner TV Stand",
     "description": "Space-saving corner TV stand in dark walnut with two open shelves and cabinet storage. Perfect for maximizing corner space while organizing entertainment equipment.",
@@ -1028,7 +1028,7 @@
     ]
   },
   {
-    "id": 1080,
+    "id": "1080",
     "sku": "CHR-ACC-VEL-080",
     "name": "Velvet Accent Chair",
     "description": "Elegant accent chair in deep purple velvet with gold legs and button tufting. Luxurious statement piece perfect for adding color and sophistication to any room.",
@@ -1043,10 +1043,10 @@
     "materials": ["velvet upholstery", "metal legs", "gold finish"],
     "room_types": ["living room", "bedroom", "study"],
     "features": ["button tufting", "velvet upholstery", "gold legs"],
-    "tags": ["statement piece", "luxurious", "colorful", "velvet", "glamorous"]
+    "tags": ["statement piece", "luxury", "glamorous", "jewel tone", "accent"]
   },
   {
-    "id": 1081,
+    "id": "1081",
     "sku": "LAM-FLR-COL-081",
     "name": "Colorful Floor Lamp",
     "description": "Modern floor lamp with adjustable colorful shade in turquoise and white geometric pattern. Adds playful color while providing functional task or ambient lighting.",
@@ -1064,7 +1064,7 @@
     "tags": ["colorful", "playful", "adjustable", "geometric", "modern"]
   },
   {
-    "id": 1082,
+    "id": "1082",
     "sku": "TBL-END-GLO-082",
     "name": "Globe End Table",
     "description": "Unique spherical end table in white lacquer with hidden storage compartment. Modern sculptural piece functions as side table while adding artistic element.",
@@ -1082,7 +1082,7 @@
     "tags": ["sculptural", "unique", "modern", "storage", "artistic"]
   },
   {
-    "id": 1083,
+    "id": "1083",
     "sku": "BLN-CAB-BLU-083",
     "name": "Blue Cable Knit Throw",
     "description": "Cozy cable knit throw blanket in ocean blue cotton blend. Traditional knit pattern provides warmth and texture perfect for sofas, chairs, or beds.",
@@ -1100,7 +1100,7 @@
     "tags": ["cable knit", "cozy", "traditional", "blue", "textured"]
   },
   {
-    "id": 1084,
+    "id": "1084",
     "sku": "MIR-DEC-HEX-084",
     "name": "Hexagonal Mirror Set",
     "description": "Set of seven hexagonal mirrors in various sizes creating honeycomb pattern. Modern geometric design perfect for creating custom wall arrangements and reflecting light.",
@@ -1118,7 +1118,7 @@
     "tags": ["geometric", "modern", "mirror set", "honeycomb", "reflective"]
   },
   {
-    "id": 1085,
+    "id": "1085",
     "sku": "STO-SHE-CUB-085",
     "name": "Cube Storage Shelves",
     "description": "Modular cube storage system in white with nine compartments. Versatile organization solution perfect for books, toys, decorative objects, or storage baskets.",
@@ -1136,7 +1136,7 @@
     "tags": ["modular", "organization", "versatile", "cube storage", "white"]
   },
   {
-    "id": 1086,
+    "id": "1086",
     "sku": "CHR-DIN-WOD-086",
     "name": "Wooden Dining Chair",
     "description": "Classic wooden dining chair in natural finish with contoured seat and backrest. Simple design complements various dining tables while providing comfortable seating.",
@@ -1158,7 +1158,7 @@
     "tags": ["natural", "traditional", "solid wood", "dining", "classic"]
   },
   {
-    "id": 1087,
+    "id": "1087",
     "sku": "LAM-PEN-FAR-087",
     "name": "Farmhouse Pendant Light",
     "description": "Rustic farmhouse pendant with galvanized metal shade and vintage-style Edison bulb. Perfect for kitchen islands or dining areas seeking authentic farmhouse character.",
@@ -1176,7 +1176,7 @@
     "tags": ["farmhouse", "rustic", "galvanized", "vintage bulb", "authentic"]
   },
   {
-    "id": 1088,
+    "id": "1088",
     "sku": "RUG-NAV-GLD-088",
     "name": "Navy and Gold Area Rug",
     "description": "Sophisticated area rug with navy background and gold geometric pattern. Contemporary design adds elegance and visual interest to living rooms or dining areas.",
@@ -1194,7 +1194,7 @@
     "tags": ["sophisticated", "geometric", "navy", "gold", "elegant"]
   },
   {
-    "id": 1089,
+    "id": "1089",
     "sku": "ART-CAN-LAN-089",
     "name": "Landscape Canvas Print",
     "description": "Large canvas print featuring serene mountain landscape in muted earth tones. Nature photography brings calming outdoor beauty into interior spaces.",
@@ -1212,7 +1212,7 @@
     "tags": ["nature", "calming", "landscape", "earth tones", "photography"]
   },
   {
-    "id": 1090,
+    "id": "1090",
     "sku": "STO-BEN-HAL-090",
     "name": "Hallway Storage Bench",
     "description": "Narrow storage bench perfect for hallways and entryways with lift-top seat and lower shoe storage. Maximizes utility in tight spaces.",
@@ -1236,7 +1236,7 @@
     ]
   },
   {
-    "id": 1091,
+    "id": "1091",
     "sku": "TBL-COF-LIV-091",
     "name": "Live Edge Coffee Table",
     "description": "Stunning coffee table with live edge walnut slab top and hairpin legs. Each piece showcases unique wood grain patterns celebrating natural beauty.",
@@ -1254,7 +1254,7 @@
     "tags": ["live edge", "unique", "natural", "walnut", "one-of-a-kind"]
   },
   {
-    "id": 1030,
+    "id": "1030",
     "sku": "RUG-VIN-ORI-030",
     "name": "Vintage Oriental Rug",
     "description": "Distressed vintage-style oriental rug in faded blues and creams. Machine-woven construction provides durability while maintaining authentic aged appearance for character-rich interiors.",
@@ -1272,7 +1272,7 @@
     "tags": ["vintage", "character", "distressed", "oriental", "faded colors"]
   },
   {
-    "id": 1031,
+    "id": "1031",
     "sku": "STO-CAB-WHT-031",
     "name": "White Shaker Cabinet",
     "description": "Classic white shaker-style cabinet with raised panel doors and brushed nickel hardware. Versatile storage solution perfect for kitchens, bathrooms, or utility rooms.",
@@ -1294,7 +1294,7 @@
     "tags": ["classic", "versatile", "storage", "shaker style", "traditional"]
   },
   {
-    "id": 1032,
+    "id": "1032",
     "sku": "BED-TUF-GRY-032",
     "name": "Gray Tufted Platform Bed",
     "description": "Contemporary platform bed with diamond-tufted headboard in charcoal gray fabric. Low-profile design eliminates need for box spring while creating sophisticated bedroom focal point.",
@@ -1312,7 +1312,7 @@
     "tags": ["modern", "sophisticated", "platform", "tufted", "contemporary"]
   },
   {
-    "id": 1033,
+    "id": "1033",
     "sku": "ART-FRA-BLK-033",
     "name": "Black and White Photography Set",
     "description": "Set of three framed black and white landscape photographs in sleek black frames. Professional quality prints create sophisticated gallery wall perfect for modern interiors.",
@@ -1336,7 +1336,7 @@
     ]
   },
   {
-    "id": 1034,
+    "id": "1034",
     "sku": "CUR-VEL-TUQ-034",
     "name": "Turquoise Velvet Curtains",
     "description": "Luxurious velvet curtains in vibrant turquoise with blackout lining. Rod pocket design makes installation easy while rich color adds dramatic flair to any room.",
@@ -1354,7 +1354,7 @@
     "tags": ["dramatic", "colorful", "luxury", "blackout", "statement"]
   },
   {
-    "id": 1035,
+    "id": "1035",
     "sku": "OTT-STO-RND-035",
     "name": "Round Storage Ottoman",
     "description": "Versatile round ottoman with hidden storage and button-tufted top in cream linen. Perfect as extra seating, footrest, or coffee table while concealing clutter.",
@@ -1378,7 +1378,7 @@
     ]
   },
   {
-    "id": 1036,
+    "id": "1036",
     "sku": "TBL-SID-MCM-036",
     "name": "Mid-Century Walnut Side Table",
     "description": "Authentic mid-century modern side table in rich walnut with tapered legs and single drawer. Clean lines and warm wood tone complement vintage and contemporary decor.",
@@ -1402,7 +1402,7 @@
     ]
   },
   {
-    "id": 1037,
+    "id": "1037",
     "sku": "LAM-FLR-TRI-037",
     "name": "Tripod Floor Lamp",
     "description": "Modern tripod floor lamp with adjustable wooden legs and linen drum shade. Scandinavian-inspired design provides ambient lighting while serving as sculptural accent piece.",
@@ -1426,7 +1426,7 @@
     ]
   },
   {
-    "id": 1038,
+    "id": "1038",
     "sku": "RUG-COW-BLK-038",
     "name": "Black and White Cowhide Rug",
     "description": "Genuine cowhide rug in classic black and white pattern. Natural hide provides unique texture and pattern variation, perfect for adding rustic sophistication to modern spaces.",
@@ -1444,7 +1444,7 @@
     "tags": ["natural", "unique", "rustic", "sophisticated", "one-of-a-kind"]
   },
   {
-    "id": 1039,
+    "id": "1039",
     "sku": "MIR-RND-BRS-039",
     "name": "Round Brass Mirror",
     "description": "Large round mirror with thin brass frame and clean modern lines. Perfect statement piece for entryways or above mantels, reflecting light while adding metallic warmth.",
@@ -1468,7 +1468,7 @@
     ]
   },
   {
-    "id": 1040,
+    "id": "1040",
     "sku": "CHR-WIN-LEA-040",
     "name": "Leather Wingback Chair",
     "description": "Classic wingback chair in rich cognac leather with brass nail head trim. Traditional silhouette updated with contemporary proportions creates timeless elegance for any room.",
@@ -1486,7 +1486,7 @@
     "tags": ["classic", "elegant", "traditional", "luxury", "timeless"]
   },
   {
-    "id": 1041,
+    "id": "1041",
     "sku": "STO-WRD-OAK-041",
     "name": "Oak Wardrobe Armoire",
     "description": "Spacious oak wardrobe with hanging rod, shelves, and drawer storage. Traditional craftsmanship meets modern functionality for complete bedroom organization solution.",
@@ -1510,7 +1510,7 @@
     ]
   },
   {
-    "id": 1042,
+    "id": "1042",
     "sku": "PIL-LUM-YEL-042",
     "name": "Yellow Lumbar Pillow",
     "description": "Bright yellow lumbar pillow in cotton canvas with contrasting navy piping. Perfect accent piece for adding cheerful color and lower back support to sofas and chairs.",
@@ -1528,7 +1528,7 @@
     "tags": ["cheerful", "colorful", "lumbar support", "accent", "coastal"]
   },
   {
-    "id": 1043,
+    "id": "1043",
     "sku": "TBL-CON-IND-043",
     "name": "Industrial Console Table",
     "description": "Rugged console table combining reclaimed wood top with black metal pipe legs. Industrial aesthetic perfect for entryways, behind sofas, or as media console.",
@@ -1546,7 +1546,7 @@
     "tags": ["industrial", "rugged", "reclaimed", "versatile", "edgy"]
   },
   {
-    "id": 1044,
+    "id": "1044",
     "sku": "LAM-TBL-CRY-044",
     "name": "Crystal Table Lamp",
     "description": "Elegant crystal base table lamp with white silk shade. Cut crystal creates beautiful light refraction while providing sophisticated illumination for bedside or accent lighting.",
@@ -1564,7 +1564,7 @@
     "tags": ["elegant", "glamorous", "sophisticated", "sparkling", "luxury"]
   },
   {
-    "id": 1045,
+    "id": "1045",
     "sku": "BED-CAN-WHT-045",
     "name": "White Canopy Bed",
     "description": "Romantic white canopy bed with four posts and flowing curtain panels. Creates dreamy bedroom sanctuary perfect for master suites seeking fairy-tale elegance.",
@@ -1582,7 +1582,7 @@
     "tags": ["romantic", "dreamy", "canopy", "elegant", "fairy-tale"]
   },
   {
-    "id": 1046,
+    "id": "1046",
     "sku": "RUG-JUT-NAT-046",
     "name": "Natural Jute Area Rug",
     "description": "Handwoven jute area rug in natural beige with subtle texture variations. Eco-friendly material adds organic warmth and casual sophistication to any room.",
@@ -1600,7 +1600,7 @@
     "tags": ["eco-friendly", "natural", "handwoven", "organic", "sustainable"]
   },
   {
-    "id": 1047,
+    "id": "1047",
     "sku": "STO-SHL-FLT-047",
     "name": "Floating Corner Shelves",
     "description": "Set of three white floating corner shelves in graduated sizes. Space-saving design perfect for displaying books, plants, and decorative objects in unused corner spaces.",
@@ -1624,7 +1624,7 @@
     ]
   },
   {
-    "id": 1048,
+    "id": "1048",
     "sku": "CHR-BAR-IND-048",
     "name": "Industrial Bar Chair",
     "description": "Adjustable height bar chair with distressed leather seat and black metal frame. Industrial design perfect for kitchen islands or bar areas with authentic urban appeal.",
@@ -1642,7 +1642,7 @@
     "tags": ["adjustable", "industrial", "urban", "swivel", "bar seating"]
   },
   {
-    "id": 1049,
+    "id": "1049",
     "sku": "ART-SCU-CER-049",
     "name": "Ceramic Sculpture Set",
     "description": "Set of three abstract ceramic sculptures in matte white finish. Modern organic shapes create sophisticated sculptural display perfect for mantels, shelves, or tables.",
@@ -1666,7 +1666,7 @@
     ]
   },
   {
-    "id": 1050,
+    "id": "1050",
     "sku": "TBL-DIN-REC-050",
     "name": "Reclaimed Wood Dining Table",
     "description": "Large rectangular dining table crafted from reclaimed barn wood with steel hairpin legs. Rustic character meets modern design for unique entertaining centerpiece.",
@@ -1688,7 +1688,7 @@
     "tags": ["eco-friendly", "rustic", "unique", "reclaimed", "large dining"]
   },
   {
-    "id": 1051,
+    "id": "1051",
     "sku": "CUR-SHE-NAT-051",
     "name": "Natural Sheer Curtains",
     "description": "Flowing sheer curtains in natural linen blend that filter light beautifully while maintaining privacy. Soft drape and neutral color complement any decor style.",
@@ -1706,7 +1706,7 @@
     "tags": ["natural", "light filtering", "soft", "versatile", "neutral"]
   },
   {
-    "id": 1052,
+    "id": "1052",
     "sku": "STO-CHE-VIN-052",
     "name": "Vintage Storage Chest",
     "description": "Antique-style storage chest with distressed finish and brass corner hardware. Perfect for blanket storage at foot of bed or as coffee table with hidden storage.",
@@ -1730,7 +1730,7 @@
     ]
   },
   {
-    "id": 1053,
+    "id": "1053",
     "sku": "LAM-PEN-GLB-053",
     "name": "Globe Pendant Light",
     "description": "Modern glass globe pendant light with brass fittings and adjustable cord length. Clean spherical design provides even light distribution perfect for kitchen islands or dining areas.",
@@ -1754,7 +1754,7 @@
     ]
   },
   {
-    "id": 1054,
+    "id": "1054",
     "sku": "MIR-VAN-LED-054",
     "name": "LED Vanity Mirror",
     "description": "Hollywood-style vanity mirror with LED bulbs around perimeter providing perfect makeup lighting. Dimmable lights and sleek white frame create professional beauty station.",
@@ -1778,7 +1778,7 @@
     ]
   },
   {
-    "id": 1055,
+    "id": "1055",
     "sku": "BEN-ENT-OAK-055",
     "name": "Oak Entryway Bench",
     "description": "Solid oak bench with slatted design and lower storage shelf. Perfect for entryways, mudrooms, or bedroom seating with classic craftsmanship and practical storage.",
@@ -1796,7 +1796,7 @@
     "tags": ["functional", "traditional", "storage", "solid wood", "entryway"]
   },
   {
-    "id": 1056,
+    "id": "1056",
     "sku": "PIL-GEO-BLU-056",
     "name": "Blue Geometric Throw Pillows",
     "description": "Set of two throw pillows featuring bold geometric patterns in navy and white. Contemporary design adds visual interest and comfort to sofas, chairs, or beds.",
@@ -1814,7 +1814,7 @@
     "tags": ["geometric", "contemporary", "bold pattern", "navy", "decorative"]
   },
   {
-    "id": 1057,
+    "id": "1057",
     "sku": "TBL-NIG-FLT-057",
     "name": "Floating Nightstand",
     "description": "Wall-mounted floating nightstand in walnut finish with hidden drawer and open shelf. Space-saving design perfect for small bedrooms or modern minimalist aesthetics.",
@@ -1832,7 +1832,7 @@
     "tags": ["space-saving", "modern", "floating", "minimalist", "bedroom"]
   },
   {
-    "id": 1058,
+    "id": "1058",
     "sku": "RUG-STR-GRY-058",
     "name": "Gray Striped Runner Rug",
     "description": "Long runner rug with subtle gray and white stripes perfect for hallways, kitchens, or entryways. Low-profile construction withstands high-traffic areas while adding style.",
@@ -1850,7 +1850,7 @@
     "tags": ["high-traffic", "hallway", "striped", "durable", "neutral"]
   },
   {
-    "id": 1126,
+    "id": "1126",
     "sku": "SOF-CHE-TAN-126",
     "name": "Tan Chesterfield Sofa",
     "description": "Classic Chesterfield sofa in rich tan leather with deep button tufting and rolled arms. Traditional British design brings timeless elegance to formal living rooms with authentic leather aging.",
@@ -1874,7 +1874,7 @@
     ]
   },
   {
-    "id": 1127,
+    "id": "1127",
     "sku": "TBL-WRI-OAK-127",
     "name": "Oak Writing Desk",
     "description": "Compact writing desk in solid oak with single drawer and cable management. Perfect for home offices or bedrooms where space is limited but style matters.",
@@ -1898,7 +1898,7 @@
     ]
   },
   {
-    "id": 1128,
+    "id": "1128",
     "sku": "LAM-CHA-RUS-128",
     "name": "Rustic Chain Chandelier",
     "description": "Farmhouse chandelier with weathered wood beam and hanging mason jar lights. Rustic design perfect for dining rooms seeking authentic country charm with modern functionality.",
@@ -1916,7 +1916,7 @@
     "tags": ["farmhouse", "mason jars", "rustic", "weathered wood", "country"]
   },
   {
-    "id": 1129,
+    "id": "1129",
     "sku": "RUG-KIL-RED-129",
     "name": "Red Kilim Area Rug",
     "description": "Hand-woven kilim rug in rich red with traditional geometric patterns. Flat-weave construction and authentic designs add global sophistication to any interior space.",
@@ -1934,7 +1934,7 @@
     "tags": ["kilim", "hand-woven", "global", "geometric", "authentic"]
   },
   {
-    "id": 1130,
+    "id": "1130",
     "sku": "MIR-SUN-GLD-130",
     "name": "Sunburst Gold Mirror",
     "description": "Dramatic sunburst mirror with radiating gold-finished rays extending from central mirror. Statement piece creates stunning focal point while reflecting light throughout the room.",
@@ -1952,7 +1952,7 @@
     "tags": ["sunburst", "dramatic", "statement piece", "gold", "radiating"]
   },
   {
-    "id": 1131,
+    "id": "1131",
     "sku": "STO-ARB-WAL-131",
     "name": "Walnut Armoire",
     "description": "Large walnut armoire with multiple compartments, hanging space, and adjustable shelves. Traditional craftsmanship meets modern storage needs for complete bedroom organization.",
@@ -1980,7 +1980,7 @@
     ]
   },
   {
-    "id": 1132,
+    "id": "1132",
     "sku": "PIL-IKA-BLU-132",
     "name": "Blue Ikat Throw Pillows",
     "description": "Set of two throw pillows featuring traditional ikat pattern in blue and white. Hand-dyed appearance adds global textile artistry to sofas, chairs, or beds.",
@@ -2004,7 +2004,7 @@
     ]
   },
   {
-    "id": 1133,
+    "id": "1133",
     "sku": "CHR-BAR-SWI-133",
     "name": "Swivel Bar Stool",
     "description": "Adjustable height bar stool with 360-degree swivel and faux leather seat. Modern design with chrome base perfect for kitchen islands or home bars.",
@@ -2022,7 +2022,7 @@
     "tags": ["swivel", "adjustable", "modern", "chrome", "bar seating"]
   },
   {
-    "id": 1134,
+    "id": "1134",
     "sku": "TBL-NES-GLO-134",
     "name": "Globe Nesting Tables",
     "description": "Set of three nesting tables with spherical bases in different sizes. Space-saving design allows tables to nest together or separate for flexible occasional seating.",
@@ -2046,7 +2046,7 @@
     ]
   },
   {
-    "id": 1135,
+    "id": "1135",
     "sku": "LAM-WAL-SCO-135",
     "name": "Wall Sconce Set",
     "description": "Pair of modern wall sconces with matte black finish and brass accents. Perfect for flanking mirrors, artwork, or providing ambient lighting in hallways and bedrooms.",
@@ -2070,7 +2070,7 @@
     ]
   },
   {
-    "id": 1136,
+    "id": "1136",
     "sku": "CUR-BOH-MUL-136",
     "name": "Bohemian Multicolor Curtains",
     "description": "Flowing curtains with bohemian-inspired patterns in warm earth tones and jewel colors. Eclectic design adds artistic flair and vibrant energy to any room.",
@@ -2088,7 +2088,7 @@
     "tags": ["bohemian", "multicolor", "eclectic", "artistic", "vibrant"]
   },
   {
-    "id": 1137,
+    "id": "1137",
     "sku": "BED-CAN-BLA-137",
     "name": "Black Canopy Bed",
     "description": "Dramatic black metal canopy bed with clean geometric lines and minimalist design. Modern interpretation of classic four-poster creates striking bedroom centerpiece.",
@@ -2106,7 +2106,7 @@
     "tags": ["canopy bed", "modern", "geometric", "dramatic", "black"]
   },
   {
-    "id": 1138,
+    "id": "1138",
     "sku": "ART-BOT-FRA-138",
     "name": "Framed Botanical Prints",
     "description": "Collection of four vintage-inspired botanical prints in matching natural wood frames. Scientific illustration style brings nature indoors with sophisticated presentation.",
@@ -2130,7 +2130,7 @@
     ]
   },
   {
-    "id": 1139,
+    "id": "1139",
     "sku": "RUG-GRA-MOD-139",
     "name": "Modern Gradient Rug",
     "description": "Contemporary area rug with subtle color gradient from charcoal to light gray. Ombre effect creates visual depth while maintaining neutral palette perfect for modern interiors.",
@@ -2148,7 +2148,7 @@
     "tags": ["gradient", "ombre", "modern", "neutral", "contemporary"]
   },
   {
-    "id": 1140,
+    "id": "1140",
     "sku": "STO-WIN-SEA-140",
     "name": "Window Seat Bench",
     "description": "Built-in style window seat bench with hinged storage and comfortable cushioning. Perfect for bay windows or reading nooks with hidden storage compartment.",
@@ -2172,7 +2172,7 @@
     ]
   },
   {
-    "id": 1141,
+    "id": "1141",
     "sku": "LAM-TBL-MAR-141",
     "name": "Marble Table Lamp",
     "description": "Elegant table lamp with white marble base and crisp white linen shade. Natural stone veining makes each lamp unique while providing sophisticated illumination.",
@@ -2196,7 +2196,7 @@
     ]
   },
   {
-    "id": 1142,
+    "id": "1142",
     "sku": "CHR-ACC-PEA-142",
     "name": "Peacock Blue Accent Chair",
     "description": "Bold accent chair in luxurious peacock blue velvet with curved silhouette and gold legs. Statement seating piece adds dramatic color and sophistication to any room.",
@@ -2214,7 +2214,7 @@
     "tags": ["peacock blue", "statement piece", "velvet", "dramatic", "curved"]
   },
   {
-    "id": 1143,
+    "id": "1143",
     "sku": "TBL-COF-LIV-143",
     "name": "Live Edge Walnut Coffee Table",
     "description": "Stunning coffee table featuring live edge walnut slab with natural bark edge and steel hairpin legs. Each piece celebrates unique wood grain and natural character.",
@@ -2232,7 +2232,7 @@
     "tags": ["live edge", "natural", "unique", "walnut", "organic"]
   },
   {
-    "id": 1144,
+    "id": "1144",
     "sku": "BLN-KAS-CRE-144",
     "name": "Cream Cashmere Throw",
     "description": "Luxurious cashmere throw blanket in soft cream color with subtle texture. Ultimate comfort and elegance perfect for adding warmth and sophistication to any seating area.",
@@ -2250,7 +2250,7 @@
     "tags": ["cashmere", "luxurious", "soft", "elegant", "premium"]
   },
   {
-    "id": 1145,
+    "id": "1145",
     "sku": "MIR-FLO-SIL-145",
     "name": "Silver Floor Mirror",
     "description": "Full-length floor mirror with sleek silver frame and contemporary design. Perfect for bedrooms or dressing areas, combining functionality with modern elegance.",
@@ -2272,7 +2272,7 @@
     "tags": ["full-length", "floor mirror", "silver", "contemporary", "bedroom"]
   },
   {
-    "id": 1146,
+    "id": "1146",
     "sku": "STO-CUB-MOD-146",
     "name": "Modular Cube Storage",
     "description": "Expandable cube storage system in white with multiple configuration options. Versatile organization solution grows with changing storage needs in any room.",
@@ -2296,7 +2296,7 @@
     ]
   },
   {
-    "id": 1147,
+    "id": "1147",
     "sku": "LAM-PEN-FAR-147",
     "name": "Farmhouse Pendant Light",
     "description": "Rustic pendant light with chicken wire glass shade and weathered metal finish. Authentic farmhouse styling perfect for kitchens seeking country charm with modern function.",
@@ -2314,7 +2314,7 @@
     "tags": ["farmhouse", "chicken wire", "weathered", "rustic", "country"]
   },
   {
-    "id": 1148,
+    "id": "1148",
     "sku": "RUG-NAT-SEA-148",
     "name": "Natural Seagrass Rug",
     "description": "Handwoven seagrass area rug in natural beige with cotton border. Sustainable natural fiber adds organic texture while providing durable floor covering.",
@@ -2332,7 +2332,7 @@
     "tags": ["seagrass", "natural", "sustainable", "handwoven", "organic"]
   },
   {
-    "id": 1149,
+    "id": "1149",
     "sku": "ART-ABS-MUL-149",
     "name": "Abstract Multicolor Canvas",
     "description": "Large abstract canvas painting with vibrant multicolor brushstrokes and dynamic composition. Original artwork adds energy and creative expression to modern interiors.",
@@ -2350,7 +2350,7 @@
     "tags": ["abstract", "multicolor", "vibrant", "original art", "energetic"]
   },
   {
-    "id": 1150,
+    "id": "1150",
     "sku": "STO-ENT-HAL-150",
     "name": "Hallway Storage Console",
     "description": "Narrow console table with drawers and lower shelf perfect for hallways and tight spaces. Maximizes storage while maintaining traffic flow in narrow areas.",
@@ -2368,7 +2368,7 @@
     "tags": ["narrow", "hallway", "space-efficient", "storage", "console"]
   },
   {
-    "id": 1151,
+    "id": "1151",
     "sku": "SOF-MOD-GRY-151",
     "name": "Modern Gray Sofa",
     "description": "Three-seat sofa in soft gray fabric with slim metal legs and minimalist silhouette. Perfect for contemporary living rooms seeking understated elegance.",
@@ -2386,7 +2386,7 @@
     "tags": ["modern", "minimalist", "gray", "sleek", "comfortable"]
   },
   {
-    "id": 1152,
+    "id": "1152",
     "sku": "CHR-MID-WAL-152",
     "name": "Walnut Mid-Century Chair",
     "description": "Iconic mid-century armchair with walnut frame and teal velvet seat. Tapered legs and curved backrest offer vintage charm and comfort.",
@@ -2404,7 +2404,7 @@
     "tags": ["mid-century", "vintage", "walnut", "teal", "accent"]
   },
   {
-    "id": 1153,
+    "id": "1153",
     "sku": "BEN-STO-STR-153",
     "name": "Storage Bench",
     "description": "Upholstered bench with hidden storage compartment and tufted top in navy blue. Ideal for entryways or bedrooms needing extra organization.",
@@ -2422,7 +2422,7 @@
     "tags": ["storage", "bench", "navy", "tufted", "functional"]
   },
   {
-    "id": 1154,
+    "id": "1154",
     "sku": "CHR-ACC-RED-154",
     "name": "Red Accent Chair",
     "description": "Bold accent chair in cherry red velvet with gold legs and curved silhouette. Adds dramatic color and sophistication to any room.",
@@ -2440,7 +2440,7 @@
     "tags": ["red", "accent", "glam", "velvet", "statement"]
   },
   {
-    "id": 1155,
+    "id": "1155",
     "sku": "SOF-SCN-BLU-155",
     "name": "Scandinavian Blue Sofa",
     "description": "Minimalist three-seat sofa in blue linen with oak legs. Scandinavian design emphasizes comfort and simplicity for modern living spaces.",
@@ -2458,7 +2458,7 @@
     "tags": ["scandinavian", "blue", "minimalist", "comfortable", "modern"]
   },
   {
-    "id": 1156,
+    "id": "1156",
     "sku": "CHR-IND-BLK-156",
     "name": "Industrial Black Chair",
     "description": "Powder-coated black metal chair with distressed leather seat. Urban design perfect for lofts and contemporary dining spaces.",
@@ -2476,7 +2476,7 @@
     "tags": ["industrial", "black", "urban", "durable", "stackable"]
   },
   {
-    "id": 1157,
+    "id": "1157",
     "sku": "BEN-UPH-GRN-157",
     "name": "Green Upholstered Bench",
     "description": "Button-tufted bench in sage green velvet with brass legs. Elegant seating for bedrooms, entryways, or living rooms.",
@@ -2494,7 +2494,7 @@
     "tags": ["green", "bench", "velvet", "glam", "tufted"]
   },
   {
-    "id": 1158,
+    "id": "1158",
     "sku": "CHR-ARM-LEA-158",
     "name": "Leather Armchair",
     "description": "Classic armchair in top-grain brown leather with nail head trim. Timeless design for studies, living rooms, or reading nooks.",
@@ -2512,7 +2512,7 @@
     "tags": ["leather", "armchair", "classic", "brown", "traditional"]
   },
   {
-    "id": 1159,
+    "id": "1159",
     "sku": "SOF-VLV-EMR-159",
     "name": "Emerald Velvet Sofa",
     "description": "Luxurious emerald green velvet sofa with gold-finished legs. Adds glamour and sophisticated color to any living space.",
@@ -2530,7 +2530,7 @@
     "tags": ["emerald", "velvet", "glam", "luxury", "sofa"]
   },
   {
-    "id": 1160,
+    "id": "1160",
     "sku": "BEN-MOD-WHT-160",
     "name": "Modern White Bench",
     "description": "Sleek white bench with chrome legs and minimalist design. Perfect for entryways, bedrooms, or under windows.",
@@ -2548,7 +2548,7 @@
     "tags": ["white", "bench", "modern", "minimalist", "sleek"]
   },
   {
-    "id": 1161,
+    "id": "1161",
     "sku": "CHR-GLD-ACC-161",
     "name": "Gold Accent Chair",
     "description": "Accent chair in plush navy velvet with gold frame and geometric arms. Adds luxury and bold style to living spaces.",
@@ -2566,7 +2566,7 @@
     "tags": ["gold", "accent", "navy", "glam", "modern"]
   },
   {
-    "id": 1162,
+    "id": "1162",
     "sku": "SOF-SEC-GRY-162",
     "name": "Gray Sectional Sofa",
     "description": "Spacious L-shaped sectional in charcoal gray fabric with reversible chaise. Ideal for family rooms and entertaining.",
@@ -2584,7 +2584,7 @@
     "tags": ["sectional", "gray", "family", "spacious", "modern"]
   },
   {
-    "id": 1163,
+    "id": "1163",
     "sku": "CHR-COA-BLU-163",
     "name": "Coastal Blue Chair",
     "description": "Accent chair in light blue linen with whitewashed wood frame. Coastal style brings breezy comfort to living rooms or sunrooms.",
@@ -2602,7 +2602,7 @@
     "tags": ["coastal", "blue", "casual", "linen", "accent"]
   },
   {
-    "id": 1164,
+    "id": "1164",
     "sku": "BEN-VIN-LEA-164",
     "name": "Vintage Leather Bench",
     "description": "Bench in distressed brown leather with antique brass studs and solid wood legs. Adds character to entryways or bedrooms.",
@@ -2620,7 +2620,7 @@
     "tags": ["vintage", "leather", "bench", "brown", "traditional"]
   },
   {
-    "id": 1165,
+    "id": "1165",
     "sku": "CHR-ARM-GRN-165",
     "name": "Green Armchair",
     "description": "Armchair in olive green velvet with walnut legs and deep seat. Comfortable reading chair for living rooms or studies.",
@@ -2638,7 +2638,7 @@
     "tags": ["green", "armchair", "velvet", "comfortable", "modern"]
   },
   {
-    "id": 1166,
+    "id": "1166",
     "sku": "SOF-RET-BLU-166",
     "name": "Retro Blue Sofa",
     "description": "Retro-inspired sofa in bright blue fabric with angled wood legs. Fun style for eclectic living rooms or game rooms.",
@@ -2656,7 +2656,7 @@
     "tags": ["retro", "blue", "sofa", "fun", "eclectic"]
   },
   {
-    "id": 1167,
+    "id": "1167",
     "sku": "BEN-COA-WHT-167",
     "name": "White Coastal Bench",
     "description": "Bench in white painted wood with slatted seat and open shelf. Coastal style for breezy entryways or mudrooms.",
@@ -2674,7 +2674,7 @@
     "tags": ["white", "bench", "coastal", "casual", "storage"]
   },
   {
-    "id": 1168,
+    "id": "1168",
     "sku": "CHR-GLM-PNK-168",
     "name": "Pink Glam Chair",
     "description": "Accent chair in blush pink velvet with gold legs and tufted back. Glamorous seating for bedrooms or dressing rooms.",
@@ -2692,7 +2692,7 @@
     "tags": ["pink", "glam", "chair", "velvet", "tufted"]
   },
   {
-    "id": 1169,
+    "id": "1169",
     "sku": "SOF-SEC-BRN-169",
     "name": "Brown Sectional Sofa",
     "description": "Large sectional in chocolate brown microfiber with chaise lounge and storage ottoman. Family-friendly and easy to clean.",
@@ -2710,7 +2710,7 @@
     "tags": ["brown", "sectional", "family", "storage", "modern"]
   },
   {
-    "id": 1170,
+    "id": "1170",
     "sku": "CHR-BOH-MUL-170",
     "name": "Bohemian Multicolor Chair",
     "description": "Boho accent chair with handwoven multicolor fabric and natural wood frame. Artistic flair for eclectic interiors.",
@@ -2728,7 +2728,7 @@
     "tags": ["bohemian", "multicolor", "chair", "artistic", "eclectic"]
   },
   {
-    "id": 1171,
+    "id": "1171",
     "sku": "BEN-MID-GRN-171",
     "name": "Mid-Century Green Bench",
     "description": "Bench in olive green fabric with tapered walnut legs and button tufting. Vintage style for entryways or bedrooms.",
@@ -2746,7 +2746,7 @@
     "tags": ["mid-century", "green", "bench", "vintage", "tufted"]
   },
   {
-    "id": 1172,
+    "id": "1172",
     "sku": "CHR-RET-YEL-172",
     "name": "Retro Yellow Chair",
     "description": "Accent chair in bright yellow vinyl with chrome legs and curved back. Fun retro style for game rooms or offices.",
@@ -2764,7 +2764,7 @@
     "tags": ["retro", "yellow", "chair", "fun", "accent"]
   },
   {
-    "id": 1173,
+    "id": "1173",
     "sku": "SOF-LUX-BLK-173",
     "name": "Luxury Black Sofa",
     "description": "Elegant black velvet sofa with deep seat and gold trim. Sophisticated centerpiece for formal living rooms.",
@@ -2782,7 +2782,7 @@
     "tags": ["luxury", "black", "sofa", "velvet", "gold"]
   },
   {
-    "id": 1174,
+    "id": "1174",
     "sku": "BEN-FRM-OAK-174",
     "name": "Oak Farmhouse Bench",
     "description": "Solid oak bench with natural finish and crossbeam legs. Farmhouse style for dining rooms or entryways.",
@@ -2800,7 +2800,7 @@
     "tags": ["oak", "farmhouse", "bench", "rustic", "solid wood"]
   },
   {
-    "id": 1175,
+    "id": "1175",
     "sku": "CHR-GLD-WHT-175",
     "name": "White and Gold Chair",
     "description": "Accent chair in white faux leather with gold metal frame and angular arms. Modern glam for living rooms or offices.",
@@ -2818,7 +2818,7 @@
     "tags": ["white", "gold", "chair", "modern", "glam"]
   },
   {
-    "id": 1176,
+    "id": "1176",
     "sku": "SOF-SEC-BLU-176",
     "name": "Blue Sectional Sofa",
     "description": "Large sectional in navy blue fabric with reversible chaise and storage ottoman. Perfect for family gatherings.",
@@ -2836,7 +2836,7 @@
     "tags": ["blue", "sectional", "family", "storage", "modern"]
   },
   {
-    "id": 1177,
+    "id": "1177",
     "sku": "BEN-GLM-SLV-177",
     "name": "Silver Glam Bench",
     "description": "Bench in silver velvet with acrylic legs and tufted seat. Glamorous accent for bedrooms or dressing areas.",
@@ -2854,7 +2854,7 @@
     "tags": ["silver", "bench", "glam", "acrylic", "tufted"]
   },
   {
-    "id": 1178,
+    "id": "1178",
     "sku": "CHR-ARM-BLU-178",
     "name": "Blue Armchair",
     "description": "Armchair in deep blue linen with walnut legs and wide seat. Comfortable reading chair for living rooms or studies.",
@@ -2872,7 +2872,7 @@
     "tags": ["blue", "armchair", "linen", "comfortable", "modern"]
   },
   {
-    "id": 1179,
+    "id": "1179",
     "sku": "SOF-MOD-WHT-179",
     "name": "Modern White Sofa",
     "description": "Three-seat sofa in white faux leather with chrome legs and minimalist silhouette. Sleek style for contemporary living rooms.",
@@ -2890,7 +2890,7 @@
     "tags": ["modern", "white", "sofa", "sleek", "minimalist"]
   },
   {
-    "id": 1180,
+    "id": "1180",
     "sku": "BEN-RUS-WAL-180",
     "name": "Rustic Walnut Bench",
     "description": "Bench in reclaimed walnut with natural finish and metal legs. Rustic style for entryways or dining rooms.",
@@ -2908,7 +2908,7 @@
     "tags": ["rustic", "walnut", "bench", "industrial", "reclaimed"]
   },
   {
-    "id": 1181,
+    "id": "1181",
     "sku": "CHR-GLM-GRN-181",
     "name": "Green Glam Chair",
     "description": "Accent chair in emerald green velvet with gold legs and tufted back. Glamorous seating for bedrooms or living rooms.",
@@ -2926,7 +2926,7 @@
     "tags": ["green", "glam", "chair", "velvet", "tufted"]
   },
   {
-    "id": 1182,
+    "id": "1182",
     "sku": "SOF-RET-YEL-182",
     "name": "Retro Yellow Sofa",
     "description": "Retro-inspired sofa in bright yellow fabric with angled wood legs. Fun style for eclectic living rooms or game rooms.",
@@ -2944,7 +2944,7 @@
     "tags": ["retro", "yellow", "sofa", "fun", "eclectic"]
   },
   {
-    "id": 1183,
+    "id": "1183",
     "sku": "BEN-MOD-BLK-183",
     "name": "Modern Black Bench",
     "description": "Bench in black faux leather with chrome legs and minimalist design. Sleek seating for entryways or bedrooms.",
@@ -2962,7 +2962,7 @@
     "tags": ["black", "bench", "modern", "minimalist", "sleek"]
   },
   {
-    "id": 1184,
+    "id": "1184",
     "sku": "CHR-ARM-RED-184",
     "name": "Red Armchair",
     "description": "Armchair in cherry red velvet with walnut legs and deep seat. Comfortable reading chair for living rooms or studies.",
@@ -2980,7 +2980,7 @@
     "tags": ["red", "armchair", "velvet", "comfortable", "modern"]
   },
   {
-    "id": 1185,
+    "id": "1185",
     "sku": "SOF-LUX-GRN-185",
     "name": "Luxury Green Sofa",
     "description": "Elegant green velvet sofa with deep seat and gold trim. Sophisticated centerpiece for formal living rooms.",
@@ -2998,7 +2998,7 @@
     "tags": ["luxury", "green", "sofa", "velvet", "gold"]
   },
   {
-    "id": 1186,
+    "id": "1186",
     "sku": "BEN-FRM-WHT-186",
     "name": "White Farmhouse Bench",
     "description": "Bench in white painted wood with crossbeam legs and natural finish. Farmhouse style for dining rooms or entryways.",
@@ -3016,7 +3016,7 @@
     "tags": ["white", "farmhouse", "bench", "rustic", "solid wood"]
   },
   {
-    "id": 1187,
+    "id": "1187",
     "sku": "CHR-GLD-BLK-187",
     "name": "Black and Gold Chair",
     "description": "Accent chair in black faux leather with gold metal frame and angular arms. Modern glam for living rooms or offices.",
@@ -3034,7 +3034,7 @@
     "tags": ["black", "gold", "chair", "modern", "glam"]
   },
   {
-    "id": 1188,
+    "id": "1188",
     "sku": "SOF-SEC-GRN-188",
     "name": "Green Sectional Sofa",
     "description": "Large sectional in sage green fabric with reversible chaise and storage ottoman. Perfect for family gatherings.",
@@ -3052,7 +3052,7 @@
     "tags": ["green", "sectional", "family", "storage", "modern"]
   },
   {
-    "id": 1189,
+    "id": "1189",
     "sku": "BEN-GLM-PNK-189",
     "name": "Pink Glam Bench",
     "description": "Bench in blush pink velvet with acrylic legs and tufted seat. Glamorous accent for bedrooms or dressing areas.",
@@ -3070,7 +3070,7 @@
     "tags": ["pink", "bench", "glam", "acrylic", "tufted"]
   },
   {
-    "id": 1190,
+    "id": "1190",
     "sku": "CHR-ARM-WHT-190",
     "name": "White Armchair",
     "description": "Armchair in white linen with walnut legs and wide seat. Comfortable reading chair for living rooms or studies.",
@@ -3088,7 +3088,7 @@
     "tags": ["white", "armchair", "linen", "comfortable", "modern"]
   },
   {
-    "id": 1191,
+    "id": "1191",
     "sku": "SOF-MOD-BLK-191",
     "name": "Modern Black Sofa",
     "description": "Three-seat sofa in black faux leather with chrome legs and minimalist silhouette. Sleek style for contemporary living rooms.",
@@ -3106,7 +3106,7 @@
     "tags": ["modern", "black", "sofa", "sleek", "minimalist"]
   },
   {
-    "id": 1192,
+    "id": "1192",
     "sku": "BEN-RUS-OAK-192",
     "name": "Rustic Oak Bench",
     "description": "Bench in reclaimed oak with natural finish and metal legs. Rustic style for entryways or dining rooms.",
@@ -3124,7 +3124,7 @@
     "tags": ["rustic", "oak", "bench", "industrial", "reclaimed"]
   },
   {
-    "id": 1193,
+    "id": "1193",
     "sku": "CHR-GLM-BLU-193",
     "name": "Blue Glam Chair",
     "description": "Accent chair in navy blue velvet with gold legs and tufted back. Glamorous seating for bedrooms or living rooms.",
@@ -3142,7 +3142,7 @@
     "tags": ["blue", "glam", "chair", "velvet", "tufted"]
   },
   {
-    "id": 1194,
+    "id": "1194",
     "sku": "SOF-RET-GRN-194",
     "name": "Retro Green Sofa",
     "description": "Retro-inspired sofa in bright green fabric with angled wood legs. Fun style for eclectic living rooms or game rooms.",
@@ -3160,7 +3160,7 @@
     "tags": ["retro", "green", "sofa", "fun", "eclectic"]
   },
   {
-    "id": 1195,
+    "id": "1195",
     "sku": "BEN-MOD-GRY-195",
     "name": "Modern Gray Bench",
     "description": "Bench in gray faux leather with chrome legs and minimalist design. Sleek seating for entryways or bedrooms.",
@@ -3178,7 +3178,7 @@
     "tags": ["gray", "bench", "modern", "minimalist", "sleek"]
   },
   {
-    "id": 1196,
+    "id": "1196",
     "sku": "CHR-ARM-PNK-196",
     "name": "Pink Armchair",
     "description": "Armchair in blush pink velvet with walnut legs and wide seat. Comfortable reading chair for living rooms or studies.",
@@ -3196,7 +3196,7 @@
     "tags": ["pink", "armchair", "velvet", "comfortable", "modern"]
   },
   {
-    "id": 1197,
+    "id": "1197",
     "sku": "SOF-LUX-BLU-197",
     "name": "Luxury Blue Sofa",
     "description": "Elegant blue velvet sofa with deep seat and gold trim. Sophisticated centerpiece for formal living rooms.",
@@ -3214,7 +3214,7 @@
     "tags": ["luxury", "blue", "sofa", "velvet", "gold"]
   },
   {
-    "id": 1198,
+    "id": "1198",
     "sku": "BEN-FRM-GRN-198",
     "name": "Green Farmhouse Bench",
     "description": "Bench in sage green painted wood with crossbeam legs and natural finish. Farmhouse style for dining rooms or entryways.",
@@ -3232,7 +3232,7 @@
     "tags": ["green", "farmhouse", "bench", "rustic", "solid wood"]
   },
   {
-    "id": 1199,
+    "id": "1199",
     "sku": "CHR-GLD-GRN-199",
     "name": "Green and Gold Chair",
     "description": "Accent chair in emerald green velvet with gold metal frame and angular arms. Modern glam for living rooms or offices.",

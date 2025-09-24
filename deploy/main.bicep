@@ -1,10 +1,10 @@
 // Bicep file for FurnitureFinder POC Azure resources
 param location string = 'eastus'
-param resourcePrefix string = 'ffpoc'
+param resourcePrefix string = 'ff-poc-'
 
 // Storage Account
 resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
-  name: '${resourcePrefix}storage'
+  name: '${replace(resourcePrefix, '-', '')}storage'
   location: location
   sku: {
     name: 'Standard_LRS' // Basic tier
@@ -25,7 +25,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2023-01-01' = {
     capacity: 1
   }
   properties: {
-    reserved: false
+    reserved: true // set to false for Windows
   }
 }
 
@@ -37,8 +37,7 @@ resource webApp 'Microsoft.Web/sites@2023-01-01' = {
     serverFarmId: appServicePlan.id
     httpsOnly: true
     siteConfig: {
-      netFrameworkVersion: 'v6.0'
-      linuxFxVersion: 'DOTNET|9.0'
+      linuxFxVersion: 'DOTNET|9.0' // Remove for Windows plans
     }
   }
 }
@@ -66,6 +65,7 @@ resource visionService 'Microsoft.CognitiveServices/accounts@2023-05-01' = {
   }
   kind: 'ComputerVision'
   properties: {
+    restore: true
     apiProperties: {
       qnaRuntimeEndpoint: ''
     }
@@ -84,6 +84,7 @@ resource openAIService 'Microsoft.CognitiveServices/accounts@2023-05-01' = {
   }
   kind: 'OpenAI'
   properties: {
+    restore: true
     networkAcls: {
       defaultAction: 'Allow'
     }

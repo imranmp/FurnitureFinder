@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "id",
-      "type": "Edm.Int32",
+      "type": "Edm.String",
       "key": true,
       "searchable": false,
       "filterable": true,
@@ -152,7 +152,8 @@
         "kind": "azureOpenAI",
         "azureOpenAIParameters": {
           "resourceUri": "https://your-openai-resource.openai.azure.com",
-          "deploymentId": "text-embedding-ada-002"
+          "deploymentId": "text-embedding-ada-002",
+          "modelName": "text-embedding-ada-002"
         }
       }
     ]
@@ -187,10 +188,19 @@
               "fieldName": "style"
             },
             {
+              "fieldName": "colors/all_colors"
+            },
+            {
               "fieldName": "materials"
             },
             {
               "fieldName": "tags"
+            },
+            {
+              "fieldName": "colors/primary"
+            },
+            {
+              "fieldName": "colors/secondary"
             }
           ]
         }
