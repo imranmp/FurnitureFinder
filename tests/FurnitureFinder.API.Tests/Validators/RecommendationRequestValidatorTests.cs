@@ -7,52 +7,27 @@ public class RecommendationRequestValidatorTests
 {
     private readonly RecommendationRequestValidator _validator = new();
 
-    [Fact]
-    public void Validate_ImageIsNull_ReturnsInvalid()
-    {
-        // Arrange
-        var request = new RecommendationRequest(null, "Valid");
-
-        // Act
-        var result = _validator.Validate(request);
-
-        // Assert
-        Assert.False(result.IsValid);
-        Assert.Contains(result.Errors, e => e.PropertyName == "Image");
-    }
-
     [Theory]
-    [InlineData(0)]
-    [InlineData(-1)]
-    public void Validate_ImageIsEmptyOrZeroLength_ReturnsInvalid(long length)
+    [InlineData(null, null)]
+    [InlineData(0, null)]
+    [InlineData(0, "")]
+    [InlineData(0, " ")]
+    public void Validate_BothImageAndSearchTextIsMissing_ReturnsInvalid(int? length, string searchText)
     {
         // Arrange
         var imageMock = new Mock<IFormFile>();
-        imageMock.Setup(f => f.Length).Returns(length);
-        var request = new RecommendationRequest(imageMock.Object, "Valid");
+        imageMock.Setup(f => f.Length).Returns(length ?? 0);
+
+        var request = new RecommendationRequest(length == null ? null : imageMock.Object, searchText);
 
         // Act
         var result = _validator.Validate(request);
 
         // Assert
         Assert.False(result.IsValid);
-        Assert.Contains(result.Errors, e => e.PropertyName == "Image");
+        Assert.Contains(result.Errors, e => e.ErrorMessage == "Either Image or SearchText must be provided.");
     }
 
-    [Fact]
-    public void Validate_ImageIsNotEmpty_ReturnsValid()
-    {
-        // Arrange
-        var imageMock = new Mock<IFormFile>();
-        imageMock.Setup(f => f.Length).Returns(10);
-        var request = new RecommendationRequest(imageMock.Object, "Valid");
-
-        // Act
-        var result = _validator.Validate(request);
-
-        // Assert
-        Assert.True(result.IsValid);
-    }
 
     [Theory]
     [InlineData(151)]
@@ -60,10 +35,8 @@ public class RecommendationRequestValidatorTests
     public void Validate_SearchTextTooLong_ReturnsInvalid(int length)
     {
         // Arrange
-        var imageMock = new Mock<IFormFile>();
-        imageMock.Setup(f => f.Length).Returns(10);
         var longText = new string('a', length);
-        var request = new RecommendationRequest(imageMock.Object, longText);
+        var request = new RecommendationRequest(null, longText);
 
         // Act
         var result = _validator.Validate(request);
@@ -74,22 +47,28 @@ public class RecommendationRequestValidatorTests
     }
 
     [Theory]
-    [InlineData(null)]
-    [InlineData(0)]
-    [InlineData(50)]
-    [InlineData(150)]
-    public void Validate_SearchTextValidLength_ReturnsValid(int? length)
+    [InlineData(10, 0)]
+    [InlineData(10, -1)]
+    [InlineData(10, null)]
+    [InlineData(null, 10)]
+    [InlineData(0, 10)]
+    [InlineData(-1, 10)]
+    [InlineData(150, 150)]
+    public void Validate_ValidRequests_ReturnsValid(int? length, int? searchTextLength)
     {
         // Arrange
         var imageMock = new Mock<IFormFile>();
-        imageMock.Setup(f => f.Length).Returns(10);
+        imageMock.Setup(f => f.Length).Returns(length ?? 0);
 
-        string validText = null;
-        if (length.HasValue)
+        int l = 0;
+        if (searchTextLength.HasValue)
         {
-            validText = new string('a', length.Value);
+            l = searchTextLength.Value < 1 ? 0 : searchTextLength.Value;
         }
-        var request = new RecommendationRequest(imageMock.Object, validText);
+
+        var searchText = new string('a', l);
+
+        var request = new RecommendationRequest(length == null ? null : imageMock.Object, searchText);
 
         // Act
         var result = _validator.Validate(request);
@@ -97,4 +76,5 @@ public class RecommendationRequestValidatorTests
         // Assert
         Assert.True(result.IsValid);
     }
+
 }
