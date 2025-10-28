@@ -65,6 +65,9 @@ public class OpenAIConfig()
 
     [Required]
     public required string EmbeddingDeploymentName { get; set; }
+
+    [Required]
+    public required int EmbeddingDimensions { get; set; }
 }
 
 public class BlobStorageConfig()

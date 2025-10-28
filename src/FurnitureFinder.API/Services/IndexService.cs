@@ -21,7 +21,7 @@ public class IndexService(IOptions<SearchConfig> searchConfig, IOptions<OpenAICo
     private readonly string _vectorConfigName = "product-summary-vector-config";
     private readonly string _vectorProfileName = "product-summary-vector-profile";
     private readonly string _vectorizerName = "product-summary-vectorizer";
-    private readonly int _embeddingDimensions = 1536; // searchConfig.Value.EmbeddingDimensions;
+    private readonly int _embeddingDimensions = openAiConfig.Value.EmbeddingDimensions;
 
     private readonly JsonSerializerOptions _jsonSerializerOptions = new()
     {

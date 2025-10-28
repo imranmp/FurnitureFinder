@@ -82,6 +82,11 @@ public class AzureConfigurationValidator : IValidateOptions<AzureConfiguration>
             {
                 errors.AppendLine("OpenAI embedding model name is required.");
             }
+
+            if (settings.OpenAI.EmbeddingDimensions == 0)
+            {
+                errors.AppendLine("OpenAI embedding dimensions value is required.");
+            }
         }
 
         if (settings.BlobStorage is null)
