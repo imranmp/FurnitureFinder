@@ -44,9 +44,6 @@ public class SearchConfig
 
     [Required]
     public required string IndexName { get; set; }
-
-    [Required]
-    public required string SemanticConfigurationName { get; set; }
 }
 
 public class OpenAIConfig()
@@ -62,6 +59,12 @@ public class OpenAIConfig()
 
     [Required]
     public required string DeploymentName { get; set; }
+
+    [Required]
+    public required string EmbeddingModelName { get; set; }
+
+    [Required]
+    public required string EmbeddingDeploymentName { get; set; }
 }
 
 public class BlobStorageConfig()

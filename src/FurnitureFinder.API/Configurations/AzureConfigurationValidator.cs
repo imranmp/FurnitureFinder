@@ -50,11 +50,6 @@ public class AzureConfigurationValidator : IValidateOptions<AzureConfiguration>
             {
                 errors.AppendLine("Search index name is required.");
             }
-
-            if (string.IsNullOrWhiteSpace(settings.Search.SemanticConfigurationName))
-            {
-                errors.AppendLine("Search semantic configuration name is required.");
-            }
         }
 
         if (settings.OpenAI is null)
@@ -76,6 +71,16 @@ public class AzureConfigurationValidator : IValidateOptions<AzureConfiguration>
             if (string.IsNullOrWhiteSpace(settings.OpenAI.DeploymentName))
             {
                 errors.AppendLine("OpenAI deployment name is required.");
+            }
+
+            if (string.IsNullOrWhiteSpace(settings.OpenAI.EmbeddingDeploymentName))
+            {
+                errors.AppendLine("OpenAI embedding deployment name is required.");
+            }
+
+            if (string.IsNullOrWhiteSpace(settings.OpenAI.EmbeddingModelName))
+            {
+                errors.AppendLine("OpenAI embedding model name is required.");
             }
         }
 

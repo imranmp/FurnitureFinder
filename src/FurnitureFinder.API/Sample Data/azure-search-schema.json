@@ -1,60 +1,92 @@
 {
+  "@odata.etag": "\"0x8DDFC710639A024\"",
   "name": "furniture-index",
   "fields": [
     {
       "name": "id",
       "type": "Edm.String",
-      "key": true,
       "searchable": false,
       "filterable": true,
-      "retrievable": true
+      "retrievable": true,
+      "stored": true,
+      "sortable": true,
+      "facetable": true,
+      "key": true,
+      "synonymMaps": []
     },
     {
       "name": "sku",
       "type": "Edm.String",
       "searchable": true,
       "filterable": true,
-      "retrievable": true
+      "retrievable": true,
+      "stored": true,
+      "sortable": true,
+      "facetable": true,
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "name",
       "type": "Edm.String",
       "searchable": true,
       "filterable": true,
-      "sortable": true,
       "retrievable": true,
-      "analyzer": "en.microsoft"
+      "stored": true,
+      "sortable": true,
+      "facetable": true,
+      "key": false,
+      "analyzer": "en.microsoft",
+      "synonymMaps": []
     },
     {
       "name": "description",
       "type": "Edm.String",
       "searchable": true,
+      "filterable": true,
       "retrievable": true,
-      "analyzer": "en.microsoft"
+      "stored": true,
+      "sortable": true,
+      "facetable": true,
+      "key": false,
+      "analyzer": "en.microsoft",
+      "synonymMaps": []
     },
     {
       "name": "category",
       "type": "Edm.String",
       "searchable": true,
       "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": true,
       "facetable": true,
-      "retrievable": true
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "subcategory",
       "type": "Edm.String",
       "searchable": true,
       "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": true,
       "facetable": true,
-      "retrievable": true
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "style",
       "type": "Collection(Edm.String)",
       "searchable": true,
       "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": false,
       "facetable": true,
-      "retrievable": true
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "colors",
@@ -65,24 +97,36 @@
           "type": "Edm.String",
           "searchable": true,
           "filterable": true,
+          "retrievable": true,
+          "stored": true,
+          "sortable": true,
           "facetable": true,
-          "retrievable": true
+          "key": false,
+          "synonymMaps": []
         },
         {
           "name": "secondary",
           "type": "Edm.String",
           "searchable": true,
           "filterable": true,
+          "retrievable": true,
+          "stored": true,
+          "sortable": true,
           "facetable": true,
-          "retrievable": true
+          "key": false,
+          "synonymMaps": []
         },
         {
           "name": "all_colors",
           "type": "Collection(Edm.String)",
           "searchable": true,
           "filterable": true,
+          "retrievable": true,
+          "stored": true,
+          "sortable": false,
           "facetable": true,
-          "retrievable": true
+          "key": false,
+          "synonymMaps": []
         }
       ]
     },
@@ -91,77 +135,80 @@
       "type": "Collection(Edm.String)",
       "searchable": true,
       "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": false,
       "facetable": true,
-      "retrievable": true
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "room_types",
       "type": "Collection(Edm.String)",
       "searchable": true,
       "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": false,
       "facetable": true,
-      "retrievable": true
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "features",
       "type": "Collection(Edm.String)",
       "searchable": true,
       "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": false,
       "facetable": true,
-      "retrievable": true
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "tags",
       "type": "Collection(Edm.String)",
       "searchable": true,
       "filterable": true,
-      "retrievable": true
+      "retrievable": true,
+      "stored": true,
+      "sortable": false,
+      "facetable": true,
+      "key": false,
+      "synonymMaps": []
     },
     {
       "name": "content_vector",
       "type": "Collection(Edm.Single)",
       "searchable": true,
+      "filterable": false,
       "retrievable": false,
+      "stored": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
       "dimensions": 1536,
-      "vectorSearchProfile": "furniture-vector-profile"
+      "vectorSearchProfile": "furniture-vector-profile",
+      "synonymMaps": []
     }
   ],
-  "vectorSearch": {
-    "profiles": [
-      {
-        "name": "furniture-vector-profile",
-        "algorithm": "furniture-hnsw-algorithm",
-        "vectorizer": "furniture-vectorizer"
-      }
-    ],
-    "algorithms": [
-      {
-        "name": "furniture-hnsw-algorithm",
-        "kind": "hnsw",
-        "hnswParameters": {
-          "metric": "cosine",
-          "m": 4,
-          "efConstruction": 400,
-          "efSearch": 500
-        }
-      }
-    ],
-    "vectorizers": [
-      {
-        "name": "furniture-vectorizer",
-        "kind": "azureOpenAI",
-        "azureOpenAIParameters": {
-          "resourceUri": "https://your-openai-resource.openai.azure.com",
-          "deploymentId": "text-embedding-ada-002",
-          "modelName": "text-embedding-ada-002"
-        }
-      }
-    ]
+  "scoringProfiles": [],
+  "suggesters": [],
+  "analyzers": [],
+  "normalizers": [],
+  "tokenizers": [],
+  "tokenFilters": [],
+  "charFilters": [],
+  "similarity": {
+    "@odata.type": "#Microsoft.Azure.Search.BM25Similarity"
   },
   "semantic": {
     "configurations": [
       {
         "name": "furniture-semantic-config",
+        "flightingOptIn": false,
+        "rankingOrder": "BoostedRerankerScore",
         "prioritizedFields": {
           "titleField": {
             "fieldName": "name"
@@ -188,10 +235,10 @@
               "fieldName": "style"
             },
             {
-              "fieldName": "colors/all_colors"
+              "fieldName": "materials"
             },
             {
-              "fieldName": "materials"
+              "fieldName": "colors/all_colors"
             },
             {
               "fieldName": "tags"
@@ -206,5 +253,38 @@
         }
       }
     ]
+  },
+  "vectorSearch": {
+    "algorithms": [
+      {
+        "name": "furniture-hnsw-algorithm",
+        "kind": "hnsw",
+        "hnswParameters": {
+          "metric": "cosine",
+          "m": 4,
+          "efConstruction": 400,
+          "efSearch": 500
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "name": "furniture-vector-profile",
+        "algorithm": "furniture-hnsw-algorithm",
+        "vectorizer": "furniture-vectorizer"
+      }
+    ],
+    "vectorizers": [
+      {
+        "name": "furniture-vectorizer",
+        "kind": "azureOpenAI",
+        "azureOpenAIParameters": {
+          "resourceUri": "https://ff-poc-openai.openai.azure.com",
+          "deploymentId": "text-embedding-ada-002",
+          "modelName": "text-embedding-ada-002"
+        }
+      }
+    ],
+    "compressions": []
   }
 }

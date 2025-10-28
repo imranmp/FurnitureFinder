@@ -1,4 +1,3 @@
-using Azure;
 using Azure.Search.Documents;
 using Azure.Search.Documents.Models;
 using System.Text.RegularExpressions;
@@ -13,32 +12,7 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig, ILogger<Azu
             searchConfig.Value.IndexName,
             new Azure.AzureKeyCredential(searchConfig.Value.Key));
 
-    private readonly string _semanticConfigurationName = searchConfig.Value.SemanticConfigurationName;
-
-    public async Task MergeOrUploadProductsAsync(IEnumerable<Product> products, CancellationToken cancellationToken = default)
-    {
-        try
-        {
-            if (products == null || !products.Any())
-            {
-                products = JsonSerializer.Deserialize<List<Product>>(File.ReadAllText("sample-data/sample_furniture_data.json")) ?? [];
-            }
-
-            Response<IndexDocumentsResult> result = await _searchClient.MergeOrUploadDocumentsAsync<Product>(products, cancellationToken: cancellationToken);
-
-            result.Value.Results.ToList().ForEach(r =>
-            {
-                if (!r.Succeeded)
-                {
-                    logger.LogWarning("Failed to index document with key: {Key}, Error: {ErrorMessage}", r.Key, r.ErrorMessage);
-                }
-            });
-        }
-        catch (Exception ex)
-        {
-            logger.LogError(ex, "Error populating search index.");
-        }
-    }
+    private readonly string _semanticConfigurationName = "default";
 
     public async Task<(string, List<ProductSearchResult>)> FindComplementaryFurnitureAsync(AzureVisionResult azureVisionResult, string openAIConciseDescription,
         RecommendationRequest request, CancellationToken cancellationToken = default)
@@ -230,6 +204,7 @@ public class AzureSearchService(IOptions<SearchConfig> searchConfig, ILogger<Azu
 
         return furnitureTags;
     }
+
 
     public class FurnitureTags
     {

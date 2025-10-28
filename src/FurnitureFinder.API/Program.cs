@@ -21,6 +21,7 @@ builder.Services.AddScoped<IAzureVisionService, AzureVisionService>();
 builder.Services.AddScoped<IAzureSearchService, AzureSearchService>();
 builder.Services.AddScoped<IAzureOpenAIService, AzureOpenAIService>();
 builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
+builder.Services.AddScoped<IIndexService, IndexService>();
 builder.Services.AddScoped<IFurnitureFinderService, FurnitureFinderService>();
 
 // Configure CORS for frontend

@@ -1,0 +1,14 @@
+﻿@FurnitureFinder.API_HostAddress = https://localhost:7231
+
+### Create Index
+POST {{FurnitureFinder.API_HostAddress}}/index
+
+
+### Seed Index
+POST {{FurnitureFinder.API_HostAddress}}/index/seed
+Content-Type: application/json
+
+[
+]
+
+###

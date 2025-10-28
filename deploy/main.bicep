@@ -9,9 +9,17 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   sku: {
     name: 'Standard_LRS' // Basic tier
   }
-  kind: 'StorageV2'
+  kind: 'StorageV2' 
   properties: {
     accessTier: 'Hot'
+  }
+}
+
+// Blob Container for furniture data
+resource furnitureDataContainer 'Microsoft.Storage/storageAccounts/blobServices/containers@2023-01-01' = {
+  name: '${storageAccount.name}/default/furnituredata'
+  properties: {
+    publicAccess: 'None'
   }
 }
 
@@ -84,6 +92,7 @@ resource openAIService 'Microsoft.CognitiveServices/accounts@2023-05-01' = {
   }
   kind: 'OpenAI'
   properties: {
+    customSubDomainName: toLower('${resourcePrefix}openai')
     restore: true
     networkAcls: {
       defaultAction: 'Allow'

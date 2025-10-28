@@ -6,11 +6,9 @@ public class RecommendationRequestValidator : AbstractValidator<RecommendationRe
 {
     public RecommendationRequestValidator()
     {
-        RuleFor(x => x.Image)
-            .NotNull()
-            .WithMessage("Image is required")
-            .Must(image => image != null && image.Length > 0)
-            .WithMessage("Image is required");
+        RuleFor(x => x)
+            .Must(request => (request.Image != null && request.Image.Length > 0) || !string.IsNullOrEmpty(request.SearchText))
+            .WithMessage("Either Image or SearchText must be provided.");
 
         RuleFor(x => x.SearchText)
             .MaximumLength(150)

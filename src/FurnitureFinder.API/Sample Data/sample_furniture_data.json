@@ -6,6 +6,7 @@
     "description": "Spacious L-shaped sectional sofa with clean lines and plush cushioning, perfect for contemporary living spaces. Features durable charcoal fabric upholstery and solid hardwood frame with reversible chaise lounge.",
     "category": "Seating",
     "subcategory": "Sectionals",
+    "price": 1299.99,
     "style": ["modern", "contemporary"],
     "colors": {
       "primary": "charcoal gray",
@@ -28,6 +29,7 @@
     "description": "Classic vintage-style armchair crafted from genuine top-grain leather with brass nail head trim. Features rich brown patina that develops character over time, perfect for studies or reading nooks.",
     "category": "Seating",
     "subcategory": "Chairs",
+    "price": 799.99,
     "style": ["vintage", "traditional"],
     "colors": {
       "primary": "brown",
@@ -52,6 +54,7 @@
     "description": "Solid oak dining table with beautiful natural grain finish and pedestal base. Perfect for intimate dining experiences, seats up to 4 people comfortably with timeless farmhouse appeal.",
     "category": "Tables",
     "subcategory": "Dining Tables",
+    "price": 599.99,
     "style": ["farmhouse", "rustic"],
     "colors": {
       "primary": "natural oak",
@@ -74,6 +77,7 @@
     "description": "Elegant ceramic table lamp with glazed white finish and natural linen shade. Provides warm ambient lighting perfect for bedside tables or living room accent lighting.",
     "category": "Lighting",
     "subcategory": "Table Lamps",
+    "price": 89.99,
     "style": ["contemporary", "transitional"],
     "colors": {
       "primary": "white",
@@ -92,6 +96,7 @@
     "description": "Traditional Persian-style area rug in rich navy blue with intricate gold and cream patterns. Machine-woven for durability while maintaining classic elegance and timeless appeal.",
     "category": "Textiles",
     "subcategory": "Area Rugs",
+    "price": 399.99,
     "style": ["traditional", "classic"],
     "colors": {
       "primary": "navy blue",
@@ -110,6 +115,7 @@
     "description": "Decorative wall mirror with ornate gold frame featuring baroque-inspired details. Perfect statement piece for entryways, bedrooms, or powder rooms with classical elegance.",
     "category": "Decor & Accessories",
     "subcategory": "Mirrors",
+    "price": 249.99,
     "style": ["traditional", "glam"],
     "colors": {
       "primary": "gold",
@@ -128,6 +134,7 @@
     "description": "Minimalist king-size platform bed with built-in nightstands and LED accent lighting. Clean lines and dark walnut finish complement modern bedroom aesthetics perfectly.",
     "category": "Bedroom",
     "subcategory": "Beds",
+    "price": 1099.99,
     "style": ["modern", "minimalist"],
     "colors": {
       "primary": "dark walnut",
@@ -156,6 +163,7 @@
     "description": "Five-shelf ladder-style bookcase in crisp white finish with clean Scandinavian design. Perfect for displaying books, plants, and decorative objects in any room.",
     "category": "Storage",
     "subcategory": "Bookcases",
+    "price": 199.99,
     "style": ["scandinavian", "contemporary"],
     "colors": {
       "primary": "white",
@@ -174,6 +182,7 @@
     "description": "Traditional oak china hutch with glass-front upper cabinet and spacious lower storage. Perfect for displaying fine china and storing dining essentials with classic farmhouse charm.",
     "category": "Dining Room",
     "subcategory": "Hutches",
+    "price": 899.99,
     "style": ["traditional", "farmhouse"],
     "colors": {
       "primary": "natural oak",
@@ -196,6 +205,7 @@
     "description": "Set of two linen-textured blackout curtains in soft gray. Energy-efficient design blocks 99% of light while providing elegant window treatment for better sleep.",
     "category": "Textiles",
     "subcategory": "Curtains",
+    "price": 79.99,
     "style": ["contemporary", "transitional"],
     "colors": {
       "primary": "light gray",
@@ -214,6 +224,7 @@
     "description": "Luxurious loveseat upholstered in rich emerald velvet with gold-finished legs. Perfect accent piece that adds glamour and sophisticated color to any living space.",
     "category": "Seating",
     "subcategory": "Loveseats",
+    "price": 699.99,
     "style": ["glam", "contemporary"],
     "colors": {
       "primary": "emerald green",
@@ -232,6 +243,7 @@
     "description": "Modern coffee table with tempered glass top and chrome legs. Clean, minimalist design creates an open feel while providing functional surface space.",
     "category": "Tables",
     "subcategory": "Coffee Tables",
+    "price": 299.99,
     "style": ["modern", "minimalist"],
     "colors": {
       "primary": "clear glass",
@@ -250,6 +262,7 @@
     "description": "Classic button-tufted accent chair in soft beige fabric with dark wood legs. Timeless design complements both traditional and contemporary decor schemes beautifully.",
     "category": "Seating",
     "subcategory": "Chairs",
+    "price": 249.99,
     "style": ["traditional", "transitional"],
     "colors": {
       "primary": "beige",
@@ -272,6 +285,7 @@
     "description": "Contemporary arc floor lamp with adjustable head and marble base. Perfect for reading or creating ambient lighting over seating areas with mid-century modern appeal.",
     "category": "Lighting",
     "subcategory": "Floor Lamps",
+    "price": 179.99,
     "style": ["mid-century modern", "contemporary"],
     "colors": {
       "primary": "brass",
@@ -296,6 +310,7 @@
     "description": "Classic white six-drawer dresser with brushed nickel hardware. Ample storage space with smooth-gliding drawers and anti-tip safety features for bedroom organization.",
     "category": "Storage",
     "subcategory": "Dressers",
+    "price": 499.99,
     "style": ["traditional", "transitional"],
     "colors": {
       "primary": "white",
@@ -320,6 +335,7 @@
     "description": "Large abstract canvas artwork featuring bold brushstrokes in blues and golds. Gallery-wrapped and ready to hang, perfect for adding modern artistic flair to any room.",
     "category": "Decor & Accessories",
     "subcategory": "Canvas Art",
+    "price": 299.99,
     "style": ["contemporary", "modern"],
     "colors": {
       "primary": "blue",
@@ -338,6 +354,7 @@
     "description": "Contemporary area rug with bold geometric pattern in black, white, and gray. Low-profile design perfect for high-traffic areas with easy-care synthetic fibers.",
     "category": "Textiles",
     "subcategory": "Area Rugs",
+    "price": 249.99,
     "style": ["modern", "contemporary"],
     "colors": {
       "primary": "black",
@@ -356,6 +373,7 @@
     "description": "Versatile storage bench with button-tufted top in sage green velvet. Perfect for bedroom, entryway, or living room organization with hidden storage compartment.",
     "category": "Seating",
     "subcategory": "Storage Benches",
+    "price": 349.99,
     "style": ["contemporary", "transitional"],
     "colors": {
       "primary": "sage green",
@@ -380,6 +398,7 @@
     "description": "Unique live edge end table crafted from reclaimed walnut with natural bark edge. Each piece features one-of-a-kind wood grain patterns and industrial hairpin legs.",
     "category": "Tables",
     "subcategory": "End Tables",
+    "price": 279.99,
     "style": ["rustic", "industrial"],
     "colors": {
       "primary": "natural walnut",
@@ -404,6 +423,7 @@
     "description": "Elegant 6-light crystal chandelier with chrome finish. Creates stunning light refraction and serves as dramatic focal point for formal dining rooms and entryways.",
     "category": "Lighting",
     "subcategory": "Chandeliers",
+    "price": 499.99,
     "style": ["traditional", "glam"],
     "colors": {
       "primary": "crystal clear",
@@ -422,6 +442,7 @@
     "description": "Set of two luxurious velvet throw pillows in deep burgundy. Adds rich color and sumptuous texture to sofas, chairs, or beds with hidden zipper closures.",
     "category": "Textiles",
     "subcategory": "Throw Pillows",
+    "price": 59.99,
     "style": ["contemporary", "glam"],
     "colors": {
       "primary": "burgundy",
@@ -440,6 +461,7 @@
     "description": "King-size upholstered headboard in navy blue linen with vertical channel tufting. Wall-mounted design saves floor space while adding elegant backdrop to bed.",
     "category": "Bedroom",
     "subcategory": "Headboards",
+    "price": 399.99,
     "style": ["contemporary", "transitional"],
     "colors": {
       "primary": "navy blue",
