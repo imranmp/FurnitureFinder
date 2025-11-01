@@ -1,7 +1,14 @@
-namespace FurnitureFinder.Functions.Services.Interfaces;
+using FurnitureFinder.Shared.Models;
+
+namespace FurnitureFinder.Shared.Services.Interfaces;
 
 public interface ISearchIndexService
 {
+    /// <summary>
+    /// Create or update the search index with the specified configuration
+    /// </summary>
+    Task CreateIndexAsync(CancellationToken cancellationToken = default);
+
     /// <summary>
     /// Get products from the search index that are missing vector embeddings
     /// </summary>

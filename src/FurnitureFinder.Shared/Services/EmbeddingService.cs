@@ -1,14 +1,16 @@
 using Azure;
 using Azure.AI.OpenAI;
+using FurnitureFinder.Shared.Configurations;
+using FurnitureFinder.Shared.Services.Interfaces;
 using OpenAI.Embeddings;
 
-namespace FurnitureFinder.Functions.Services;
+namespace FurnitureFinder.Shared.Services;
 
 public class EmbeddingService(IOptions<OpenAIConfig> openAIConfig,
                               ILogger<EmbeddingService> logger) : IEmbeddingService
 {
     private readonly AzureOpenAIClient _client = new(new Uri(openAIConfig.Value.Endpoint),
-                                                     new AzureKeyCredential(openAIConfig.Value.Key));
+        new AzureKeyCredential(openAIConfig.Value.Key));
 
     private readonly string _embeddingDeploymentName = openAIConfig.Value.EmbeddingDeploymentName;
     private readonly int _embeddingDimensions = openAIConfig.Value.EmbeddingDimensions;

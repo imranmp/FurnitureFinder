@@ -2,6 +2,8 @@ using FluentValidation;
 using FurnitureFinder.API.Contracts.Validators;
 using FurnitureFinder.API.Middleware;
 using FurnitureFinder.API.Services;
+using FurnitureFinder.Shared.Services;
+using FurnitureFinder.Shared.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +23,7 @@ builder.Services.AddScoped<IAzureVisionService, AzureVisionService>();
 builder.Services.AddScoped<IAzureSearchService, AzureSearchService>();
 builder.Services.AddScoped<IAzureOpenAIService, AzureOpenAIService>();
 builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
-builder.Services.AddScoped<IIndexService, IndexService>();
+builder.Services.AddScoped<ISearchIndexService, SearchIndexService>();
 builder.Services.AddScoped<IFurnitureFinderService, FurnitureFinderService>();
 
 // Configure CORS for frontend

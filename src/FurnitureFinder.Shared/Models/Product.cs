@@ -1,6 +1,4 @@
-using System.Text.Json.Serialization;
-
-namespace FurnitureFinder.Functions.Models;
+namespace FurnitureFinder.Shared.Models;
 
 public class Product
 {
@@ -72,7 +70,7 @@ public class Product
 
     private string GenerateProductSummary()
     {
-        var summary = new System.Text.StringBuilder();
+        var summary = new StringBuilder();
 
         summary.AppendLine($"{Name}. {Description}");
         summary.AppendLine($"Category: {Category} > {Subcategory}.");
@@ -97,4 +95,9 @@ public class Colors
 
     [JsonPropertyName("all_colors")]
     public string[] AllColors { get; set; } = [];
+}
+
+public class Catalog
+{
+    public required List<Product> Products { get; set; } = [];
 }

@@ -1,4 +1,4 @@
-namespace FurnitureFinder.API.Configurations;
+namespace FurnitureFinder.Shared.Configurations;
 
 public class AzureConfigurationValidator : IValidateOptions<AzureConfiguration>
 {

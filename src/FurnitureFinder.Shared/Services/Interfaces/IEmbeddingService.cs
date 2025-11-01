@@ -1,9 +1,9 @@
-namespace FurnitureFinder.Functions.Services.Interfaces;
+namespace FurnitureFinder.Shared.Services.Interfaces;
 
 public interface IEmbeddingService
 {
     /// <summary>
-    /// Generate embeddings for the provided text using Azure OpenAI
+    /// Generate embeddings for the given text
     /// </summary>
     Task<float[]> GenerateEmbeddingAsync(string text, CancellationToken cancellationToken = default);
 }

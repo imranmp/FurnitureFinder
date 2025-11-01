@@ -3,54 +3,64 @@ using Azure.Search.Documents;
 using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
 using Azure.Search.Documents.Models;
+using FurnitureFinder.Shared.Configurations;
+using FurnitureFinder.Shared.Models;
+using FurnitureFinder.Shared.Services.Interfaces;
 
-namespace FurnitureFinder.API.Services;
+namespace FurnitureFinder.Shared.Services;
 
-public class IndexService(IOptions<SearchConfig> searchConfig, IOptions<OpenAIConfig> openAiConfig, ILogger<IndexService> logger)
-    : IIndexService
+public class SearchIndexService : ISearchIndexService
 {
-    private readonly SearchClient _searchClient = new(
-            new Uri(searchConfig.Value.Endpoint),
-            searchConfig.Value.IndexName,
-            new AzureKeyCredential(searchConfig.Value.Key));
+    private readonly SearchClient _searchClient;
+    private readonly ILogger<SearchIndexService> _logger;
+    private readonly SearchConfig _searchConfig;
+    private readonly OpenAIConfig _openAiConfig;
 
     private readonly string _synonymMapName = "color-synonym-map";
-
     private readonly string _semanticConfigurationName = "default";
-
     private readonly string _vectorConfigName = "product-summary-vector-config";
     private readonly string _vectorProfileName = "product-summary-vector-profile";
     private readonly string _vectorizerName = "product-summary-vectorizer";
-    private readonly int _embeddingDimensions = openAiConfig.Value.EmbeddingDimensions;
+    private readonly int _embeddingDimensions;
 
     private readonly JsonSerializerOptions _jsonSerializerOptions = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         PropertyNameCaseInsensitive = true,
-        DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
+        DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
         WriteIndented = true,
     };
 
+    public SearchIndexService(IOptions<SearchConfig> searchConfig,
+                              IOptions<OpenAIConfig> openAiConfig,
+                              ILogger<SearchIndexService> logger)
+    {
+        _searchConfig = searchConfig.Value;
+        _openAiConfig = openAiConfig.Value;
+        _logger = logger;
+        _embeddingDimensions = openAiConfig.Value.EmbeddingDimensions;
+
+        _searchClient = new SearchClient(new Uri(_searchConfig.Endpoint),
+                                         _searchConfig.IndexName,
+                                         new AzureKeyCredential(_searchConfig.Key));
+    }
+
     public async Task CreateIndexAsync(CancellationToken cancellationToken = default)
     {
-        //Create Synonym Map
+        // Create Synonym Map
         SynonymMap synonymMap = CreateSynonymMap();
 
-        //Get Search Fields
+        // Get Search Fields
         List<SearchField> fields = GetSearchFields();
 
-        //Get Semantic Configuration
+        // Get Semantic Configuration
         SemanticSearch semanticSearchConfiguration = GetSemanticSearchConfiguration();
 
-        //Get Vectors Configuration
+        // Get Vectors Configuration
         VectorSearch vectorSearchConfiguration = GetVectorSearchConfiguration();
 
-        //TODO: Get Embedding Skillset
-
-        //TODO: Enable autocomplete and suggestions
-
-        //Create Index
-        var index = new SearchIndex(searchConfig.Value.IndexName)
+        // Create Index
+        var index = new SearchIndex(_searchConfig.IndexName)
         {
             Fields = fields,
             Similarity = new BM25Similarity(),
@@ -58,7 +68,8 @@ public class IndexService(IOptions<SearchConfig> searchConfig, IOptions<OpenAICo
             VectorSearch = vectorSearchConfiguration
         };
 
-        var adminClient = new SearchIndexClient(new Uri(searchConfig.Value.Endpoint), new AzureKeyCredential(searchConfig.Value.Key));
+        var adminClient = new SearchIndexClient(new Uri(_searchConfig.Endpoint),
+                                                new AzureKeyCredential(_searchConfig.Key));
 
         await adminClient.CreateOrUpdateSynonymMapAsync(synonymMap, cancellationToken: cancellationToken);
 
@@ -67,22 +78,77 @@ public class IndexService(IOptions<SearchConfig> searchConfig, IOptions<OpenAICo
         await adminClient.CreateOrUpdateIndexAsync(index, cancellationToken: cancellationToken);
     }
 
+    public async Task<List<Product>> GetProductsWithoutEmbeddingsAsync(int count, CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            var searchOptions = new SearchOptions
+            {
+                Filter = "vectorRetrieved eq false or vectorRetrieved eq null",
+                Size = count
+            };
+
+            var searchResult = await _searchClient.SearchAsync<Product>("*", searchOptions, cancellationToken);
+
+            var products = new List<Product>();
+
+            await foreach (var result in searchResult.Value.GetResultsAsync()
+                .AsPages(pageSizeHint: 50))
+            {
+                foreach (var product in result.Values)
+                {
+                    products.Add(product.Document);
+                }
+            }
+
+            _logger.LogInformation("Retrieved {Count} products without embeddings", products.Count);
+
+            return products;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error retrieving products without embeddings");
+            throw;
+        }
+    }
+
     public async Task MergeOrUploadProductsAsync(IEnumerable<Product> products, CancellationToken cancellationToken = default)
     {
-        if (products == null || !products.Any())
+        try
         {
-            products = JsonSerializer.Deserialize<List<Product>>(File.ReadAllText("sample data/sample_furniture_data.json"), _jsonSerializerOptions) ?? [];
-        }
-
-        IndexDocumentsResult result = await _searchClient.MergeOrUploadDocumentsAsync<Product>(products, cancellationToken: cancellationToken);
-
-        result.Results.ToList().ForEach(r =>
-        {
-            if (!r.Succeeded)
+            // If no products provided, try to load from sample data file
+            if (products == null || !products.Any())
             {
-                logger.LogWarning("Failed to index document with key: {Key}, Error: {ErrorMessage}", r.Key, r.ErrorMessage);
+                if (File.Exists("sample data/sample_furniture_data.json"))
+                {
+                    var json = await File.ReadAllTextAsync("sample data/sample_furniture_data.json", cancellationToken);
+                    products = JsonSerializer.Deserialize<List<Product>>(json, _jsonSerializerOptions) ?? [];
+                }
+                else
+                {
+                    _logger.LogWarning("No products provided and sample data file not found");
+                    return;
+                }
             }
-        });
+
+            var batch = IndexDocumentsBatch.MergeOrUpload(products);
+            IndexDocumentsResult result = await _searchClient.IndexDocumentsAsync(batch, cancellationToken: cancellationToken);
+
+            var failedDocuments = result.Results.Where(r => !r.Succeeded).ToList();
+            foreach (var failed in failedDocuments)
+            {
+                _logger.LogWarning("Failed to update document with key: {Key}, Error: {ErrorMessage}",
+                  failed.Key, failed.ErrorMessage);
+            }
+
+            _logger.LogInformation("Successfully updated {SuccessCount} products out of {TotalCount}",
+                result.Results.Count(r => r.Succeeded), products.Count());
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error updating products");
+            throw;
+        }
     }
 
     private SynonymMap CreateSynonymMap()
@@ -108,9 +174,7 @@ public class IndexService(IOptions<SearchConfig> searchConfig, IOptions<OpenAICo
             "metallic, chrome, brass, bronze, copper, steel"
         ];
 
-        return new SynonymMap(
-            name: _synonymMapName,
-            synonyms: string.Join("\n", value));
+        return new SynonymMap(name: _synonymMapName, synonyms: string.Join("\n", value));
     }
 
     private List<SearchField> GetSearchFields()
@@ -224,16 +288,14 @@ public class IndexService(IOptions<SearchConfig> searchConfig, IOptions<OpenAICo
             VectorizerName = _vectorizerName
         });
 
-        //vectorSearchSettings.Compressions.Add(new BinaryQuantizationCompression(""));
-
         vectorSearchSettings.Vectorizers.Add(new AzureOpenAIVectorizer(_vectorizerName)
         {
             Parameters = new AzureOpenAIVectorizerParameters
             {
-                ResourceUri = new Uri(openAiConfig.Value.Endpoint),
-                ApiKey = openAiConfig.Value.Key,
-                ModelName = openAiConfig.Value.EmbeddingModelName,
-                DeploymentName = openAiConfig.Value.EmbeddingDeploymentName
+                ResourceUri = new Uri(_openAiConfig.Endpoint),
+                ApiKey = _openAiConfig.Key,
+                ModelName = _openAiConfig.EmbeddingModelName,
+                DeploymentName = _openAiConfig.EmbeddingDeploymentName
             }
         });
 

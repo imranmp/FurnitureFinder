@@ -1,13 +1,12 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FurnitureFinder.API.Configurations;
+namespace FurnitureFinder.Shared.Configurations;
 
-public class AzureConfiguration()
+public class AzureConfiguration
 {
     public const string ConfigurationSectionName = "AzureServices";
 
-    [Required]
-    public required VisionConfig Vision { get; set; }
+    public VisionConfig? Vision { get; set; }
 
     [Required]
     public required SearchConfig Search { get; set; }
@@ -15,11 +14,10 @@ public class AzureConfiguration()
     [Required]
     public required OpenAIConfig OpenAI { get; set; }
 
-    [Required]
-    public required BlobStorageConfig BlobStorage { get; set; }
+    public BlobStorageConfig? BlobStorage { get; set; }
 }
 
-public class VisionConfig()
+public class VisionConfig
 {
     public const string ConfigurationSectionName = "AzureServices:Vision";
 
@@ -46,7 +44,7 @@ public class SearchConfig
     public required string IndexName { get; set; }
 }
 
-public class OpenAIConfig()
+public class OpenAIConfig
 {
     public const string ConfigurationSectionName = "AzureServices:OpenAI";
 
@@ -60,8 +58,7 @@ public class OpenAIConfig()
     [Required]
     public required string DeploymentName { get; set; }
 
-    [Required]
-    public required string EmbeddingModelName { get; set; }
+    public string? EmbeddingModelName { get; set; }
 
     [Required]
     public required string EmbeddingDeploymentName { get; set; }
@@ -70,7 +67,7 @@ public class OpenAIConfig()
     public required int EmbeddingDimensions { get; set; }
 }
 
-public class BlobStorageConfig()
+public class BlobStorageConfig
 {
     public const string ConfigurationSectionName = "AzureServices:BlobStorage";
 
